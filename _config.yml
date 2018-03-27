@@ -97,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/leipzig/"
+  linkedin         : "leipzig"
   orcid            : "https://orcid.org/0000-0001-7224-9620"
   pinterest        :
   soundcloud       :
@@ -259,6 +259,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -303,3 +304,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+#for jekyll scholar
+scholar:
+  style: mla
