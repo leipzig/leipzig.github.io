@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jeremy Leipzig"
 title_separator          : "-"
 name                     : &name "Jeremy Leipzig"
-description              : &description "Bioinformatics Software Developer & CCI IS PhD Student"
+description              : &description "Bioinformatics engineer & Technical PM. Reproducible research, genomics, pipelines, and metadata. Architect and product leader for early stage therapeutic, diagnostic, and SaaS startups. O'Reilly author & PhD."
 url                      : https://leipzig.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "leipzig.github.io"
@@ -79,10 +79,11 @@ analytics:
 # Site Author
 author:
   name             : "Jeremy Leipzig"
+  initials         : "JL"
   avatar           : "profile.png"
-  bio              : "Bioinformatics software developer"
-  location         : "Philadelphia, PA"
-  employer         : "Cytovas"
+  bio              : "Bioinformatics engineer & Technical PM. Reproducible research, genomics, pipelines, and metadata. Architect and product leader for early stage therapeutic, diagnostic, and SaaS startups. O'Reilly author & PhD."
+  location         : "Whitefish, MT"
+  employer         : "TileDB"
   googlescholar    : "https://scholar.google.com/citations?user=dTC-vJIAAAAJ&hl=en"
   email            : "leipzig@gmail.com"
   uri              :
