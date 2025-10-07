@@ -151,10 +151,6 @@ body {
     opacity: 1;
 }
 
-.profile-img-hover {
-    opacity: 0;
-}
-
 /* .hero-image:hover .profile-img-main {
     opacity: 0;
 }
@@ -294,6 +290,19 @@ body {
 
 .publication-link:hover {
     color: var(--secondary-color);
+}
+
+.publications-footnote {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.publications-footnote p {
+    margin: 0;
+    color: var(--light-text);
+    font-style: italic;
 }
 
 .publications-controls {

@@ -1,5 +1,5 @@
 ---
-title: "A review of bioinformatic pipeline frameworks"
+title: "A review of bioinformatic pipeline frameworks*"
 collection: publications
 permalink: /publication/2017-review-bioinformatic-pipeline-frameworks
 excerpt: 'This paper provides a comprehensive review of bioinformatic pipeline frameworks.'

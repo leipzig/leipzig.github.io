@@ -61,7 +61,6 @@
             <div class="hero-content">
                 <div class="hero-image">
                     <img src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-img-main">
-                    <img src="{{ '/images/profile-template.jpg' | relative_url }}" alt="{{ site.author.name }}" class="profile-img-hover">
                 </div>
                 <h1>{{ site.author.name }}</h1>
                 <p class="subtitle">{{ site.description }}</p>
@@ -196,6 +195,10 @@
                         </div>
                     </div>
                     {% endfor %}
+                </div>
+                <div class="publications-footnote">
+                    <p><small>* ISI Highly Cited</small></p>
+                    <p><small>† Best Research Paper: 14th International Conference on Metadata and Semantics Research</small></p>
                 </div>
             </div>
         </section>

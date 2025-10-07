@@ -5,7 +5,7 @@ title: "Jeremy Leipzig, PhD - Bioinformatics Leader & Product Manager"
 resume_url: "/files/leipzig_cv.pdf"
 highlights:
   - "25+ years of experience spanning bioinformatics research, product management, and software development across academia and industry"
-  - "Led four diagnostic, therapeutic and SaaS startups in defining their bioinformatic product strategy"
+  - "Shaped bioinformatic product strategy at two SaaS startups"
   - "PhD in Information Science from Drexel University with h-index of 30 and 50+ peer-reviewed publications"
   - "Expert in developing cloud-based pipelines for genomics, transcriptomics, and clinical applications"
   - "Founder of PhillyR user group and top-20 contributor to biostars.org bioinformatics Q&A community"
