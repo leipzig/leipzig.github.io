@@ -110,18 +110,15 @@ experience:
 education:
   - institution: "Drexel University"
     degree: "PhD in Information Science"
-    dates: "2021"
-    details: "Specialized in computational biology, reproducible research, and bioinformatics methodology"
+    details: "Dissertation on reproducible research and metadata in bioinformatics"
 
   - institution: "North Carolina State University"
     degree: "Master of Computer Science"
-    dates: "2003"
-    details: "Focus on algorithms, data structures, and software engineering"
+    details: "Focus on statistical genetics and alternative splicing"
 
   - institution: "Wake Forest University"
     degree: "Bachelor of Science in Biology"
-    dates: "1997"
-    details: "Pre-medical track with research experience in neuropharmacology"
+    details: "Research experience in neurobiology"
 
 research_interests:
   - title: "Reproducible Research & Metadata"
