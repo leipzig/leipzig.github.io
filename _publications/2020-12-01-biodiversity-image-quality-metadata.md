@@ -1,5 +1,5 @@
 ---
-title: "Biodiversity Image Quality Metadata Augments Convolutional Neural Network Classification of Fish Species"
+title: "Biodiversity Image Quality Metadata Augments Convolutional Neural Network Classification of Fish Species†"
 collection: publications
 permalink: /publication/2020-biodiversity-image-quality-metadata
 excerpt: 'This paper demonstrates how biodiversity image quality metadata can enhance CNN classification of fish species.'
