@@ -132,18 +132,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const aboutFull = document.querySelector('.about-full');
     
     if (readMoreBtn && aboutPreview && aboutFull) {
-        readMoreBtn.textContent = 'Read More';
         let isExpanded = false;
         
         readMoreBtn.addEventListener('click', function() {
             if (isExpanded) {
                 aboutFull.style.display = 'none';
                 aboutPreview.style.display = 'block';
-                readMoreBtn.textContent = 'Read More';
+                readMoreBtn.classList.remove('expanded');
             } else {
                 aboutFull.style.display = 'block';
                 aboutPreview.style.display = 'none';
-                readMoreBtn.textContent = 'Read Less';
+                readMoreBtn.classList.add('expanded');
             }
             isExpanded = !isExpanded;
         });
@@ -181,5 +180,24 @@ document.addEventListener('DOMContentLoaded', function() {
     if (heroSection) {
         heroSection.style.opacity = '1';
         heroSection.style.transform = 'translateY(0)';
+    }
+    
+    // Experience timeline animation
+    const experienceItems = document.querySelectorAll('.experience-item');
+    if (experienceItems.length > 0) {
+        const experienceObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.3,
+            rootMargin: '0px 0px -50px 0px'
+        });
+        
+        experienceItems.forEach(item => {
+            experienceObserver.observe(item);
+        });
     }
 });
