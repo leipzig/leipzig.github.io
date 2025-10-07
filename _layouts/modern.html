@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
+    
+    <!-- Modern Template Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/template-styles.css?v=1' | relative_url }}">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO and Meta Tags -->
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}">
+    <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="scientific-icons">
+            <i class="fas fa-microscope"></i>
+            <i class="fas fa-dna"></i>
+            <i class="fas fa-flask"></i>
+            <i class="fas fa-laptop-code"></i>
+            <i class="fas fa-chart-line"></i>
+            <i class="fas fa-vial"></i>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="logo">{{ site.author.initials | default: site.author.name | slice: 0, 2 | upcase }}</div>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#highlights">Highlights</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#software">Software</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    {% if page.resume_url %}<li><a href="{{ page.resume_url }}" target="_blank"><i class="fas fa-file-pdf"></i> Resume</a></li>{% endif %}
+                </ul>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-img-main">
+                    <img src="{{ '/images/profile-template.jpg' | relative_url }}" alt="{{ site.author.name }}" class="profile-img-hover">
+                </div>
+                <h1>{{ site.author.name }}</h1>
+                <p class="subtitle">{{ site.description }}</p>
+                <div class="social-links">
+                    {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
+                    {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
+                    {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank"><i class="fas fa-graduation-cap"></i></a>{% endif %}
+                    {% if site.author.orcid %}<a href="{{ site.author.orcid }}" target="_blank"><i class="fas fa-id-card"></i></a>{% endif %}
+                    {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>{% endif %}
+                    {% if page.resume_url %}<a href="{{ page.resume_url }}" target="_blank"><i class="fas fa-file-pdf"></i></a>{% endif %}
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-preview">
+                            {{ content }}
+                        </div>
+                        {% if page.full_bio %}
+                        <div class="about-full" style="display: none;">
+                            {{ page.full_bio | markdownify }}
+                        </div>
+                        <button class="read-more-btn"></button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% if page.highlights %}
+        <section id="highlights" class="section">
+            <div class="container">
+                <h2>Career Highlights</h2>
+                <div class="highlights-content">
+                    <ul class="highlights-list">
+                        {% for highlight in page.highlights %}
+                        <li>{{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        {% if page.experience %}
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-timeline">
+                    {% for job in page.experience %}
+                    <div class="experience-item">
+                        <div class="experience-date">{{ job.dates }}</div>
+                        <div class="experience-content">
+                            <h3>{{ job.company }}</h3>
+                            <p class="experience-title"><b>{{ job.title }}</b></p>
+                            <p>{{ job.description }}</p>
+                            {% if job.achievements %}
+                            <ul>
+                                {% for achievement in job.achievements %}
+                                <li>{{ achievement }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        <section id="publications" class="section">
+            <div class="container">
+                <h2>Publications</h2>
+                <div class="publications-summary">
+                    <div class="summary-item">
+                        <span class="summary-number" id="total-pubs">{{ site.publications | size }}</span>
+                        <span class="summary-label">Total Publications</span>
+                    </div>
+                </div>
+                <div class="publications-controls">
+                    <div class="search-box">
+                        <input type="text" id="publication-search" placeholder="Search publications...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="sort-controls">
+                        <select id="sort-by">
+                            <option value="year-desc">Year (Newest First)</option>
+                            <option value="year-asc">Year (Oldest First)</option>
+                            <option value="title">Title</option>
+                            <option value="journal">Journal</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="publications-list" id="publications-container">
+                    {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+                    {% for publication in sorted_publications %}
+                    <div class="publication-item" data-year="{{ publication.date | date: '%Y' }}" data-title="{{ publication.title | downcase }}" data-journal="{{ publication.venue | downcase }}">
+                        <div class="publication-content">
+                            <h3 class="publication-title">{{ publication.title }}</h3>
+                            <p class="publication-authors">{{ publication.authors }}</p>
+                            <p class="publication-venue">{{ publication.venue }}, {{ publication.date | date: '%Y' }}</p>
+                            {% if publication.paperurl %}
+                            <div class="publication-links">
+                                <a href="{{ publication.paperurl }}" target="_blank" class="publication-link">
+                                    <i class="fas fa-external-link-alt"></i> Paper
+                                </a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        {% if page.education %}
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-timeline">
+                    {% for edu in page.education %}
+                    <div class="education-item">
+                        <div class="education-date">{{ edu.dates }}</div>
+                        <div class="education-content">
+                            <h3>{{ edu.institution }}</h3>
+                            <p class="education-degree"><b>{{ edu.degree }}</b></p>
+                            {% if edu.details %}<p>{{ edu.details }}</p>{% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        {% if page.research_interests %}
+        <section id="research" class="section">
+            <div class="container">
+                <h2>Research Interests</h2>
+                <div class="research-content">
+                    <div class="research-grid">
+                        {% for interest in page.research_interests %}
+                        <div class="research-item">
+                            <h4>{{ interest.title }}</h4>
+                            <p>{{ interest.description }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        {% if page.skills %}
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-content">
+                    <div class="skills-grid">
+                        {% for skill_category in page.skills %}
+                        <div class="skill-category">
+                            <h4>{{ skill_category.category }}</h4>
+                            <div class="skill-list">
+                                {% for skill in skill_category.items %}
+                                <span class="skill-tag">{{ skill }}</span>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        {% if page.software %}
+        <section id="software" class="section">
+            <div class="container">
+                <h2>Notable Software & Tools</h2>
+                <div class="software-content">
+                    <div class="software-grid">
+                        {% for software in page.software %}
+                        <div class="software-item">
+                            <div class="software-header">
+                                <h4>{{ software.name }}</h4>
+                                <div class="software-meta">
+                                    {% if software.language %}
+                                    <span class="software-language">{{ software.language }}</span>
+                                    {% endif %}
+                                    {% if software.stars %}
+                                    <span class="software-stars">
+                                        <i class="fas fa-star"></i> {{ software.stars }}
+                                    </span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <p class="software-description">{{ software.description }}</p>
+                            {% if software.url %}
+                            <a href="{{ software.url }}" target="_blank" class="software-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        {% if site.author.email %}
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+                        </div>
+                        {% endif %}
+                        {% if site.author.location %}
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>{{ site.author.location }}</span>
+                        </div>
+                        {% endif %}
+                        {% if site.author.employer %}
+                        <div class="contact-item">
+                            <i class="fas fa-building"></i>
+                            <span>{{ site.author.employer }}</span>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="{{ '/assets/js/modern-template.js' | relative_url }}"></script>
+</body>
+</html>
