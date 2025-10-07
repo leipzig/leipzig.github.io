@@ -6,7 +6,7 @@
     <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape }}</title>
     
     <!-- Modern Template Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/template-styles.css?v=1' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/template-styles.css?v=2' | relative_url }}">
     
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -52,7 +52,7 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#software">Software</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    {% if page.resume_url %}<li><a href="{{ page.resume_url }}" target="_blank"><i class="fas fa-file-pdf"></i> Resume</a></li>{% endif %}
+                    {% if page.resume_url %}<li><a href="{{ page.resume_url }}" target="_blank"><i class="fas fa-file-pdf"></i> CV</a></li>{% endif %}
                 </ul>
             </div>
         </nav>
@@ -139,11 +139,17 @@
 
         <section id="publications" class="section">
             <div class="container">
-                <h2>Publications</h2>
+                <h2>Selected Publications</h2>
                 <div class="publications-summary">
                     <div class="summary-item">
-                        <span class="summary-number" id="total-pubs">{{ site.publications | size }}</span>
-                        <span class="summary-label">Total Publications</span>
+                        <span class="summary-number" id="total-pubs">40+ papers</span>
+                        <span class="summary-label">Publications</span>
+                        <span class="summary-details">(3 first author, 1 sole author, 1 book chapter, 1 book, 1 dissertation)</span>
+                    </div>
+                    <div class="view-all-link">
+                        <a href="/publications/" class="btn btn-primary">
+                            <i class="fas fa-list"></i> View All Publications with Authors
+                        </a>
                     </div>
                 </div>
                 <div class="publications-controls">
@@ -166,12 +172,24 @@
                     <div class="publication-item" data-year="{{ publication.date | date: '%Y' }}" data-title="{{ publication.title | downcase }}" data-journal="{{ publication.venue | downcase }}">
                         <div class="publication-content">
                             <h3 class="publication-title">{{ publication.title }}</h3>
-                            <p class="publication-authors">{{ publication.authors }}</p>
+                            {% if publication.citation %}
+                            {% assign citation_parts = publication.citation | remove: '"' | split: ')' %}
+                            {% assign authors_part = citation_parts[0] | split: '(' | first | strip %}
+                            <p class="publication-authors">{{ authors_part }}</p>
+                            {% endif %}
                             <p class="publication-venue">{{ publication.venue }}, {{ publication.date | date: '%Y' }}</p>
                             {% if publication.paperurl %}
                             <div class="publication-links">
+                                {% assign link_text = "Paper" %}
+                                {% if publication.title contains "Tests of Robustness in Peer Review" %}
+                                    {% assign link_text = "Dissertation" %}
+                                {% elsif publication.title contains "Data Mashups in R" %}
+                                    {% assign link_text = "Book" %}
+                                {% elsif publication.title contains "Computational Pipelines and Workflows in Bioinformatics" %}
+                                    {% assign link_text = "Chapter" %}
+                                {% endif %}
                                 <a href="{{ publication.paperurl }}" target="_blank" class="publication-link">
-                                    <i class="fas fa-external-link-alt"></i> Paper
+                                    <i class="fas fa-external-link-alt"></i> {{ link_text }}
                                 </a>
                             </div>
                             {% endif %}

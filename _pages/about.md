@@ -21,6 +21,7 @@ experience:
       - "Develop analysis workflows for biopharma and hospital partners"
       - "Lead product strategy for population genomics solutions"
       - "Drive customer acquisition and technical sales processes"
+      - "Presented TileDB solutions at industry conferences and technical talks (<a href='https://www.youtube.com/watch?v=Vx98JcH-69E' target='_blank'>watch presentation</a>)"
 
   - company: "Truwl"
     title: "Content Lead"
@@ -30,6 +31,7 @@ experience:
       - "Developed benchmarking product and customer acquisition strategies"
       - "Curated and validated bioinformatics workflows for the platform"
       - "Established quality standards for computational reproducibility"
+      - "Presented platform capabilities and workflow demonstrations (<a href='https://www.youtube.com/watch?v=ttl9nPyh2bE' target='_blank'>watch demo</a>)"
 
   - company: "Panorama Medicine"
     title: "Bioinformatics Engineer"
@@ -78,6 +80,33 @@ experience:
       - "Analyzed microbial diversity and viral resistance mutations"
       - "Published groundbreaking research on retroviral DNA integration patterns"
 
+  - company: "NC State University - Dept. of Electrical Engineering"
+    title: "Web Developer"
+    dates: "01/2003 - 11/2004"
+    description: "Developed various applications to manage student, employee, and equipment records."
+    achievements:
+      - "Built database management systems for academic records"
+      - "Created web interfaces for equipment tracking"
+      - "Implemented student and employee management applications"
+
+  - company: "The Trout Group"
+    title: "Consultant"
+    dates: "08/2000 - 12/2001"
+    description: "Developed scientific presentations used in investor road shows for biotechnology clients."
+    achievements:
+      - "Created compelling scientific narratives for biotech investor presentations"
+      - "Collaborated with Enchira and other biotechnology companies"
+      - "Translated complex scientific concepts for investment audiences"
+
+  - company: "UNC School of Medicine - Duncan Lab"
+    title: "Research Technician"
+    dates: "08/1997 - 08/1999"
+    description: "Responsible for all techniques involved in 2-deoxyglucose autoradiography studies of ketamine-induced psychotomimetic effects in rodents."
+    achievements:
+      - "Conducted neuropharmacology research on ketamine effects"
+      - "Performed 2-deoxyglucose autoradiography studies"
+      - "Analyzed psychotomimetic effects in rodent models"
+
 education:
   - institution: "Drexel University"
     degree: "PhD in Information Science"
@@ -123,8 +152,8 @@ skills:
   - category: "Data Analysis"
     items: ["RNA-Seq", "ChIP-Seq", "ATAC-Seq", "Exome Analysis", "Population Genomics", "Flow Cytometry"]
     
-  - category: "Web Technologies"
-    items: ["Django", "Flask", "Node.js", "jQuery", "D3.js", "RESTful APIs", "PostgreSQL", "MongoDB"]
+  - category: "Web & Database"
+    items: ["Django", "Flask", "Node.js", "jQuery", "D3.js", "RESTful APIs", "PostgreSQL", "MongoDB", "TileDB", "Grails"]
 
 software:
   # Production Tools
@@ -135,15 +164,71 @@ software:
     
   - name: "myBiC"
     description: "Django application that manages user authentication and presentation of bioinformatics deliverables. Streamlines report delivery for core facilities."
+    url: "https://github.com/chop-dbhi/mybic"
     language: "Django/Python"
-    
-  - name: "MitoTIP"
-    description: "Machine learning tool for predicting pathogenicity of novel variants in mitochondrial tRNA genes. Published in PLoS Computational Biology."
-    language: "Machine Learning"
     
   - name: "InSiPiD"
     description: "Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis."
     language: "Pipeline"
+
+  # Pinned GitHub Repositories (Featured Projects)
+  - name: "placenta"
+    description: "Comprehensive analysis pipeline and resources for placental genomics research and developmental studies."
+    url: "https://github.com/leipzig/placenta"
+    language: "R/Bioinformatics"
+    
+  - name: "opensnp"
+    description: "Validation of published GWAS studies using OpenSNP volunteered data. Binderized for reproducible analysis."
+    url: "https://github.com/leipzig/opensnp"
+    language: "HTML/R"
+    stars: 7
+    
+  - name: "m6a"
+    description: "Analysis tools and workflows for N6-methyladenosine (m6A) RNA modification detection and quantification."
+    url: "https://github.com/leipzig/m6a"
+    language: "R/Bioinformatics"
+    
+  - name: "metadata-in-rcr"
+    description: "Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications."
+    url: "https://github.com/leipzig/metadata-in-rcr"
+    language: "Documentation"
+    
+  - name: "clk"
+    description: "Command-line toolkit for bioinformatics workflows and data processing automation."
+    url: "https://github.com/leipzig/clk"
+    language: "Python"
+
+  # Flow Cytometry Analysis Tools
+  - name: "fcs_flow_cytometry"
+    description: "Core flow cytometry data analysis tools and utilities for FCS file processing."
+    url: "https://github.com/leipzig/fcs_flow_cytometry"
+    language: "R/Python"
+    
+  - name: "fcs_parser"
+    description: "Parser and data extraction tools for Flow Cytometry Standard (FCS) files."
+    url: "https://github.com/leipzig/fcs_parser"
+    language: "Python"
+    
+  - name: "fcs_utils"
+    description: "Utility functions and helper tools for flow cytometry data manipulation and quality control."
+    url: "https://github.com/leipzig/fcs_utils"
+    language: "R"
+
+  # Additional Bioinformatics Tools
+  - name: "mcmanus_ant1"
+    description: "Analysis pipeline for mitochondrial ANT1 gene studies and associated metabolic pathways."
+    url: "https://github.com/leipzig/mcmanus_ant1"
+    language: "R/Bioinformatics"
+    
+  - name: "asciiruler"
+    description: "Command-line tool for generating ASCII rulers and measurement guides for sequence analysis."
+    url: "https://github.com/leipzig/asciiruler"
+    language: "Python"
+    
+  - name: "standard-velvet-assembly-report"
+    description: "Standardized reporting pipeline for Velvet genome assembly results and quality metrics."
+    url: "https://github.com/leipzig/standard-velvet-assembly-report"
+    language: "Perl/Shell"
 
   # Popular GitHub Repositories
   - name: "awesome-reproducible-research"
@@ -176,12 +261,6 @@ software:
     language: "Genomics"
     stars: 7
     
-  - name: "opensnp"
-    description: "Validation of published GWAS studies using OpenSNP volunteered data. Binderized for reproducible analysis."
-    url: "https://github.com/leipzig/opensnp"
-    language: "HTML/R"
-    stars: 7
-    
   - name: "blast-wrapper"
     description: "Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference."
     url: "https://github.com/leipzig/blast-wrapper"
@@ -204,6 +283,6 @@ full_bio: |
   Currently serving as Product Manager at TileDB, I manage the population genomics product line, working directly with biopharma and hospital partners to develop scalable analysis workflows. My unique combination of deep technical expertise, research experience, and business acumen allows me to effectively translate complex computational challenges into successful product solutions.
 ---
 
-Bioinformatics engineer & Technical PM. Reproducible research, genomics, pipelines, and metadata. Architect and product leader for early stage therapeutic, diagnostic, and SaaS startups. O'Reilly author & PhD.
+My career has dealt primarily with writing software to visualize, explore, and manipulate biological data. I have worked as a bioinformatics software engineer and product manager - in academia, industry, and in diagnostic, therapeutic and platform startups. During my roles in product development I have helped software companies understand and navigate the bioinformatics space. I have over 40 peer-reviewed publications, and an O'Reilly book. My university training was in Biology and Computer Science with an emphasis on bioinformatics and statistical genetics, and a PhD in information science with a dissertation on reproducible research.
 
 With over 25 years of experience spanning academia and industry, I bring a unique perspective that combines deep technical expertise with product management and business strategy. My work encompasses everything from fundamental algorithm development to scaling production systems for enterprise clients.

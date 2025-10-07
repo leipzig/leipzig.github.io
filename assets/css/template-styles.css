@@ -133,9 +133,9 @@ body {
     transition: transform 0.5s ease;
 }
 
-.hero-image:hover {
+/* .hero-image:hover {
     transform: rotate(360deg);
-}
+} */
 
 .hero-image img {
     position: absolute;
@@ -155,13 +155,13 @@ body {
     opacity: 0;
 }
 
-.hero-image:hover .profile-img-main {
+/* .hero-image:hover .profile-img-main {
     opacity: 0;
 }
 
 .hero-image:hover .profile-img-hover {
     opacity: 1;
-}
+} */
 
 .hero-content h1 {
     font-size: 3rem;
@@ -262,6 +262,13 @@ body {
     color: var(--light-text);
     margin-bottom: 0.5rem;
     font-size: 0.95rem;
+}
+
+.publication-authors {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
 }
 
 .publication-venue {
@@ -715,7 +722,8 @@ body {
 /* Publications Section */
 .publications-summary {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 3rem;
@@ -723,6 +731,31 @@ body {
     background: white;
     border-radius: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-all-link {
+    flex-shrink: 0;
+}
+
+.view-all-link .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid var(--primary-color);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.view-all-link .btn:hover {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: translateY(-2px);
 }
 
 .summary-item {
@@ -741,6 +774,14 @@ body {
 .summary-label {
     font-size: 1rem;
     color: var(--light-text);
+}
+
+.summary-details {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--light-text);
+    margin-top: 0.25rem;
+    font-style: italic;
 }
 
 .publications-controls {
@@ -876,15 +917,15 @@ body {
     height: 100%;
     background: #007bff;
     transform: translateX(-50%);
-    z-index: 1;
+    z-index: -1;
 }
 
 .experience-item {
     position: relative;
     margin-bottom: 60px;
     width: 100%;
-    opacity: 0;
-    transform: translateY(30px);
+    opacity: 1;
+    transform: translateY(0);
     transition: all 0.8s ease;
 }
 
@@ -902,7 +943,7 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    z-index: 2;
+    z-index: 10;
     font-size: 1.1rem;
     top: -20px;
     width: fit-content;
@@ -928,7 +969,7 @@ body {
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     margin: 20px auto;
     transition: all 0.5s ease;
-    z-index: 2;
+    z-index: 10;
     border: 1px solid rgba(0,0,0,0.1);
     margin-top: 40px;
     transform: scale(0.95);
@@ -1075,7 +1116,7 @@ footer {
     text-align: center;
 }
 
-/* Resume Section */
+/* CV Section */
 .resume-content {
     display: flex;
     flex-direction: column;

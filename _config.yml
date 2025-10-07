@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jeremy Leipzig"
+title                    : "Jeremy Leipzig, PhD"
 title_separator          : "-"
-name                     : &name "Jeremy Leipzig"
+name                     : &name "Jeremy Leipzig, PhD"
 description              : &description "Bioinformatics engineer & Technical PM. Reproducible research, genomics, pipelines, and metadata. Architect and product leader for early stage therapeutic, diagnostic, and SaaS startups. O'Reilly author & PhD."
 url                      : https://leipzig.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jeremy Leipzig"
+  name             : "Jeremy Leipzig, PhD"
   initials         : "JL"
   avatar           : "profile.png"
   bio              : "Bioinformatics engineer & Technical PM. Reproducible research, genomics, pipelines, and metadata. Architect and product leader for early stage therapeutic, diagnostic, and SaaS startups. O'Reilly author & PhD."
@@ -254,7 +254,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -309,3 +309,9 @@ compress_html:
 #for jekyll scholar
 scholar:
   style: mla
+
+# Disable deprecation warnings
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
