@@ -202,10 +202,6 @@ full_bio: |
   I am passionate about community building and knowledge sharing, having founded the PhillyR user group and maintaining a top-20 ranking on biostars.org. My commitment to open science and reproducible research has led to the development of multiple open-source tools and frameworks that are widely used in the bioinformatics community.
 
   Currently serving as Product Manager at TileDB, I manage the population genomics product line, working directly with biopharma and hospital partners to develop scalable analysis workflows. My unique combination of deep technical expertise, research experience, and business acumen allows me to effectively translate complex computational challenges into successful product solutions.
+
+  Married with 1 daughter, 2 dogs, 2 cats in Whitefish, Montana.
 ---
-
-
-
-With over 25 years of experience spanning academia and industry, I bring a unique perspective that combines deep technical expertise with product management and business strategy. My work encompasses everything from fundamental algorithm development to scaling production systems for enterprise clients.
-
-Married with 1 daughter, 2 dogs, 2 cats in Whitefish, Montana.
