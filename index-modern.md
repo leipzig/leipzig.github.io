@@ -5,7 +5,7 @@ resume_url: "/files/leipzig_cv.pdf"
 highlights:
   - "25+ years of experience spanning bioinformatics research, product management, and software development across academia and industry"
   - "Led four diagnostic, therapeutic and SaaS startups in defining their bioinformatic product strategy"
-  - "PhD in Information Science from Drexel University with h-index of 30 and 50+ peer-reviewed publications"
+  - "PhD in Information Science from Drexel University with h-index of 30 and 40+ peer-reviewed publications"
   - "Expert in developing cloud-based pipelines for genomics, transcriptomics, and clinical applications"
   - "Founder of PhillyR user group and top-20 contributor to biostars.org bioinformatics Q&A community"
   - "Proven track record in scaling bioinformatics workflows from research prototypes to production systems"
@@ -196,13 +196,13 @@ full_bio: |
 
   Throughout my career, I have helped four diagnostic, therapeutic, and SaaS startups define their bioinformatic product strategy, successfully bridging the gap between cutting-edge research and practical commercial applications. My expertise encompasses the full spectrum of bioinformatics, from low-level algorithm development to high-level product strategy and customer engagement.
 
-  As a researcher, I have authored over 50 publications with an h-index of 30, contributing significantly to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.
+  As a researcher, I have co-authored over 40 publications with an h-index of 30, contributing significantly to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.
 
   I am passionate about community building and knowledge sharing, having founded the PhillyR user group and maintaining a top-20 ranking on biostars.org. My commitment to open science and reproducible research has led to the development of multiple open-source tools and frameworks that are widely used in the bioinformatics community.
 
   Currently serving as Product Manager at TileDB, I manage the population genomics product line, working directly with biopharma and hospital partners to develop scalable analysis workflows. My unique combination of deep technical expertise, research experience, and business acumen allows me to effectively translate complex computational challenges into successful product solutions.
 ---
 
-Bioinformatics engineer & Technical PM. Reproducible research, genomics, pipelines, and metadata. Architect and product leader for early stage therapeutic, diagnostic, and SaaS startups. O'Reilly author & PhD.
+Bioinformatics engineer & Technical PM. Reproducible research, genomics, pipelines, and metadata. Architect and product leader for early stage therapeutic, diagnostic, and SaaS startups. O'Reilly author. Married with 1 daughter, 2 dogs, 2 cats in Whitefish, Montana.
 
 With over 25 years of experience spanning academia and industry, I bring a unique perspective that combines deep technical expertise with product management and business strategy. My work encompasses everything from fundamental algorithm development to scaling production systems for enterprise clients.
