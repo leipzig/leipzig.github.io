@@ -7,6 +7,9 @@ main:
     url: /talks/    
 
   - title: "Teaching"
+    url: /teaching/
+    
+  - title: "Teaching & Conferences"
     url: /teaching-presentations/
     
   - title: "Portfolio"
