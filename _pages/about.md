@@ -270,7 +270,7 @@ software:
     language: "Python"
 
 full_bio: |
-  I am an accomplished bioinformatics leader with over 25 years of experience spanning academic research, startup environments, and product management. My career has been dedicated to developing bioinformatics tools and platforms that enable researchers to visualize, explore, and publish their data effectively.
+  I am a bioinformatics veteran with over 25 years of experience spanning academic research, startup environments, and product management. My career has been dedicated to developing bioinformatics tools and platforms that enable researchers to visualize, explore, and publish their data.
 
   Throughout my career, I have helped four diagnostic, therapeutic, and SaaS startups define their bioinformatic product strategy, successfully bridging the gap between cutting-edge research and practical commercial applications. My expertise encompasses the full spectrum of bioinformatics, from low-level algorithm development to high-level product strategy and customer engagement.
 
@@ -278,7 +278,7 @@ full_bio: |
 
   I am passionate about community building and knowledge sharing, having founded the PhillyR user group and maintaining a top-20 ranking on biostars.org. My commitment to open science and reproducible research has led to the development of multiple open-source tools and frameworks that are widely used in the bioinformatics community.
 
-  Currently serving as Product Manager at TileDB, I manage the population genomics product line, working directly with biopharma and hospital partners to develop scalable analysis workflows. My unique combination of deep technical expertise, research experience, and business acumen allows me to effectively translate complex computational challenges into successful product solutions.
+  Currently serving as Product Manager at TileDB, I manage the population genomics product line, working directly with biopharma and hospital partners to develop scalable analysis workflows. My unique combination of deep technical expertise, research experience, and business acumen allows me to translate complex computational challenges into successful product solutions.
 ---
 
 My career has dealt primarily with writing software to visualize, explore, and manipulate biological data. I have worked as a bioinformatics software engineer and product manager - in academia, industry, and in diagnostic, therapeutic and platform startups. During my roles in product development I have helped software companies understand and navigate the bioinformatics space. I have over 40 peer-reviewed publications, and an O'Reilly book. My university training was in Biology and Computer Science with an emphasis on bioinformatics and statistical genetics, and a PhD in information science with a dissertation on reproducible research.

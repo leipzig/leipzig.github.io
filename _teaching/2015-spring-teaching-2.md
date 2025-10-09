@@ -1,20 +1,23 @@
 ---
-title: "Teaching experience 2"
+title: "INFO103 Introduction to Data Science - Adjunct Instructor"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate course"
+permalink: /teaching/intro-data-science
+venue: "Drexel University College of Computing and Informatics"
+date: 2018-01-01
+location: "Philadelphia, PA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Taught INFO103 Introduction to Data Science during Spring Quarter 2018.
 
-Heading 1
-======
+## Course Description
+Introductory course covering fundamental concepts in data science including:
 
-Heading 2
-======
+* Data collection and cleaning techniques
+* Statistical analysis methods
+* Data visualization principles
+* Introduction to machine learning
+* Practical applications in various domains
 
-Heading 3
-======
+## Learning Objectives
+Students gained hands-on experience with data science tools and methodologies, preparing them for advanced coursework and real-world data analysis challenges.
