@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: modern
-title: "Jeremy Leipzig, PhD - Bioinformatics Leader & Product Manager"
+title: "Jeremy Leipzig, PhD - Bioinformatics Engineer & Technical PM"
 resume_url: "/files/leipzig_cv.pdf"
 highlights:
   - "25+ years of experience spanning bioinformatics research, product management, and software development across academia and industry"
@@ -154,7 +154,7 @@ skills:
     items: ["Django", "Flask", "Node.js", "jQuery", "D3.js", "RESTful APIs", "PostgreSQL", "MongoDB", "TileDB", "Grails"]
     
   - category: "Product Management"
-    items: ["Linear", "Shortcut", "JIRA", "Asana", "PRDs", "User Stories", "Roadmap Planning", "Agile/Scrum", "Kanban", "OKRs", "A/B Testing", "Customer Interviews", "Market Research", "Go-to-Market Strategy", "Feature Prioritization", "Stakeholder Management", "Technical Sales", "Product Analytics"]
+    items: ["Linear", "Shortcut", "JIRA", "PRDs", "User Stories", "Roadmap Planning", "Market Research", "GTM Strategy", "Feature Prioritization", "Stakeholder Management", "Technical Sales", "Product Analytics"]
 
 software:
   # Production Tools
@@ -277,9 +277,9 @@ full_bio: |
 
   Throughout my career, I have helped four diagnostic, therapeutic, and SaaS startups define their bioinformatic product strategy, successfully bridging the gap between cutting-edge research and practical commercial applications. My expertise encompasses the full spectrum of bioinformatics, from low-level algorithm development to high-level product strategy and customer engagement.
 
-  As a researcher, I have authored over 50 publications with an h-index of 30, contributing significantly to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.
+  As a researcher, I have authored over 50 publications with an h-index of 30, contributing to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.
 
-  I am passionate about community building and knowledge sharing, having founded the PhillyR user group and maintaining a top-20 ranking on biostars.org. My commitment to open science and reproducible research has led to the development of multiple open-source tools and frameworks that are widely used in the bioinformatics community.
+  I am passionate about community building and knowledge sharing, having founded the PhillyR user group and maintaining a top-20 ranking on biostars.org. My commitment to open science and reproducible research has led to the development of multiple open source tools and frameworks that are widely used in the bioinformatics community.
 
   Currently serving as Product Manager at TileDB, I manage the population genomics product line, working directly with biopharma and hospital partners to develop scalable analysis workflows. My unique combination of deep technical expertise, research experience, and business acumen allows me to translate complex computational challenges into successful product solutions.
 ---
