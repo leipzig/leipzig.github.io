@@ -125,6 +125,9 @@ skills:
     
   - category: "Web Technologies"
     items: ["Django", "Flask", "Node.js", "jQuery", "D3.js", "RESTful APIs", "PostgreSQL", "MongoDB"]
+    
+  - category: "Product Management"
+    items: ["Linear", "Shortcut", "JIRA", "Asana", "PRDs", "User Stories", "Roadmap Planning", "Agile/Scrum", "Kanban", "OKRs", "A/B Testing", "Customer Interviews", "Market Research", "Go-to-Market Strategy", "Feature Prioritization", "Stakeholder Management", "Technical Sales", "Product Analytics"]
 
 software:
   # Production Tools
