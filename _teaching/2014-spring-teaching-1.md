@@ -1,20 +1,22 @@
 ---
-title: "Teaching experience 1"
+title: "Programming for Biology - Instructor & Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Laboratory Course"
+permalink: /teaching/programming-for-biology
+venue: "Cold Spring Harbor Laboratory"
+date: 2007-01-01
+location: "Cold Spring Harbor, NY"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Multi-year instruction role at prestigious biological research institution focused on computational biology education for researchers.
 
-Heading 1
-======
+## Course Overview
+This intensive course taught biologists essential programming skills for computational research. The curriculum covered:
 
-Heading 2
-======
+* Fundamental programming concepts in biological contexts
+* Data analysis and visualization techniques
+* Bioinformatics pipeline development
+* Reproducible research practices
 
-Heading 3
-======
+## Teaching Approach
+Emphasized practical, hands-on learning that enables researchers to apply computational tools effectively in their biological research.
