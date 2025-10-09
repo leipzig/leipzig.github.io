@@ -1,14 +1,15 @@
 ---
-title: "Programming for Biology - Instructor & Teaching Assistant"
+title: "Programming for Biology"
 collection: teaching
-type: "Laboratory Course"
+type: "Instructor & Teaching Assistant"
 permalink: /teaching/programming-for-biology
 venue: "Cold Spring Harbor Laboratory"
 date: 2007-01-01
+end_date: 2010-12-31
 location: "Cold Spring Harbor, NY"
 ---
 
-Multi-year instruction role at prestigious biological research institution focused on computational biology education for researchers.
+**Multi-year instruction role (2007-2010)** at prestigious biological research institution focused on computational biology education for researchers.
 
 ## Course Overview
 This intensive course taught biologists essential programming skills for computational research. The curriculum covered:
