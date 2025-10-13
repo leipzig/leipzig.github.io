@@ -1,14 +1,112 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: modern-sub
+title: "Software Portfolio"
 permalink: /portfolio/
-author_profile: true
 ---
 
-{% include base_path %}
+<div class="portfolio-page">
+    <div class="page-intro">
+        <p>A collection of my notable software projects, tools, and applications spanning bioinformatics, data science, and computational biology. These projects demonstrate expertise in various programming languages and frameworks.</p>
+    </div>
 
+    <div class="portfolio-content">
+        {% assign portfolio_items = site.portfolio | sort: 'date' | reverse %}
+        {% if portfolio_items.size > 0 %}
+        <div class="portfolio-grid">
+            {% for project in portfolio_items %}
+            <div class="portfolio-item">
+                <div class="portfolio-header">
+                    <h3 class="portfolio-title">{{ project.title }}</h3>
+                    {% if project.collection %}
+                    <span class="portfolio-category">{{ project.collection }}</span>
+                    {% endif %}
+                </div>
+                <div class="portfolio-content-details">
+                    {% if project.excerpt %}
+                    <p class="portfolio-description">{{ project.excerpt | markdownify | strip_html }}</p>
+                    {% endif %}
+                    {% if project.date %}
+                    <p class="portfolio-date"><i class="fas fa-calendar"></i> {{ project.date | date: "%Y" }}</p>
+                    {% endif %}
+                </div>
+                {% if project.url %}
+                <div class="portfolio-links">
+                    <a href="{{ project.url }}" target="_blank" class="btn btn-primary btn-sm">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <!-- Display software from index.md if no portfolio collection exists -->
+        <div class="software-grid">
+            {% for software in site.data.index.software %}
+            <div class="software-item">
+                <div class="software-header">
+                    <h4>{{ software.name }}</h4>
+                    <div class="software-meta">
+                        {% if software.language %}
+                        <span class="software-language">{{ software.language }}</span>
+                        {% endif %}
+                        {% if software.stars %}
+                        <span class="software-stars">
+                            <i class="fas fa-star"></i> {{ software.stars }}
+                        </span>
+                        {% endif %}
+                    </div>
+                </div>
+                <p class="software-description">{{ software.description }}</p>
+                {% if software.url %}
+                <a href="{{ software.url }}" target="_blank" class="software-link">
+                    <i class="fas fa-external-link-alt"></i> View Project
+                </a>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+    <div class="portfolio-stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">12+</span>
+                <span class="stat-label">Open Source Projects</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">GitHub Stars</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">8</span>
+                <span class="stat-label">Programming Languages</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-technologies">
+        <h3>Technologies Used</h3>
+        <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">R</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Django</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Bioinformatics</span>
+            <span class="tech-tag">Web Applications</span>
+            <span class="tech-tag">Data Analysis</span>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <div class="back-to-home">
+            <a href="/" class="btn btn-secondary">
+                <i class="fas fa-home"></i> Back to Home
+            </a>
+        </div>
+    </div>
+</div>
 

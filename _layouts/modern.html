@@ -47,8 +47,8 @@
                     <li><a href="#highlights">Highlights</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#publications">Publications</a></li>
-                    <li><a href="/talks/">Talks</a></li>
-                    <li><a href="/teaching/">Teaching</a></li>
+                    <li><a href="#talks">Talks</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -201,6 +201,74 @@
                 <div class="publications-footnote">
                     <p><small>* ISI Highly Cited</small></p>
                     <p><small>† Best Research Paper: 14th International Conference on Metadata and Semantics Research</small></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="talks" class="section">
+            <div class="container">
+                <h2>Conference Talks & Presentations</h2>
+                <div class="talks-content">
+                    {% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+                    {% if sorted_talks.size > 0 %}
+                    <div class="talks-grid">
+                        {% for talk in sorted_talks %}
+                        <div class="talk-item">
+                            <div class="talk-content">
+                                <h4 class="talk-title">{{ talk.title }}</h4>
+                                <p class="talk-venue">{{ talk.venue }}, {{ talk.location }}</p>
+                                <p class="talk-date">{{ talk.date | date: "%B %d, %Y" }}</p>
+                                {% if talk.description %}
+                                <p class="talk-description">{{ talk.description }}</p>
+                                {% endif %}
+                                {% if talk.url %}
+                                <div class="talk-links">
+                                    <a href="{{ talk.url }}" target="_blank" class="talk-link">
+                                        <i class="fas fa-external-link-alt"></i> View Details
+                                    </a>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <p>Conference presentations and talks information will be updated soon.</p>
+                    {% endif %}
+                    <div class="view-all-link">
+                        <a href="/talks/" class="btn btn-secondary">
+                            <i class="fas fa-list"></i> View All Talks
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teaching" class="section">
+            <div class="container">
+                <h2>Teaching Experience</h2>
+                <div class="teaching-content">
+                    {% assign sorted_teaching = site.teaching | sort: 'date' | reverse %}
+                    {% if sorted_teaching.size > 0 %}
+                    <div class="teaching-timeline">
+                        {% for course in sorted_teaching %}
+                        <div class="teaching-item">
+                            <div class="teaching-date">{{ course.date | date: "%Y" }}</div>
+                            <div class="teaching-content-details">
+                                <h4>{{ course.title }}</h4>
+                                <p class="teaching-venue"><strong>{{ course.venue }}</strong></p>
+                                {% if course.type %}<p class="teaching-type">{{ course.type }}</p>{% endif %}
+                                {% if course.location %}<p class="teaching-location">{{ course.location }}</p>{% endif %}
+                                {% if course.excerpt %}
+                                <p class="teaching-description">{{ course.excerpt }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <p>Teaching experience information will be updated soon.</p>
+                    {% endif %}
                 </div>
             </div>
         </section>
