@@ -1,12 +1,78 @@
 ---
-layout: archive
-title: "Teaching"
+layout: modern-sub
+title: "Teaching Experience"
 permalink: /teaching/
-author_profile: true
 ---
 
-{% include base_path %}
+<div class="teaching-page">
+    <div class="page-intro">
+        <p>My teaching experience spans several years across different institutions, focusing on bioinformatics, computational biology, and data science education. I am passionate about making complex computational concepts accessible to students from diverse backgrounds.</p>
+    </div>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+    <div class="teaching-content">
+        {% assign sorted_teaching = site.teaching | sort: 'date' | reverse %}
+        {% if sorted_teaching.size > 0 %}
+        <div class="teaching-timeline">
+            {% for course in sorted_teaching %}
+            <div class="teaching-item-detailed">
+                <div class="teaching-date">{{ course.date | date: "%Y" }}</div>
+                <div class="teaching-content-info">
+                    <h3 class="teaching-title">{{ course.title }}</h3>
+                    <p class="teaching-venue"><strong>{{ course.venue }}</strong></p>
+                    {% if course.type %}<p class="teaching-type">{{ course.type }}</p>{% endif %}
+                    {% if course.location %}<p class="teaching-location"><i class="fas fa-map-marker-alt"></i> {{ course.location }}</p>{% endif %}
+                    {% if course.excerpt %}
+                    <div class="teaching-description">
+                        {{ course.excerpt | markdownify }}
+                    </div>
+                    {% endif %}
+                    {% if course.content %}
+                    <div class="teaching-details">
+                        {{ course.content | markdownify }}
+                    </div>
+                    {% endif %}
+                    {% if course.url %}
+                    <div class="teaching-links">
+                        <a href="{{ course.url }}" target="_blank" class="btn btn-primary btn-sm">
+                            <i class="fas fa-external-link-alt"></i> More Details
+                        </a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="no-content">
+            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+            <h3>No teaching experience available</h3>
+            <p>Teaching experience information will be updated soon.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="teaching-stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">{{ site.teaching.size }}+</span>
+                <span class="stat-label">Teaching Positions</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">{{ site.teaching | size | plus: 3 }}+</span>
+                <span class="stat-label">Years of Experience</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Students Taught</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <div class="back-to-home">
+            <a href="/" class="btn btn-secondary">
+                <i class="fas fa-home"></i> Back to Home
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,12 +1,55 @@
 ---
-layout: archive
+layout: modern-sub
 title: "Talks and presentations"
 permalink: /talks/
-author_profile: true
 ---
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<div class="talks-page">
+    <div class="page-intro">
+        <p>Below is a comprehensive list of my conference presentations, workshop talks, and invited lectures spanning various topics in bioinformatics, computational biology, and data science.</p>
+    </div>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+    <div class="talks-content">
+        {% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+        {% if sorted_talks.size > 0 %}
+        <div class="talks-timeline">
+            {% for talk in sorted_talks %}
+            <div class="talk-item-detailed">
+                <div class="talk-date">{{ talk.date | date: "%Y" }}</div>
+                <div class="talk-content">
+                    <h3 class="talk-title">{{ talk.title }}</h3>
+                    <p class="talk-venue"><strong>{{ talk.venue }}</strong>{% if talk.location %}, {{ talk.location }}{% endif %}</p>
+                    <p class="talk-date-full">{{ talk.date | date: "%B %d, %Y" }}</p>
+                    {% if talk.description %}
+                    <div class="talk-description">
+                        {{ talk.description | markdownify }}
+                    </div>
+                    {% endif %}
+                    {% if talk.url %}
+                    <div class="talk-links">
+                        <a href="{{ talk.url }}" target="_blank" class="btn btn-primary btn-sm">
+                            <i class="fas fa-external-link-alt"></i> View Details
+                        </a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="no-content">
+            <i class="fas fa-microphone-alt fa-3x"></i>
+            <h3>No talks available</h3>
+            <p>Conference presentations and talks information will be updated soon.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="page-footer">
+        <div class="back-to-home">
+            <a href="/" class="btn btn-secondary">
+                <i class="fas fa-home"></i> Back to Home
+            </a>
+        </div>
+    </div>
+</div>
