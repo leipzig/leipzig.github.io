@@ -115,7 +115,7 @@ redirect_from:
                 </div>
                 {% endfor %}
                 <div class="cv-more">
-                    <a href="/talks/" class="btn btn-secondary btn-sm">
+                    <a href="/#talks" class="btn btn-secondary btn-sm">
                         <i class="fas fa-list"></i> View All Talks
                     </a>
                 </div>
