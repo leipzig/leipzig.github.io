@@ -92,7 +92,7 @@ education:
   - institution: "Wake Forest University"
     degree: "Bachelor of Science in Biology"
     dates: "1997"
-    details: "Pre-medical track with research experience in neuropharmacology"
+    details: "Research experience in neuropharmacology"
 
 research_interests:
   - title: "Reproducible Research & Metadata"
@@ -147,6 +147,11 @@ software:
   - name: "InSiPiD"
     description: "Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis."
     language: "Pipeline"
+
+  - name: "Rhylthyme"
+    description: "A JSON-based markup language and toolchain for describing real-time programs that coordinate parallel tracks of work with resource constraints, timing dependencies, and flexible execution patterns. Includes a CLI runner, web visualizer, and MCP server for AI-assisted schedule generation."
+    url: "https://github.com/rhylthyme"
+    language: "Python"
 
   # Popular GitHub Repositories
   - name: "awesome-reproducible-research"
