@@ -41,7 +41,7 @@ redirect_from:
                     <div class="cv-details">
                         <h3>Bachelor of Science in Biology</h3>
                         <p class="cv-institution"><strong>Wake Forest University</strong></p>
-                        <p class="cv-description">Pre-medical track with research experience in neuropharmacology</p>
+                        <p class="cv-description">Research experience in neuropharmacology</p>
                     </div>
                 </div>
             </div>
