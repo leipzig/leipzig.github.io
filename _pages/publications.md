@@ -59,7 +59,7 @@ permalink: /publications/
                     {% if publication.citation %}
                     {% assign citation_parts = publication.citation | remove: '"' | split: ')' %}
                     {% assign authors_part = citation_parts[0] | split: '(' | first | strip %}
-                    <p class="publication-authors">{{ authors_part }}</p>
+                    <p class="publication-authors">{% include bold-me.html text=authors_part %}</p>
                     {% endif %}
                     <p class="publication-venue"><strong>{{ publication.venue }}</strong>, {{ publication.date | date: '%Y' }}</p>
                     {% if publication.excerpt %}

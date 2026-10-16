@@ -140,10 +140,6 @@ software:
     description: "Django application that manages user authentication and presentation of bioinformatics deliverables. Streamlines report delivery for core facilities."
     language: "Django/Python"
     
-  - name: "MitoTIP"
-    description: "Machine learning tool for predicting pathogenicity of novel variants in mitochondrial tRNA genes. Published in PLoS Computational Biology."
-    language: "Machine Learning"
-    
   - name: "InSiPiD"
     description: "Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis."
     language: "Pipeline"

@@ -1,0 +1,10 @@
+{%- comment -%}
+  Prints include.text with every form of the site owner's name in bold
+  ("Leipzig, J.", "Leipzig, J.N.", "Leipzig J", "J. Leipzig", ...), whether or
+  not the citation already bolds it.
+{%- endcomment -%}
+{%- assign t = include.text | replace: '<b>', '' | replace: '</b>', '' | replace: '<strong>', '' | replace: '</strong>', '' -%}
+{%- assign t = t | replace: 'Leipzig, J. N.', '@@N1@@' | replace: 'Leipzig, J.N.', '@@N2@@' | replace: 'Leipzig, Jeremy', '@@N3@@' | replace: 'Leipzig, J.', '@@N4@@' | replace: 'Leipzig, J', '@@N5@@' | replace: 'Leipzig JN', '@@N6@@' | replace: 'Leipzig J.', '@@N7@@' | replace: 'Leipzig J', '@@N8@@' | replace: 'Jeremy Leipzig', '@@N9@@' | replace: 'J. N. Leipzig', '@@N10@@' | replace: 'J.N. Leipzig', '@@N11@@' | replace: 'J. Leipzig', '@@N12@@' -%}
+{%- assign t = t | replace: '@@N10@@', '<b>J. N. Leipzig</b>' | replace: '@@N11@@', '<b>J.N. Leipzig</b>' | replace: '@@N12@@', '<b>J. Leipzig</b>' -%}
+{%- assign t = t | replace: '@@N1@@', '<b>Leipzig, J. N.</b>' | replace: '@@N2@@', '<b>Leipzig, J.N.</b>' | replace: '@@N3@@', '<b>Leipzig, Jeremy</b>' | replace: '@@N4@@', '<b>Leipzig, J.</b>' | replace: '@@N5@@', '<b>Leipzig, J</b>' | replace: '@@N6@@', '<b>Leipzig JN</b>' | replace: '@@N7@@', '<b>Leipzig J.</b>' | replace: '@@N8@@', '<b>Leipzig J</b>' | replace: '@@N9@@', '<b>Jeremy Leipzig</b>' -%}
+{{- t -}}
