@@ -10,28 +10,28 @@ permalink: /portfolio/
     </div>
 
     <div class="portfolio-content">
-        {% assign portfolio_items = site.portfolio | sort: 'date' | reverse %}
+        {% assign portfolio_items = site.portfolio | sort: 'order' %}
         {% if portfolio_items.size > 0 %}
         <div class="portfolio-grid">
             {% for project in portfolio_items %}
             <div class="portfolio-item">
                 <div class="portfolio-header">
                     <h3 class="portfolio-title">{{ project.title }}</h3>
-                    {% if project.collection %}
-                    <span class="portfolio-category">{{ project.collection }}</span>
+                    {% if project.language %}
+                    <span class="portfolio-category">{{ project.language }}</span>
                     {% endif %}
                 </div>
                 <div class="portfolio-content-details">
                     {% if project.excerpt %}
                     <p class="portfolio-description">{{ project.excerpt | markdownify | strip_html }}</p>
                     {% endif %}
-                    {% if project.date %}
-                    <p class="portfolio-date"><i class="fas fa-calendar"></i> {{ project.date | date: "%Y" }}</p>
+                    {% if project.year %}
+                    <p class="portfolio-date"><i class="fas fa-calendar"></i> {{ project.year }}</p>
                     {% endif %}
                 </div>
                 {% if project.url %}
                 <div class="portfolio-links">
-                    <a href="{{ project.url }}" target="_blank" class="btn btn-primary btn-sm">
+                    <a href="{{ project.link | default: project.url }}" target="_blank" class="btn btn-primary btn-sm">
                         <i class="fas fa-external-link-alt"></i> View Project
                     </a>
                 </div>
