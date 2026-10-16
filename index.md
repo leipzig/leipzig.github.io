@@ -153,6 +153,11 @@ software:
     url: "https://github.com/rhylthyme"
     language: "Python"
 
+  - name: "dimoose"
+    description: "R package for dichotomous identification keys. Build a key from a plain spreadsheet with photos, draw it as a box diagram, or turn it into an offline web wizard for the field; also imports FishBase keys and generates keys from photos (CLIP/BioCLIP), sequence alignments and trait matrices. Includes an illustrated key to Montana's native broadleaf trees."
+    url: "https://leipzig.github.io/dimoose/"
+    language: "R"
+
   # Popular GitHub Repositories
   - name: "awesome-reproducible-research"
     description: "A curated list of reproducible research case studies, projects, tutorials, and media. Community-driven resource with 356+ stars."
