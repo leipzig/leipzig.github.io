@@ -92,9 +92,11 @@
 
 /* ---------- Hero ---------- */
 .hero {
+  /* Flathead Valley near Whitefish, MT; darkened on the left so the text stays legible */
   background:
-    radial-gradient(1200px 400px at 85% -10%, rgba(45, 212, 191, .22), transparent 60%),
-    radial-gradient(800px 300px at -10% 110%, rgba(245, 158, 11, .14), transparent 60%),
+    linear-gradient(90deg, rgba(8, 16, 22, .88) 0%, rgba(8, 16, 22, .7) 45%, rgba(8, 16, 22, .3) 100%),
+    linear-gradient(0deg, rgba(8, 16, 22, .55) 0%, transparent 40%),
+    url("../assets/hero.jpg") center 35% / cover no-repeat,
     var(--md-primary-fg-color);
   color: #f3f6f8;
 }
