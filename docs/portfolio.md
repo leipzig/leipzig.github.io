@@ -34,6 +34,14 @@ hide: [navigation, toc]
     <p>Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis.</p>
   </div>
 </div>
+<a class="sw-card" href="https://web.archive.org/web/20051227140854/http://statgen.ncsu.edu/asg/">
+  <div class="sw-card__media"><img src="../assets/thumbs/software/alternative-splicing-gallery.jpg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>PHP · 2004</span></p>
+    <h3>Alternative Splicing Gallery (ASG)</h3>
+    <p>Searchable web gallery of splicing graphs for human genes, built from Ensembl, UniGene and EST alignments. Each graph shows every alternative transcript at once, colors cassette exons, intron retentions and competing splice sites, and lets you pick exons to assemble a transcript sequence.</p>
+  </div>
+</a>
 <a class="sw-card" href="../rhylthyme/">
   <div class="sw-card__media"><img src="../assets/thumbs/software/rhylthyme.png" alt="" loading="lazy"></div>
   <div class="sw-card__body">
@@ -58,22 +66,6 @@ hide: [navigation, toc]
     <p>A curated list of reproducible research case studies, projects, tutorials, and media. Community-driven resource with 356+ stars.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/SandwichesWithSnakemake">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-sandwicheswithsnakemake.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>Tutorial · 2014</span></p>
-    <h3>SandwichesWithSnakemake</h3>
-    <p>Beginner&#x27;s tutorial to Snakemake workflow management system. Popular educational resource with 70+ stars.</p>
-  </div>
-</a>
-<a class="sw-card" href="https://github.com/leipzig/snakemake-example">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-snakemake-example.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>CSS/Snakemake · 2014</span></p>
-    <h3>snakemake-example</h3>
-    <p>RNA-Seq Snakemake example with Jekyll homepage creation. Complete workflow demonstration with 20+ stars.</p>
-  </div>
-</a>
 <a class="sw-card" href="https://github.com/leipzig/berrylogo">
   <div class="sw-card__media"><img src="../assets/thumbs/software/berrylogo.png" alt="" loading="lazy"></div>
   <div class="sw-card__body">
@@ -88,22 +80,6 @@ hide: [navigation, toc]
     <p class="eyebrow"><span>HTML/R · 2016</span></p>
     <h3>opensnp</h3>
     <p>Validation of published GWAS studies using OpenSNP volunteered data. Binderized for reproducible analysis.</p>
-  </div>
-</a>
-<a class="sw-card" href="https://github.com/leipzig/blast-wrapper">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-blast-wrapper.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>Node.js · 2013</span></p>
-    <h3>blast-wrapper</h3>
-    <p>Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.</p>
-  </div>
-</a>
-<a class="sw-card" href="https://github.com/leipzig/placenta">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-placenta.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>R/Bioinformatics</span></p>
-    <h3>placenta</h3>
-    <p>Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.</p>
   </div>
 </a>
 <a class="sw-card" href="https://github.com/leipzig/clk">
@@ -127,6 +103,38 @@ hide: [navigation, toc]
 ## More repositories
 
 <div class="sw-grid sw-grid--compact">
+<a class="sw-card" href="https://github.com/leipzig/SandwichesWithSnakemake">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-sandwicheswithsnakemake.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>Tutorial · 2014</span></p>
+    <h3>SandwichesWithSnakemake</h3>
+    <p>Beginner&#x27;s tutorial to Snakemake workflow management system. Popular educational resource with 70+ stars.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/snakemake-example">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-snakemake-example.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>CSS/Snakemake · 2014</span></p>
+    <h3>snakemake-example</h3>
+    <p>RNA-Seq Snakemake example with Jekyll homepage creation. Complete workflow demonstration with 20+ stars.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/blast-wrapper">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-blast-wrapper.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>Node.js · 2013</span></p>
+    <h3>blast-wrapper</h3>
+    <p>Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/placenta">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-placenta.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>R/Bioinformatics</span></p>
+    <h3>placenta</h3>
+    <p>Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.</p>
+  </div>
+</a>
 <a class="sw-card" href="https://github.com/leipzig/ancestryinformativemarkers">
   <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-ancestryinformativemarkers.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
@@ -159,28 +167,44 @@ hide: [navigation, toc]
     <p>Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/fcs_flow_cytometry">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-flow-cytometry.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/fcs_api">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-api.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>R/Python</span></p>
-    <h3>fcs_flow_cytometry</h3>
-    <p>Core flow cytometry data analysis tools and utilities for FCS file processing.</p>
+    <p class="eyebrow"><span>JavaScript · 2018</span></p>
+    <h3>fcs_api</h3>
+    <p>Node API to the CytoVas flow cytometry database that serves queries and runs reports.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/fcs_parser">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-parser.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/fcs_lambda">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-lambda.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>Python</span></p>
-    <h3>fcs_parser</h3>
-    <p>Parser and data extraction tools for Flow Cytometry Standard (FCS) files.</p>
+    <p class="eyebrow"><span>Python · 2018</span></p>
+    <h3>fcs_lambda</h3>
+    <p>AWS Lambda function that parses FCS files as they land in S3 and stores their metadata in DynamoDB.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/fcs_utils">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-utils.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/fcs_upbrowse">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-upbrowse.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>R</span></p>
-    <h3>fcs_utils</h3>
-    <p>Utility functions and helper tools for flow cytometry data manipulation and quality control.</p>
+    <p class="eyebrow"><span>HTML · 2018</span></p>
+    <h3>fcs_upbrowse</h3>
+    <p>CytoVas uploader and file browser for FCS files.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/fcs_batch_titration">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-batch-titration.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>R · 2018</span></p>
+    <h3>fcs_batch_titration</h3>
+    <p>Container that processes one or more FCS files on AWS Batch or another runner and produces an HTML titration report.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/fcs_aws_tools">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-aws-tools.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>Python · 2018</span></p>
+    <h3>fcs_aws_tools</h3>
+    <p>Day-to-day CytoVas tools for FCS files in S3 and the database.</p>
   </div>
 </a>
 <a class="sw-card" href="https://github.com/leipzig/mcmanus_ant1">
@@ -199,11 +223,11 @@ hide: [navigation, toc]
     <p>Command-line tool for generating ASCII rulers and measurement guides for sequence analysis.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/standard-velvet-assembly-report">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-standard-velvet-assembly-report.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/standardized-velvet-assembly-report">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-standardized-velvet-assembly-report.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
     <p class="eyebrow"><span>Perl/Shell</span></p>
-    <h3>standard-velvet-assembly-report</h3>
+    <h3>standardized-velvet-assembly-report</h3>
     <p>Standardized reporting pipeline for Velvet genome assembly results and quality metrics.</p>
   </div>
 </a>

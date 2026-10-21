@@ -118,11 +118,11 @@
   citation: 'Navarro-Gomez D, Leipzig J, Shen L, Lott M, Stassen AP, Wallace DC, Wiggs JL, Falk MJ, van Oven M, Gai X. (2015). "Phy-Mer: a novel alignment-free and reference-independent mitochondrial haplogroup classifier." <i>Bioinformatics</i> 31(8):1310-1312.'
   summary: Phy-Mer introduces a novel alignment-free and reference-independent approach for mitochondrial haplogroup classification.
 - id: 2014-mseqdr
-  title: 'The Mitochondrial Disease Sequence Data Resource (MSeqDR): a global grass-roots effort to promote sharing of mitochondrial DNA sequencing data'
+  title: 'Mitochondrial Disease Sequence Data Resource (MSeqDR): a global grass-roots consortium to facilitate deposition, curation, annotation, and integrated analysis of genomic data for the mitochondrial disease clinical and research communities'
   year: 2015
   venue: Molecular Genetics and Metabolism
-  url: https://www.sciencedirect.com/science/article/pii/S1567724914001087
-  citation: 'Schoenfeld, R.A., Wong, L.J., Singh, L.N., Dimmock, D., Leipzig, J., Sweetser, D.A., ... & McCormick, E.M. (2014). The Mitochondrial Disease Sequence Data Resource (MSeqDR): a global grass-roots effort to promote sharing of mitochondrial DNA sequencing data. Mitochondrion, 19, 86-90.'
+  url: https://doi.org/10.1016/j.ymgme.2014.11.016
+  citation: 'Falk MJ, Shen L, Gonzalez M, Leipzig J, Lott MT, Stassen AP, Diroma MA, Navarro-Gomez D, Yeske P, Bai R, et al. (2015). "Mitochondrial Disease Sequence Data Resource (MSeqDR): a global grass-roots consortium to facilitate deposition, curation, annotation, and integrated analysis of genomic data for the mitochondrial disease clinical and research communities." <i>Mol Genet Metab</i> 114(3):388-396.'
   summary: This paper describes MSeqDR, a collaborative resource for sharing mitochondrial DNA sequencing data.
 - id: 2014-glessner-chd
   title: Increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data

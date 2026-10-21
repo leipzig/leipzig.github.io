@@ -20,6 +20,13 @@
   year: null
   url: null
   summary: Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis.
+- id: alternative-splicing-gallery
+  name: Alternative Splicing Gallery (ASG)
+  featured: true
+  language: PHP
+  year: 2004
+  url: https://web.archive.org/web/20051227140854/http://statgen.ncsu.edu/asg/
+  summary: Searchable web gallery of splicing graphs for human genes, built from Ensembl, UniGene and EST alignments. Each graph shows every alternative transcript at once, colors cassette exons, intron retentions and competing splice sites, and lets you pick exons to assemble a transcript sequence.
 - id: rhylthyme
   page: rhylthyme/
   name: Rhylthyme
@@ -44,14 +51,14 @@
   summary: A curated list of reproducible research case studies, projects, tutorials, and media. Community-driven resource with 356+ stars.
 - id: sandwicheswithsnakemake
   name: SandwichesWithSnakemake
-  featured: true
+  featured: false
   language: Tutorial
   year: 2014
   url: https://github.com/leipzig/SandwichesWithSnakemake
   summary: Beginner's tutorial to Snakemake workflow management system. Popular educational resource with 70+ stars.
 - id: snakemake-example
   name: snakemake-example
-  featured: true
+  featured: false
   language: CSS/Snakemake
   year: 2014
   url: https://github.com/leipzig/snakemake-example
@@ -72,14 +79,14 @@
   summary: Validation of published GWAS studies using OpenSNP volunteered data. Binderized for reproducible analysis.
 - id: blast-wrapper
   name: blast-wrapper
-  featured: true
+  featured: false
   language: Node.js
   year: 2013
   url: https://github.com/leipzig/blast-wrapper
   summary: Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.
 - id: placenta
   name: placenta
-  featured: true
+  featured: false
   language: R/Bioinformatics
   year: null
   url: https://github.com/leipzig/placenta
@@ -126,27 +133,41 @@
   year: null
   url: https://github.com/leipzig/metadata-in-rcr
   summary: Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications.
-- id: fcs-flow-cytometry
-  name: fcs_flow_cytometry
+- id: fcs-api
+  name: fcs_api
   featured: false
-  language: R/Python
-  year: null
-  url: https://github.com/leipzig/fcs_flow_cytometry
-  summary: Core flow cytometry data analysis tools and utilities for FCS file processing.
-- id: fcs-parser
-  name: fcs_parser
+  language: JavaScript
+  year: 2018
+  url: https://github.com/leipzig/fcs_api
+  summary: Node API to the CytoVas flow cytometry database that serves queries and runs reports.
+- id: fcs-lambda
+  name: fcs_lambda
   featured: false
   language: Python
-  year: null
-  url: https://github.com/leipzig/fcs_parser
-  summary: Parser and data extraction tools for Flow Cytometry Standard (FCS) files.
-- id: fcs-utils
-  name: fcs_utils
+  year: 2018
+  url: https://github.com/leipzig/fcs_lambda
+  summary: AWS Lambda function that parses FCS files as they land in S3 and stores their metadata in DynamoDB.
+- id: fcs-upbrowse
+  name: fcs_upbrowse
+  featured: false
+  language: HTML
+  year: 2018
+  url: https://github.com/leipzig/fcs_upbrowse
+  summary: CytoVas uploader and file browser for FCS files.
+- id: fcs-batch-titration
+  name: fcs_batch_titration
   featured: false
   language: R
-  year: null
-  url: https://github.com/leipzig/fcs_utils
-  summary: Utility functions and helper tools for flow cytometry data manipulation and quality control.
+  year: 2018
+  url: https://github.com/leipzig/fcs_batch_titration
+  summary: Container that processes one or more FCS files on AWS Batch or another runner and produces an HTML titration report.
+- id: fcs-aws-tools
+  name: fcs_aws_tools
+  featured: false
+  language: Python
+  year: 2018
+  url: https://github.com/leipzig/fcs_aws_tools
+  summary: Day-to-day CytoVas tools for FCS files in S3 and the database.
 - id: mcmanus-ant1
   name: mcmanus_ant1
   featured: false
@@ -161,10 +182,10 @@
   year: null
   url: https://github.com/leipzig/asciiruler
   summary: Command-line tool for generating ASCII rulers and measurement guides for sequence analysis.
-- id: standard-velvet-assembly-report
-  name: standard-velvet-assembly-report
+- id: standardized-velvet-assembly-report
+  name: standardized-velvet-assembly-report
   featured: false
   language: Perl/Shell
   year: null
-  url: https://github.com/leipzig/standard-velvet-assembly-report
+  url: https://github.com/leipzig/standardized-velvet-assembly-report
   summary: Standardized reporting pipeline for Velvet genome assembly results and quality metrics.

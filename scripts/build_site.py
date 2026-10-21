@@ -108,6 +108,9 @@ def pub_card(p, prefix=""):
     link = p.get("url")
     kind = "Book" if "Mashups" in p["title"] else "Dissertation" if "Robustness" in p["title"] else "Paper"
     search = esc(f'{p["title"]} {p.get("venue")} {p["year"]} {p.get("citation")}'.lower())
+    cites = p.get("cited_by")
+    cites_html = (f'<a class="pub-card__cites" href="{esc(cites["url"])}" title="Citations on Google Scholar">Cited by {cites["count"]:,}</a>'
+                  if cites and cites.get("count") else "")
     return f"""<article class="pub-card" data-search="{search}">
   <a class="pub-card__media{' is-generated' if generated else ''}" href="{esc(link)}" tabindex="-1" aria-hidden="true">
     <img src="{prefix}{src}" alt="" loading="lazy">
@@ -118,7 +121,10 @@ def pub_card(p, prefix=""):
     {f'<p class="pub-card__note">{esc(p["note"])}</p>' if p.get("note") else ""}
     <p class="pub-card__authors">{authors_of(p.get('citation'))}</p>
     <p class="pub-card__summary">{esc(p.get('summary'))}</p>
-    <a class="pub-card__link" href="{esc(link)}">{kind} &rarr;</a>
+    <div class="pub-card__foot">
+      <a class="pub-card__link" href="{esc(link)}">{kind} &rarr;</a>
+      {cites_html}
+    </div>
   </div>
 </article>"""
 
@@ -224,7 +230,7 @@ hide: [navigation, toc]
 """)
 
 
-def build_publications(pubs):
+def build_publications(pubs, cites_as_of):
     by_year = {}
     for p in pubs:
         by_year.setdefault(p["year"], []).append(p)
@@ -248,6 +254,7 @@ hide: [navigation, toc]
 <a class="md-button" href="https://orcid.org/0000-0001-7224-9620">ORCID</a>
 </div>
 <p id="pub-count" class="muted"></p>
+{f'<p class="muted cites-note">Citation counts from Google Scholar as of {cites_as_of}.</p>' if cites_as_of else ""}
 
 {chr(10).join(blocks)}
 """)
@@ -383,12 +390,15 @@ description: Conference presentations and courses.
 def main():
     profile = load("profile")
     pubs = load("publications")
+    citations = load("citations") if (DATA / "citations.yml").exists() else {}
+    for p in pubs:
+        p["cited_by"] = citations.get("papers", {}).get(p["id"])
     software = load("software")
     (THUMBS / "generated").mkdir(parents=True, exist_ok=True)
     for f in (THUMBS / "generated").glob("*.svg"):
         f.unlink()
     build_home(profile, pubs, software)
-    build_publications(pubs)
+    build_publications(pubs, citations.get("as_of"))
     build_software(software)
     build_experience(profile)
     build_talks(load("talks"), load("teaching"))
