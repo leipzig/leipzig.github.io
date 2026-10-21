@@ -32,6 +32,12 @@ python -m venv .venv
 `zensical build` writes the static site to `site/`. Rerun `scripts/build_site.py`
 whenever you change `data/*.yml`.
 
+Citation counts on the publication cards come from `data/citations.yml`. To
+refresh them, run `.venv/bin/python scripts/fetch_citations.py`, which reads the
+Google Scholar profile set in `SCHOLAR_USER` and matches papers by title. Scholar
+sometimes answers scripts with a CAPTCHA; if so, save the profile page from a
+browser (with `&pagesize=100` in the URL) and pass it with `--html`.
+
 ## Make your own site from it
 
 1. Fork or copy the repository and name it `<username>.github.io`.
@@ -42,7 +48,7 @@ whenever you change `data/*.yml`.
 4. Update `site_url`, `site_name`, `nav` and the social links in
    `zensical.toml`, the banner text in `overrides/home.html`, and the name
    variants in `NAME_RE` in `scripts/build_site.py` (used to bold your name in
-   author lists).
+   author lists), and `SCHOLAR_USER` in `scripts/fetch_citations.py`.
 5. Delete the thumbnails in `docs/assets/thumbs/` that aren't yours and add your
    own, named by `id`.
 6. Push to `master`.
