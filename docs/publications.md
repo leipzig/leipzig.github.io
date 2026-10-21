@@ -590,19 +590,6 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://doi.org/10.1093/nar/gkh731">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="the splicing graph–a tool for visualising gene structure and alternative splicing future drug discovery 2004 j leipzig, dm nielsen, s heber (2004). &quot;the splicing graph–a tool for visualising gene structure and alternative splicing.&quot; &lt;i&gt;future drug discovery&lt;/i&gt;.">
-  <a class="pub-card__media is-generated" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:eQOLeE2rZwMC" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2004-leipzig-splicing-graph.svg" alt="" loading="lazy">
-  </a>
-  <div class="pub-card__body">
-    <p class="eyebrow"><span>Future Drug Discovery</span><span>2004</span></p>
-    <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:eQOLeE2rZwMC">The Splicing Graph–A Tool for Visualising Gene Structure and Alternative Splicing</a></h3>
-    
-    <p class="pub-card__authors">J Leipzig, DM Nielsen, S Heber</p>
-    <p class="pub-card__summary"></p>
-    <a class="pub-card__link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:eQOLeE2rZwMC">Paper &rarr;</a>
-  </div>
-</article>
 </div>
 </section>
 <section class="year-group" data-year="2000">
