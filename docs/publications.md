@@ -69,8 +69,8 @@ hide: [navigation, toc]
 <h2 class="year">2021</h2>
 <div class="pub-list">
 <article class="pub-card" data-search="tests of robustness in peer review drexel university 2021 leipzig, j. (2021). &quot;tests of robustness in peer review.&quot; &lt;i&gt;doctoral dissertation, drexel university&lt;/i&gt;.">
-  <a class="pub-card__media is-generated" href="https://www.proquest.com/openview/dd50da9437c45c28b25bd9bbdae4ee4b/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2021-tests-robustness-peer-review.svg" alt="" loading="lazy">
+  <a class="pub-card__media" href="https://www.proquest.com/openview/dd50da9437c45c28b25bd9bbdae4ee4b/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/pubs/2021-tests-robustness-peer-review.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Drexel University</span><span>2021</span></p>
@@ -149,8 +149,8 @@ hide: [navigation, toc]
 <h2 class="year">2018</h2>
 <div class="pub-list">
 <article class="pub-card" data-search="computational pipelines and workflows in bioinformatics reference module in life sciences, elsevier 2018 leipzig, j. (2018). &quot;computational pipelines and workflows in bioinformatics.&quot; in &lt;i&gt;reference module in life sciences&lt;/i&gt;; elsevier.">
-  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/B978-0-12-809633-8.20482-6" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2018-computational-pipelines-workflows.svg" alt="" loading="lazy">
+  <a class="pub-card__media" href="https://doi.org/10.1016/B978-0-12-809633-8.20482-6" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/pubs/2018-computational-pipelines-workflows.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Reference Module in Life Sciences, Elsevier</span><span>2018</span></p>
@@ -653,8 +653,8 @@ hide: [navigation, toc]
 <h2 class="year">1999</h2>
 <div class="pub-list">
 <article class="pub-card" data-search="comparison of brain metabolic activity patterns induced by ketamine, mk-801 and amphetamine in rats: support for nmda receptor involvement in responses to subanesthetic dose of ketamine brain research 1999 duncan ge, miyamoto s, leipzig jn, lieberman ja. (1999). &quot;comparison of brain metabolic activity patterns induced by ketamine, mk-801 and amphetamine in rats: support for nmda receptor involvement in responses to subanesthetic dose of ketamine.&quot; &lt;i&gt;brain res&lt;/i&gt; 843(1-2):171-183.">
-  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/s0006-8993(99)01776-x" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-1999-duncan-brain-metabolic-patterns.svg" alt="" loading="lazy">
+  <a class="pub-card__media" href="https://doi.org/10.1016/s0006-8993(99)01776-x" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/pubs/1999-duncan-brain-metabolic-patterns.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Brain Research</span><span>1999</span></p>
@@ -684,8 +684,8 @@ hide: [navigation, toc]
 <h2 class="year">1998</h2>
 <div class="pub-list">
 <article class="pub-card" data-search="differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation brain research 1998 duncan ge, leipzig jn, mailman rb, lieberman ja. (1998). &quot;differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation.&quot; &lt;i&gt;brain res&lt;/i&gt; 812(1-2):65-75.">
-  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/s0006-8993(98)00926-3" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-1998-duncan-clozapine-haloperidol.svg" alt="" loading="lazy">
+  <a class="pub-card__media" href="https://doi.org/10.1016/s0006-8993(98)00926-3" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/pubs/1998-duncan-clozapine-haloperidol.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Brain Research</span><span>1998</span></p>
