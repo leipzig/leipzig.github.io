@@ -38,7 +38,7 @@ whenever you change `data/*.yml`.
 2. In **Settings → Pages**, set **Source** to **GitHub Actions**.
 3. Replace the content in `data/*.yml`, `docs/rhylthyme.md`, the CV PDFs in
    `docs/files/` and `docs/`, `docs/assets/profile.png` and
-   `docs/assets/hero.jpg`.
+   `docs/assets/whitefish-valley.jpg`.
 4. Update `site_url`, `site_name`, `nav` and the social links in
    `zensical.toml`, the banner text in `overrides/home.html`, and the name
    variants in `NAME_RE` in `scripts/build_site.py` (used to bold your name in

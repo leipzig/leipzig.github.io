@@ -96,7 +96,7 @@
   background:
     linear-gradient(90deg, rgba(8, 16, 22, .88) 0%, rgba(8, 16, 22, .7) 45%, rgba(8, 16, 22, .3) 100%),
     linear-gradient(0deg, rgba(8, 16, 22, .55) 0%, transparent 40%),
-    url("../assets/hero.jpg") center 35% / cover no-repeat,
+    url("../assets/whitefish-valley.jpg") center 35% / cover no-repeat,
     var(--md-primary-fg-color);
   color: #f3f6f8;
 }
