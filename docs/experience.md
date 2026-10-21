@@ -24,7 +24,7 @@ hide: [navigation]
 <li class="tl-item">
 <p class="tl-when">09/2020 - 07/2022</p>
 <div class="tl-body">
-<h3>Content Lead</h3>
+<h3>Bioinformatics Lead</h3>
 <p class="tl-org">Truwl</p>
 <p>Led onboarding of tools, workflows, and high-impact analyses into the Truwl platform.</p>
 <ul><li>Developed benchmarking product and customer acquisition strategies</li><li>Curated and validated bioinformatics workflows for the platform</li><li>Established quality standards for computational reproducibility</li><li>Presented platform capabilities and workflow demonstrations (<a href='https://www.youtube.com/watch?v=ttl9nPyh2bE' target='_blank'>watch demo</a>)</li></ul>
