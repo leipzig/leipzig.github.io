@@ -110,57 +110,102 @@ flowchart LR
 
 ### JSON plus JSON Schema as the language
 
-**Decision.** A program is a JSON document validated against a versioned JSON Schema published as the `rhylthyme-spec` package. The schema's constructs carry workflow and OWL-Time ontology annotations. Older and newer schema versions ship together (0.2.0-alpha and 0.3.0-alpha).
-**Why.** Schema-first means every consumer, whether Python, JavaScript, R, Swift or Kotlin, can check the same file without a custom parser. It also gives LLM agents a precise target that a validator can reject.
-**Trade-off.** Hand-writing it is verbose. In practice people rarely write it directly: assistants and importers produce it, and shorthand like `"5m"` or `"1h30m"` durations reduces the noise.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">A program is a JSON document validated against a versioned JSON Schema published as the `rhylthyme-spec` package. The schema's constructs carry workflow and OWL-Time ontology annotations. Older and newer schema versions ship together (0.2.0-alpha and 0.3.0-alpha).</dd>
+<dt>Why</dt>
+<dd markdown="1">Schema-first means every consumer, whether Python, JavaScript, R, Swift or Kotlin, can check the same file without a custom parser. It also gives LLM agents a precise target that a validator can reject.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">Hand-writing it is verbose. In practice people rarely write it directly: assistants and importers produce it, and shorthand like `"5m"` or `"1h30m"` durations reduces the noise.</dd>
+</dl>
 
 ### One timing engine, embedded everywhere
 
-**Decision.** Step timing (resolving triggers, offsets, buffers and replicates into start and end times) lives in one zero-dependency JavaScript module, `@rhylthyme/timeline`. It ships as UMD, ESM and a `<rhylthyme-timeline>` Web Component. The module was extracted from the web app's `timeline-render.js` "with no code changes relative to the copy shipped there". The MCP server's validator and schedule analyzer were later moved into the same package.
-**Why.** The web player, the MCP server's PNG previews, static Gantt renders, the R package (through V8) and the macOS app's offline player all compute times with the same code, so they agree to the second. Planning against predicted durations doesn't need a second implementation either: it runs the same resolver over a copy of the program that has the predicted durations substituted in.
-**Trade-off.** The Python `rhylthyme-timeline` wrapper needs Node.js on the PATH, and the R package and the server carry vendored copies, which have to be kept in step.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">Step timing (resolving triggers, offsets, buffers and replicates into start and end times) lives in one zero-dependency JavaScript module, `@rhylthyme/timeline`. It ships as UMD, ESM and a `<rhylthyme-timeline>` Web Component. The module was extracted from the web app's `timeline-render.js` "with no code changes relative to the copy shipped there". The MCP server's validator and schedule analyzer were later moved into the same package.</dd>
+<dt>Why</dt>
+<dd markdown="1">The web player, the MCP server's PNG previews, static Gantt renders, the R package (through V8) and the macOS app's offline player all compute times with the same code, so they agree to the second. Planning against predicted durations doesn't need a second implementation either: it runs the same resolver over a copy of the program that has the predicted durations substituted in.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">The Python `rhylthyme-timeline` wrapper needs Node.js on the PATH, and the R package and the server carry vendored copies, which have to be kept in step.</dd>
+</dl>
 
 ### Two validators held to parity
 
-**Decision.** The offline Python CLI (`rhylthyme validate`) and the JavaScript validator in the engine are independent implementations of the same rules. A CI parity test runs both against every program in `rhylthyme-examples`, every `invalid/<CODE>.json` fixture, and systematic mutations (dropped required keys, wrong types, ambiguous `oneOf`), and fails if any verdict differs. The few deliberate differences are listed by name on both sides.
-**Why.** The CLI has to work with no network and no Node. The hosted server validates in Node, and the program gets checked again when it is published.
-**Trade-off.** Every rule is maintained twice. The parity suite and a shared finding-codes catalogue are what keep that manageable.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">The offline Python CLI (`rhylthyme validate`) and the JavaScript validator in the engine are independent implementations of the same rules. A CI parity test runs both against every program in `rhylthyme-examples`, every `invalid/<CODE>.json` fixture, and systematic mutations (dropped required keys, wrong types, ambiguous `oneOf`), and fails if any verdict differs. The few deliberate differences are listed by name on both sides.</dd>
+<dt>Why</dt>
+<dd markdown="1">The CLI has to work with no network and no Node. The hosted server validates in Node, and the program gets checked again when it is published.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">Every rule is maintained twice. The parity suite and a shared finding-codes catalogue are what keep that manageable.</dd>
+</dl>
 
 ### An MCP server as the authoring interface
 
-**Decision.** Agents don't write prose schedules. They make tool calls (`validate_program`, `analyze_schedule`, `visualize_schedule`, `import_from_source`, catalog search, account tools) against a Model Context Protocol server. One implementation serves five endpoints: generic, kitchen, lab, events and gym. Each vertical adds a few one-shot tools of its own. The server also ships the program schema as MCP resources, plus a four-turn `plan_schedule` prompt (read the source back, confirm the model, extract steps with source spans, assign tracks and triggers).
-**Why.** The validator refuses malformed programs before they are published, so the agent gets corrected rather than the person. In the preprint's evaluation on 24 expert-authored programs, the four-turn prompt improved step and dependency extraction on all seven models tested. On the four models that ran the full set, the number of programs that both validated and matched the expert's makespan and critical chain went from at most 4 to between 9 and 16. In short, the prompt mattered more than the model.
-**Trade-off.** The server is stateless Streamable HTTP on Vercel, with OAuth 2.1 for account tools. Long operations such as server-side `import_text`, which makes four or more model calls, are rate-limited per day.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">Agents don't write prose schedules. They make tool calls (`validate_program`, `analyze_schedule`, `visualize_schedule`, `import_from_source`, catalog search, account tools) against a Model Context Protocol server. One implementation serves five endpoints: generic, kitchen, lab, events and gym. Each vertical adds a few one-shot tools of its own. The server also ships the program schema as MCP resources, plus a four-turn `plan_schedule` prompt (read the source back, confirm the model, extract steps with source spans, assign tracks and triggers).</dd>
+<dt>Why</dt>
+<dd markdown="1">The validator refuses malformed programs before they are published, so the agent gets corrected rather than the person. In the preprint's evaluation on 24 expert-authored programs, the four-turn prompt improved step and dependency extraction on all seven models tested. On the four models that ran the full set, the number of programs that both validated and matched the expert's makespan and critical chain went from at most 4 to between 9 and 16. In short, the prompt mattered more than the model.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">The server is stateless Streamable HTTP on Vercel, with OAuth 2.1 for account tools. Long operations such as server-side `import_text`, which makes four or more model calls, are rate-limited per day.</dd>
+</dl>
 
 ### The human is the executor
 
-**Decision.** Variable and indefinite durations are durations the *person* controls. Manual triggers are gates the person fires. At run time the engine propagates delays along dependency chains, and it does not re-optimize the schedule.
-**Why.** The aim is a timeline someone can follow at the stove or the bench, not an optimal plan they can't keep up with. The auto-planner (finish together, minimize length, consistent coverage, fit to a target time) runs before execution, not during it.
-**Trade-off.** Rhylthyme has no reactive rescheduling and no optimization layer comparable to RCPSP solvers. It checks feasibility and surfaces conflicts, and leaves the final timing to the person.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">Variable and indefinite durations are durations the *person* controls. Manual triggers are gates the person fires. At run time the engine propagates delays along dependency chains, and it does not re-optimize the schedule.</dd>
+<dt>Why</dt>
+<dd markdown="1">The aim is a timeline someone can follow at the stove or the bench, not an optimal plan they can't keep up with. The auto-planner (finish together, minimize length, consistent coverage, fit to a target time) runs before execution, not during it.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">Rhylthyme has no reactive rescheduling and no optimization layer comparable to RCPSP solvers. It checks feasibility and surfaces conflicts, and leaves the final timing to the person.</dd>
+</dl>
 
 ### Native apps as shells around the web player
 
-**Decision.** The iOS app (SwiftUI), the macOS app (SwiftUI, built with Swift Package Manager and no Xcode project) and the Android app (Kotlin, Jetpack Compose, Material 3) all host the web timeline in a WebView and talk to it over a JavaScript bridge. Native code handles what the OS does better: Live Activities and AlarmKit alarms on iOS, a foreground service, Quick Settings tiles and full-screen alarms on Android, and a menu-bar timer and Dock controls on the Mac.
-**Why.** There is one player implementation, and the native layer adds only background timing and system integration. The Android port treats iOS as the behavioural source of truth but keeps program JSON lossless, so unknown keys such as `replicates` survive a round trip.
-**Trade-off.** The bridge is a real protocol, with message handlers, replay of manual actions after a reload, and speed and clock reconciliation. Offline use requires bundling the player: the Mac app ships a copy pinned to a known revision and checked against fixtures.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">The iOS app (SwiftUI), the macOS app (SwiftUI, built with Swift Package Manager and no Xcode project) and the Android app (Kotlin, Jetpack Compose, Material 3) all host the web timeline in a WebView and talk to it over a JavaScript bridge. Native code handles what the OS does better: Live Activities and AlarmKit alarms on iOS, a foreground service, Quick Settings tiles and full-screen alarms on Android, and a menu-bar timer and Dock controls on the Mac.</dd>
+<dt>Why</dt>
+<dd markdown="1">There is one player implementation, and the native layer adds only background timing and system integration. The Android port treats iOS as the behavioural source of truth but keeps program JSON lossless, so unknown keys such as `replicates` survive a round trip.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">The bridge is a real protocol, with message handlers, replay of manual actions after a reload, and speed and clock reconciliation. Offline use requires bundling the player: the Mac app ships a copy pinned to a known revision and checked against fixtures.</dd>
+</dl>
 
 ### Importers as a separate, offline package
 
-**Decision.** `rhylthyme-importers` uses a `BaseImporter` with an `ImporterRegistry` that picks the importer from the URL. It covers TheMealDB, Spoonacular, recipe-scrapers sites, CookLang, protocols.io, Opentrons Protocol API scripts, Benchling, Ontime and PowerPoint decks. Importers that use an LLM (a universal-recipe fallback and free-text import) stay server-side.
-**Why.** An importer reads structure, not meaning, so it can run offline with no API key. Anything that needs a model client, a key and a rate limiter stays out of the base class. An optional `--review` pass has a model compare the import against the source and report defaulted durations and dropped steps. It doesn't change anything.
-**Trade-off.** Structural imports come out mostly sequential. Parallel tracks and cross-track triggers have to be added by a later enrichment step.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">`rhylthyme-importers` uses a `BaseImporter` with an `ImporterRegistry` that picks the importer from the URL. It covers TheMealDB, Spoonacular, recipe-scrapers sites, CookLang, protocols.io, Opentrons Protocol API scripts, Benchling, Ontime and PowerPoint decks. Importers that use an LLM (a universal-recipe fallback and free-text import) stay server-side.</dd>
+<dt>Why</dt>
+<dd markdown="1">An importer reads structure, not meaning, so it can run offline with no API key. Anything that needs a model client, a key and a rate limiter stays out of the base class. An optional `--review` pass has a model compare the import against the source and report defaulted durations and dropped steps. It doesn't change anything.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">Structural imports come out mostly sequential. Parallel tracks and cross-track triggers have to be added by a later enrichment step.</dd>
+</dl>
 
 ### Instrument bridges outside the core
 
-**Decision.** `rhylthyme-galago` (Science Corp's galago-tools gRPC drivers) and `rhylthyme-labmcp` (K-Dense's LabMCP servers) are optional extras (`rhylthyme[galago]`, `rhylthyme[labmcp]`). A step can name an instrument command. The runner sends it when the step starts, and the step ends when the instrument replies. A local **workcell** file maps tool roles to addresses and safety limits, and it never leaves the lab machine.
-**Why.** Programs stay portable across labs. galago-tools needs Python 3.9 while Rhylthyme needs 3.12+, so the two talk over gRPC from separate environments. Everything runs simulated unless `--live` is passed.
-**Trade-off.** It's still alpha, and live runs depend on a pre-flight check of every instrument's identity, mode and limits.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">`rhylthyme-galago` (Science Corp's galago-tools gRPC drivers) and `rhylthyme-labmcp` (K-Dense's LabMCP servers) are optional extras (`rhylthyme[galago]`, `rhylthyme[labmcp]`). A step can name an instrument command. The runner sends it when the step starts, and the step ends when the instrument replies. A local **workcell** file maps tool roles to addresses and safety limits, and it never leaves the lab machine.</dd>
+<dt>Why</dt>
+<dd markdown="1">Programs stay portable across labs. galago-tools needs Python 3.9 while Rhylthyme needs 3.12+, so the two talk over gRPC from separate environments. Everything runs simulated unless `--live` is passed.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">It's still alpha, and live runs depend on a pre-flight check of every instrument's identity, mode and limits.</dd>
+</dl>
 
 ### An R binding that reuses the engine
 
-**Decision.** The R package's `read_rhylthyme()` times programs with the JavaScript engine embedded through V8, and `geom_rhylthyme()` / `autoplot()` draw them with ggplot2. Lanes can be tracks, steps or resources, and run records (what actually happened) plot on the clock time they ran.
-**Why.** This way a plot in a paper or notebook agrees with the website, and there's no Node dependency.
-**Trade-off.** It's one more vendored engine copy to keep current.
+<dl class="adr" markdown="1">
+<dt>Decision</dt>
+<dd markdown="1">The R package's `read_rhylthyme()` times programs with the JavaScript engine embedded through V8, and `geom_rhylthyme()` / `autoplot()` draw them with ggplot2. Lanes can be tracks, steps or resources, and run records (what actually happened) plot on the clock time they ran.</dd>
+<dt>Why</dt>
+<dd markdown="1">This way a plot in a paper or notebook agrees with the website, and there's no Node dependency.</dd>
+<dt>Trade-off</dt>
+<dd markdown="1">It's one more vendored engine copy to keep current.</dd>
+</dl>
 
 ## Tool stack
 
