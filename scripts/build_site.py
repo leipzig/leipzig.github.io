@@ -279,18 +279,20 @@ hide: [navigation, toc]
 
 
 def build_experience(profile):
-    jobs = []
-    for j in profile["experience"]:
+    def job(j):
         ach = "".join(f"<li>{a}</li>" for a in j.get("achievements", []))
-        jobs.append(f"""<li class="tl-item">
+        return f"""<li class="tl-item">
 <p class="tl-when">{esc(j['dates'])}</p>
 <div class="tl-body">
 <h3>{esc(j['title'])}</h3>
 <p class="tl-org">{esc(j['company'])}</p>
 <p>{esc(j['description'])}</p>
-<ul>{ach}</ul>
+{f"<ul>{ach}</ul>" if ach else ""}
 </div>
-</li>""")
+</li>"""
+
+    jobs = [job(j) for j in profile["experience"]]
+    older = "\n".join(job(j) for j in profile.get("older_experience", []))
     edu = "\n".join(
         f'<div class="interest"><h3>{esc(e["degree"])}</h3><p class="tl-org">{esc(e["institution"])}</p>{f"<p>{esc(e['details'])}</p>" if e.get("details") else ""}</div>'
         for e in profile["education"]
@@ -317,6 +319,13 @@ hide: [navigation]
 <ol class="timeline">
 {chr(10).join(jobs)}
 </ol>
+
+<details class="older-roles">
+<summary>Older roles</summary>
+<ol class="timeline">
+{older}
+</ol>
+</details>
 
 ## Education
 

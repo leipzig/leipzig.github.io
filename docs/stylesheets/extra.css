@@ -382,3 +382,24 @@
   letter-spacing: .04em;
 }
 [data-md-color-scheme="slate"] .md-typeset .pub-card__note { background: #451a03; color: #fcd34d; }
+
+/* "Older roles" disclosure under the experience timeline */
+.md-typeset details.older-roles { margin: -.4rem 0 2rem; border: 0; box-shadow: none; background: none; padding: 0; }
+.md-typeset details.older-roles > summary {
+  display: inline-block;
+  margin-left: 9.4rem;
+  cursor: pointer;
+  list-style: none;
+  font-size: .75rem;
+  font-weight: 600;
+  color: var(--md-typeset-a-color);
+}
+.md-typeset details.older-roles > summary::-webkit-details-marker { display: none; }
+.md-typeset details.older-roles > summary::before { display: none; }
+.md-typeset details.older-roles > summary { padding: 0 1.4rem 0 0; background: none; border: 0; }
+.md-typeset details.older-roles > summary::after { top: .1rem; right: 0; }
+.md-typeset details.older-roles > .timeline { margin-top: 1.6rem; }
+.md-typeset details.older-roles > summary:hover { text-decoration: underline; }
+@media screen and (max-width: 40em) {
+  .md-typeset details.older-roles > summary { margin-left: 1.4rem; }
+}

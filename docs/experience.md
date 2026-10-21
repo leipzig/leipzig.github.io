@@ -72,10 +72,43 @@ hide: [navigation]
 <h3>Bioinformatics Programmer</h3>
 <p class="tl-org">University of Pennsylvania, Bushman Lab</p>
 <p>Developed a bioinformatics pipeline for annotation and statistical analysis of HIV integration sites, microbial diversity, and viral resistance mutations.</p>
-<ul></ul>
+
 </div>
 </li>
 </ol>
+
+<details class="older-roles">
+<summary>Older roles</summary>
+<ol class="timeline">
+<li class="tl-item">
+<p class="tl-when">2003 – 2004</p>
+<div class="tl-body">
+<h3>Web Developer</h3>
+<p class="tl-org">NC State University, Dept. of Electrical Engineering</p>
+<p>Developed applications to manage student, employee, and equipment records.</p>
+
+</div>
+</li>
+<li class="tl-item">
+<p class="tl-when">2000 – 2001</p>
+<div class="tl-body">
+<h3>Consultant</h3>
+<p class="tl-org">The Trout Group</p>
+<p>Developed scientific presentations used in investor road shows for biotechnology clients, including Enchira.</p>
+
+</div>
+</li>
+<li class="tl-item">
+<p class="tl-when">1997 – 1999</p>
+<div class="tl-body">
+<h3>Research Technician</h3>
+<p class="tl-org">UNC School of Medicine, Duncan Lab</p>
+<p>Responsible for all techniques involved in 2-deoxyglucose autoradiography studies of ketamine-induced psychotomimetic effects in rodents.</p>
+
+</div>
+</li>
+</ol>
+</details>
 
 ## Education
 
