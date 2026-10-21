@@ -133,27 +133,41 @@
   year: null
   url: https://github.com/leipzig/metadata-in-rcr
   summary: Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications.
-- id: fcs-flow-cytometry
-  name: fcs_flow_cytometry
+- id: fcs-api
+  name: fcs_api
   featured: false
-  language: R/Python
-  year: null
-  url: https://github.com/leipzig/fcs_flow_cytometry
-  summary: Core flow cytometry data analysis tools and utilities for FCS file processing.
-- id: fcs-parser
-  name: fcs_parser
+  language: JavaScript
+  year: 2018
+  url: https://github.com/leipzig/fcs_api
+  summary: Node API to the CytoVas flow cytometry database that serves queries and runs reports.
+- id: fcs-lambda
+  name: fcs_lambda
   featured: false
   language: Python
-  year: null
-  url: https://github.com/leipzig/fcs_parser
-  summary: Parser and data extraction tools for Flow Cytometry Standard (FCS) files.
-- id: fcs-utils
-  name: fcs_utils
+  year: 2018
+  url: https://github.com/leipzig/fcs_lambda
+  summary: AWS Lambda function that parses FCS files as they land in S3 and stores their metadata in DynamoDB.
+- id: fcs-upbrowse
+  name: fcs_upbrowse
+  featured: false
+  language: HTML
+  year: 2018
+  url: https://github.com/leipzig/fcs_upbrowse
+  summary: CytoVas uploader and file browser for FCS files.
+- id: fcs-batch-titration
+  name: fcs_batch_titration
   featured: false
   language: R
-  year: null
-  url: https://github.com/leipzig/fcs_utils
-  summary: Utility functions and helper tools for flow cytometry data manipulation and quality control.
+  year: 2018
+  url: https://github.com/leipzig/fcs_batch_titration
+  summary: Container that processes one or more FCS files on AWS Batch or another runner and produces an HTML titration report.
+- id: fcs-aws-tools
+  name: fcs_aws_tools
+  featured: false
+  language: Python
+  year: 2018
+  url: https://github.com/leipzig/fcs_aws_tools
+  summary: Day-to-day CytoVas tools for FCS files in S3 and the database.
 - id: mcmanus-ant1
   name: mcmanus_ant1
   featured: false

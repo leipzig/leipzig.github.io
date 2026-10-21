@@ -167,28 +167,44 @@ hide: [navigation, toc]
     <p>Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/fcs_flow_cytometry">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-flow-cytometry.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/fcs_api">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-api.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>R/Python</span></p>
-    <h3>fcs_flow_cytometry</h3>
-    <p>Core flow cytometry data analysis tools and utilities for FCS file processing.</p>
+    <p class="eyebrow"><span>JavaScript · 2018</span></p>
+    <h3>fcs_api</h3>
+    <p>Node API to the CytoVas flow cytometry database that serves queries and runs reports.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/fcs_parser">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-parser.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/fcs_lambda">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-lambda.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>Python</span></p>
-    <h3>fcs_parser</h3>
-    <p>Parser and data extraction tools for Flow Cytometry Standard (FCS) files.</p>
+    <p class="eyebrow"><span>Python · 2018</span></p>
+    <h3>fcs_lambda</h3>
+    <p>AWS Lambda function that parses FCS files as they land in S3 and stores their metadata in DynamoDB.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/fcs_utils">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-utils.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/fcs_upbrowse">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-upbrowse.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>R</span></p>
-    <h3>fcs_utils</h3>
-    <p>Utility functions and helper tools for flow cytometry data manipulation and quality control.</p>
+    <p class="eyebrow"><span>HTML · 2018</span></p>
+    <h3>fcs_upbrowse</h3>
+    <p>CytoVas uploader and file browser for FCS files.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/fcs_batch_titration">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-batch-titration.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>R · 2018</span></p>
+    <h3>fcs_batch_titration</h3>
+    <p>Container that processes one or more FCS files on AWS Batch or another runner and produces an HTML titration report.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/fcs_aws_tools">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-fcs-aws-tools.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>Python · 2018</span></p>
+    <h3>fcs_aws_tools</h3>
+    <p>Day-to-day CytoVas tools for FCS files in S3 and the database.</p>
   </div>
 </a>
 <a class="sw-card" href="https://github.com/leipzig/mcmanus_ant1">
