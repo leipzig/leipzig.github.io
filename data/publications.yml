@@ -196,13 +196,6 @@
   url: https://doi.org/10.1371/journal.ppat.1000027
   citation: Meekings KN, Leipzig J, Bushman FD, Taylor GP, Bangham CR. (2008). "HTLV-1 integration into transcriptionally active genomic regions is associated with proviral expression and with HAM/TSP." <i>PLoS Pathog</i> 4(3):e1000027.
   summary: Human T-lymphotropic virus type 1 (HTLV-1) causes leukaemia or chronic inflammatory disease in approximately 5% of infected hosts.
-- id: 2007-hoffmann-pyrophosphate-sequencing-abstract
-  title: DNA bar coding and pyrophosphate sequencing reveals rare HIV drug resistance mutations of potential clinical significance
-  year: 2007
-  venue: Antiviral Therapy (abstract)
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dTC-vJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=dTC-vJIAAAAJ:KlAtU1dfN6UC
-  citation: C Hoffmann, N Minkah, J Leipzig, GP Wang, P Tebas, FD Bushman (2007). "DNA bar coding and pyrophosphate sequencing reveals rare HIV drug resistance mutations of potential clinical significance." <i>ANTIVIRAL THERAPY 12, S152-S152</i>.
-  summary: null
 - id: 2007-hoffmann-hiv-resistance
   title: DNA bar coding and pyrosequencing to identify rare HIV drug resistance mutations
   year: 2007
@@ -302,13 +295,6 @@
   url: https://doi.org/10.1016/s0006-8993(99)01776-x
   citation: 'Duncan GE, Miyamoto S, Leipzig JN, Lieberman JA. (1999). "Comparison of brain metabolic activity patterns induced by ketamine, MK-801 and amphetamine in rats: support for NMDA receptor involvement in responses to subanesthetic dose of ketamine." <i>Brain Res</i> 843(1-2):171-183.'
   summary: Subanesthetic doses of NMDA receptor antagonists induce positive, negative and cognitive schizophrenia-like symptoms in healthy humans and precipitate psychotic reactions in stabilized schizophrenic patients.
-- id: 1999-duncan-ketamine-abstract
-  title: Regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats
-  year: 1999
-  venue: Schizophrenia Research (abstract)
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dTC-vJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=dTC-vJIAAAAJ:kNdYIx-mwKoC
-  citation: GE Duncan, JN Leipzig, RB Mailman, JA Lieberman (1999). "Regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats." <i>SCHIZOPHRENIA RESEARCH 36 (1-3), 307-307</i>.
-  summary: null
 - id: 1998-duncan-clozapine-haloperidol
   title: Differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation
   year: 1998
