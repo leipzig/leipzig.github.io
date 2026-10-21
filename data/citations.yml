@@ -1,0 +1,126 @@
+source: https://scholar.google.com/citations?user=dTC-vJIAAAAJ&hl=en&cstart=0&pagesize=100
+as_of: '2026-10-21'
+papers:
+  2024-kingsmore-newborn-screening-nicu:
+    count: 22
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10655485973025917100
+  2024-kingsmore-prequalification-newborn-screening:
+    count: 21
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3086325924640830608
+  2021-hierarchy-guided-neural-network:
+    count: 29
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6465753641776995658
+  2021-tests-robustness-peer-review:
+    count: 1
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14942463647153667091
+  2021-role-metadata-reproducible-research:
+    count: 192
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2772499582173153725
+  2020-biodiversity-image-quality-metadata:
+    count: 14
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=227122053397205748
+  2019-raman-survival-analysis:
+    count: 28
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11906787209871949353
+  2019-mcmanus-mtdna-variation:
+    count: 92
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15493836967016381390
+  2018-computational-pipelines-workflows:
+    count: 3
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16414312143011345347
+  2017-review-bioinformatic-pipeline-frameworks:
+    count: 420
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2570625953921552409
+  2017-chalkia-autism:
+    count: 84
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15407368214295884301
+  2017-morrow-mitochondrial-energy-deficiency:
+    count: 115
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11887731273214184174,10098531431809221696
+  2017-mitotip-pathogenicity-prediction:
+    count: 157
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9512443880391755079
+  2016-shen-mseqdr:
+    count: 56
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17680781823875652076
+  2015-kilbaugh-peripheral-blood-mtdna:
+    count: 62
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=26111255977816814
+  2014-phy-mer-mitochondrial-haplogroup:
+    count: 78
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5860358310587746786
+  2014-mseqdr:
+    count: 104
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14599675469181833721
+  2014-glessner-chd:
+    count: 325
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6777908788297979719
+  2013-zaidi-nature:
+    count: 1128
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17910818782775404911
+  2013-zhang-efficient-digest:
+    count: 3
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10378855731417709478
+  2013-leipzig-work-issues-software-engineering:
+    count: 0
+    url: null
+  2013-mitomap-protocol:
+    count: 767
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14465898634930537905
+  2012-barrantes-physarum:
+    count: 16
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1226334900933659006
+  2011-shi-irf1:
+    count: 55
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2267425711464297794
+  2009-data-mashups-r:
+    count: 12
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15085650284625279977
+  2008-wang-adverse-events:
+    count: 137
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9029232314339320332
+  2008-meekings-htlv1:
+    count: 144
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5793098051559633844
+  2007-hoffmann-hiv-resistance:
+    count: 305
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2392404589541693381
+  2007-hiv-integration-site-selection:
+    count: 617
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18282835598723884866
+  2006-barr-macrophages:
+    count: 133
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2766838279663177984
+  2006-ciuffi-imr90:
+    count: 85
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8629166967092289960
+  2006-lewinski:
+    count: 522
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15345568198197520614
+  2006-target-sites-mobile-dna-integration:
+    count: 272
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8686704410106986885,9486206139629298641
+  2005-ledgf-hiv-dna-integration:
+    count: 935
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15808296056507526786
+  2005-bushman-review:
+    count: 575
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14990205914072907132
+  2005-barr-avian:
+    count: 112
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14648375918953721658
+  2004-alternative-splicing-gallery:
+    count: 124
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3949443629065174230,681732482720104149
+  2000-duncan-clozapine-risperidone-olanzapine:
+    count: 114
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2050010090335113935
+  2000-miyamoto-ketamine-2dg:
+    count: 128
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5196127309820071360,505639580209640999
+  1999-duncan-brain-metabolic-patterns:
+    count: 142
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8692527205483383124
+  1998-duncan-clozapine-haloperidol:
+    count: 143
+    url: https://scholar.google.com/scholar?oi=bibs&hl=en&cites=416597018693328592
