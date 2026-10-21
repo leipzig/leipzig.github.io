@@ -10,21 +10,21 @@ hide: [navigation, toc]
 <div>
 <p class="kicker">About</p>
 <h2>Software for seeing, exploring and publishing biological data</h2>
-<p class="lede">I am a bioinformatics veteran with over 25 years of experience spanning academic research, startup environments, and product management. My career has been dedicated to developing bioinformatics tools and platforms that enable researchers to visualize, explore, and publish their data.</p>
-<p>Throughout my career, I have helped four diagnostic, therapeutic, and SaaS startups define their bioinformatic product strategy, successfully bridging the gap between cutting-edge research and practical commercial applications. My expertise encompasses the full spectrum of bioinformatics, from low-level algorithm development to high-level product strategy and customer engagement.</p>
+<p class="lede">Technical product manager for TileDB&#x27;s population-genomics line and a bioinformatics leader with 25+ years bridging genomics R&amp;D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.</p>
+<p>I have helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy, bridging cutting-edge research and practical commercial applications. My expertise spans low-level algorithm development through high-level product strategy and customer engagement.</p>
 <p>As a researcher, I have authored over 50 publications with an h-index of 30, contributing to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.</p>
 </div>
 <aside class="panel">
 <p class="kicker">At a glance</p>
 <ul class="highlights">
-<li>25+ years of experience spanning bioinformatics research, product management, and software development across academia and industry</li>
-<li>Led four diagnostic, therapeutic and SaaS startups in defining their bioinformatic product strategy</li>
-<li>BS in Bio, MS in CS, PhD in Information Science</li>
-<li>40+ peer-reviewed publications (4 first authorships). h-index of 30.</li>
-<li>Expert in developing cloud-based pipelines for genomics, transcriptomics, and clinical applications</li>
-<li>Founder of PhillyR user group and top-20 contributor to biostars.org bioinformatics Q&amp;A community</li>
-<li>Proven track record in scaling bioinformatics workflows from research prototypes to production systems</li>
-<li>Author of O&#x27;Reilly book &#x27;Data Mashups in R&#x27; and multiple bioinformatics software tools</li>
+<li>Technical product manager for TileDB&#x27;s population-genomics line, including TileDB-VCF</li>
+<li>Supports 5 major biopharma and hospital customers; involved in the sales process for 30+ prospects</li>
+<li>Primary industry partner contact for the BeginNGS pediatric newborn screening consortium</li>
+<li>Helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy</li>
+<li>25+ years bridging genomics R&amp;D and enterprise software</li>
+<li>BS in Biology, MS in Computer Science, PhD in Information Science</li>
+<li>40+ peer-reviewed publications, h-index of 30; author of O&#x27;Reilly&#x27;s Data Mashups in R</li>
+<li>Founder of the PhillyR user community</li>
 </ul>
 </aside>
 </section>
@@ -39,18 +39,20 @@ hide: [navigation, toc]
   <div class="pub-card__body">
     <p class="eyebrow"><span>Cell Patterns</span><span>2021</span></p>
     <h3><a href="https://doi.org/10.1016/j.patter.2021.100322">The role of metadata in reproducible computational research</a></h3>
+    
     <p class="pub-card__authors"><b>Leipzig, J.</b>, Nüst, D., Hoyt, C.T., Ram, K., and Greenberg, J</p>
     <p class="pub-card__summary">This paper discusses the critical role of metadata in ensuring reproducible computational research.</p>
     <a class="pub-card__link" href="https://doi.org/10.1016/j.patter.2021.100322">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="a review of bioinformatic pipeline frameworks* briefings in bioinformatics 2017 leipzig, j. (2017). &quot;a review of bioinformatic pipeline frameworks.&quot; &lt;i&gt;briefings in bioinformatics&lt;/i&gt;. 2016 10.1093/bib/bbw020.">
+<article class="pub-card" data-search="a review of bioinformatic pipeline frameworks briefings in bioinformatics 2017 leipzig, j. (2017). &quot;a review of bioinformatic pipeline frameworks.&quot; &lt;i&gt;briefings in bioinformatics&lt;/i&gt;. 2016 10.1093/bib/bbw020.">
   <a class="pub-card__media" href="https://doi.org/10.1093/bib/bbw020" tabindex="-1" aria-hidden="true">
     <img src="assets/thumbs/pubs/2017-review-bioinformatic-pipeline-frameworks.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Briefings in Bioinformatics</span><span>2017</span></p>
-    <h3><a href="https://doi.org/10.1093/bib/bbw020">A review of bioinformatic pipeline frameworks*</a></h3>
+    <h3><a href="https://doi.org/10.1093/bib/bbw020">A review of bioinformatic pipeline frameworks</a></h3>
+    <p class="pub-card__note">ISI Top 1% Highly Cited</p>
     <p class="pub-card__authors"><b>Leipzig, J</b></p>
     <p class="pub-card__summary">This paper provides a comprehensive review of bioinformatic pipeline frameworks.</p>
     <a class="pub-card__link" href="https://doi.org/10.1093/bib/bbw020">Paper &rarr;</a>
@@ -63,6 +65,7 @@ hide: [navigation, toc]
   <div class="pub-card__body">
     <p class="eyebrow"><span>Nature</span><span>2013</span></p>
     <h3><a href="https://www.nature.com/articles/nature12141">De novo mutations in histone-modifying genes in congenital heart disease</a></h3>
+    
     <p class="pub-card__authors">Zaidi, S., Choi, M., Wakimoto, H., Ma, L., Jiang, J., Overton, J.D., Romano-Adesman, A., Bjornson, R.D., Breitbart, R.E., Brown, K.K., Carriero, N.J., Cheung, Y.H., Deanfield, J., DePalma, S., Fakhro, K.A., Glessner, J., Hakonarson, H., Italia, M.J., Kaltman, J.R., Kaski, J., Kim, R., Kline, J.K., Lee, T., <b>Leipzig, J.</b>, ... & Lifton, R.P</p>
     <p class="pub-card__summary">This study identifies de novo mutations in histone-modifying genes associated with congenital heart disease.</p>
     <a class="pub-card__link" href="https://www.nature.com/articles/nature12141">Paper &rarr;</a>
@@ -75,6 +78,7 @@ hide: [navigation, toc]
   <div class="pub-card__body">
     <p class="eyebrow"><span>Cell</span><span>2013</span></p>
     <h3><a href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7">Integrated systems approach identifies genetic nodes and networks in late-onset Alzheimer&#x27;s disease</a></h3>
+    
     <p class="pub-card__authors">Zhang, B., Gaiteri, C., Bodea, L.G., Wang, Z., McElwee, J., Podtelezhnikov, A.A., Zhang, C., Xie, T., Tran, L., Dobrin, R., Fluder, E., Clurman, B., Melquist, S., Narayanan, M., Suver, C., Shah, H., Mahajan, M., Gillis, T., Mysore, J., MacDonald, M.E., Lamb, J.R., Bennett, D.A., Molony, C., Stone, D.J., Gudnason, V., Myers, A.J., Schadt, E.E., Neumann, H., Zhu, J., & Emilsson, V</p>
     <p class="pub-card__summary">This study uses an integrated systems approach to identify genetic nodes and networks in late-onset Alzheimer disease.</p>
     <a class="pub-card__link" href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7">Paper &rarr;</a>
@@ -87,6 +91,7 @@ hide: [navigation, toc]
   <div class="pub-card__body">
     <p class="eyebrow"><span>O&#x27;Reilly Media</span><span>2009</span></p>
     <h3><a href="https://www.oreilly.com/library/view/data-mashups-in/9780596804923/">Data Mashups in R</a></h3>
+    
     <p class="pub-card__authors"><b>Leipzig J</b>, Li Xiao-Yi</p>
     <p class="pub-card__summary">This book provides practical guidance for creating data mashups using the R statistical programming language.</p>
     <a class="pub-card__link" href="https://www.oreilly.com/library/view/data-mashups-in/9780596804923/">Book &rarr;</a>
@@ -99,6 +104,7 @@ hide: [navigation, toc]
   <div class="pub-card__body">
     <p class="eyebrow"><span>Genome Research</span><span>2007</span></p>
     <h3><a href="https://doi.org/10.1101/gr.6286907">HIV integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications</a></h3>
+    
     <p class="pub-card__authors">Wang GP, Ciuffi A, <b>Leipzig J</b>, Berry CC, Bushman FD</p>
     <p class="pub-card__summary">This paper uses massively parallel pyrosequencing to analyze HIV integration site selection and its association with epigenetic modifications.</p>
     <a class="pub-card__link" href="https://doi.org/10.1101/gr.6286907">Paper &rarr;</a>
@@ -241,11 +247,11 @@ hide: [navigation, toc]
 <aside class="panel">
 <p class="kicker">Recent roles</p>
 <ul class="roles">
-<li><span class="when">08/2022 - Present</span><span class="what"><b>Product Manager</b> · TileDB</span></li>
-<li><span class="when">09/2020 - 07/2022</span><span class="what"><b>Bioinformatics Lead</b> · Truwl</span></li>
-<li><span class="when">09/2017 - 11/2019</span><span class="what"><b>Bioinformatics Engineer</b> · Panorama Medicine</span></li>
-<li><span class="when">06/2017 - 08/2018</span><span class="what"><b>Senior Bioinformatics Scientist</b> · CytoVas LLC</span></li>
-<li><span class="when">11/2010 - 06/2017</span><span class="what"><b>Senior Data Integration Analyst &amp; GRIN Informatics Lead</b> · Children&#x27;s Hospital of Philadelphia (CHOP)</span></li>
+<li><span class="when">2022 – Present</span><span class="what"><b>Product Manager</b> · TileDB</span></li>
+<li><span class="when">2020 – 2022</span><span class="what"><b>Bioinformatics Lead</b> · Truwl</span></li>
+<li><span class="when">2018 – 2019</span><span class="what"><b>Bioinformatics Engineer</b> · Panorama Medicine</span></li>
+<li><span class="when">2017 – 2018</span><span class="what"><b>Senior Bioinformatics Scientist</b> · CytoVas LLC</span></li>
+<li><span class="when">2010 – 2017</span><span class="what"><b>Senior Data Integration Analyst</b> · Children&#x27;s Hospital of Philadelphia (CHOP)</span></li>
 </ul>
 <a class="more" href="experience/">Full experience &rarr;</a>
 </aside>

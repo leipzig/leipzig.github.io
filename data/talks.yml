@@ -1,3 +1,22 @@
+- title: Variant Warehousing
+  type: Invited Lecture
+  venue: 'ecSeq Berlin Summer School: NGS Data Analysis'
+  year: 2026
+  location: Berlin, Germany
+  summary: Lecture on variant warehousing at the ecSeq NGS data analysis summer school.
+  url: https://www.ecseq.com/workshops/workshop_2026-05-10th-Berlin-Summer-School-NGS-Data-Analysis
+- title: AWS Genomics Community Day
+  type: Presentation
+  venue: AWS Genomics Community Day
+  year: 2025
+  location: null
+  summary: null
+- title: BeginNGS Spring Workshop
+  type: Presentation
+  venue: BeginNGS Spring Workshop
+  year: 2025
+  location: null
+  summary: null
 - title: Drexel-CODATA FAIR-RRDM Workshop
   type: Workshop Presentation
   venue: Drexel-CODATA FAIR-RRDM Workshop

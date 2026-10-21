@@ -13,93 +13,66 @@ hide: [navigation]
 
 <ol class="timeline">
 <li class="tl-item">
-<p class="tl-when">08/2022 - Present</p>
+<p class="tl-when">2022 – Present</p>
 <div class="tl-body">
 <h3>Product Manager</h3>
 <p class="tl-org">TileDB</p>
-<p>Manage the population genomics product line, including product development, sales demos, customer support, and marketing.</p>
-<ul><li>Develop analysis workflows for biopharma and hospital partners</li><li>Lead product strategy for population genomics solutions</li><li>Drive customer acquisition and technical sales processes</li><li>Presented TileDB solutions at industry conferences and technical talks (<a href='https://www.youtube.com/watch?v=Vx98JcH-69E' target='_blank'>watch presentation</a>)</li></ul>
+<p>Manage the population genomics product line, including TileDB-VCF, end-to-end: product roadmapping, software development, sales demos, webinars, conference presentations, customer support, and marketing.</p>
+<ul><li>Support 5 major biopharma and hospital customers, and have been involved in various stages of the software sales process for over 30 prospects</li><li>Built TileDB-specific solutions for GWAS and variant annotation at scale</li><li>Led Nextflow tooling for TileDB Carrara and ontologies for TileAI</li><li>Serve as the primary industry partner contact for the BeginNGS pediatric newborn screening consortium</li><li>Lead project management for teams of up to 7 developers</li><li>Conference and technical talks (<a href='https://www.youtube.com/watch?v=Vx98JcH-69E'>watch a presentation</a>)</li></ul>
 </div>
 </li>
 <li class="tl-item">
-<p class="tl-when">09/2020 - 07/2022</p>
+<p class="tl-when">2020 – 2022</p>
 <div class="tl-body">
 <h3>Bioinformatics Lead</h3>
 <p class="tl-org">Truwl</p>
-<p>Led onboarding of tools, workflows, and high-impact analyses into the Truwl platform.</p>
-<ul><li>Developed benchmarking product and customer acquisition strategies</li><li>Curated and validated bioinformatics workflows for the platform</li><li>Established quality standards for computational reproducibility</li><li>Presented platform capabilities and workflow demonstrations (<a href='https://www.youtube.com/watch?v=ttl9nPyh2bE' target='_blank'>watch demo</a>)</li></ul>
+<p>Onboarded tools, workflows, and high-impact analyses into the Truwl platform.</p>
+<ul><li>Developed the benchmarking product and customer acquisition strategy</li><li>Platform and workflow demonstrations (<a href='https://www.youtube.com/watch?v=ttl9nPyh2bE'>watch a demo</a>)</li></ul>
 </div>
 </li>
 <li class="tl-item">
-<p class="tl-when">09/2017 - 11/2019</p>
+<p class="tl-when">2018 – 2019</p>
 <div class="tl-body">
 <h3>Bioinformatics Engineer</h3>
 <p class="tl-org">Panorama Medicine</p>
 <p>Developed cloud-based pipelines and analysis for drug repositioning efforts. First employee.</p>
-<ul><li>Built scalable cloud infrastructure for drug discovery analytics</li><li>Led data mining and competitive intelligence research initiatives</li><li>Designed automated workflows for pharmacological data analysis</li></ul>
+<ul><li>Lead for data mining and competitive intelligence research</li></ul>
 </div>
 </li>
 <li class="tl-item">
-<p class="tl-when">06/2017 - 08/2018</p>
+<p class="tl-when">2017 – 2018</p>
 <div class="tl-body">
 <h3>Senior Bioinformatics Scientist</h3>
 <p class="tl-org">CytoVas LLC</p>
 <p>Scaled up flow cytometry workflows for lab developed tests.</p>
-<ul><li>Developed novel statistical analyses for cell subpopulation measurement</li><li>Analyzed extracellular vesicles in clinical trials and experimental assays</li><li>Implemented quality control systems for diagnostic applications</li></ul>
+<ul><li>Developed novel statistical analyses to measure subpopulations of cells and extracellular vesicles across clinical trials and experimental assays</li></ul>
 </div>
 </li>
 <li class="tl-item">
-<p class="tl-when">11/2010 - 06/2017</p>
+<p class="tl-when">2010 – 2017</p>
 <div class="tl-body">
-<h3>Senior Data Integration Analyst &amp; GRIN Informatics Lead</h3>
+<h3>Senior Data Integration Analyst</h3>
 <p class="tl-org">Children&#x27;s Hospital of Philadelphia (CHOP)</p>
-<p>Led bioinformatics core operations and developed tools for genomic variant analysis.</p>
-<ul><li>Developed tools for mitochondrial and exome variant analysis</li><li>Created ChIP-Seq and RNA-Seq reproducible reporting systems</li><li>Built GRIN epilepsy analysis portal and Jupyter-based variant discovery platform</li><li>Developed myBiC portal for bioinformatics report deliverables</li><li>Led CHOP team in pediatric genomics consortium data management</li></ul>
+<p>Developed tools for mitochondrial and exome variant analysis and ChIP-Seq / RNA-Seq reproducible reports.</p>
+<ul><li>Studied miRNA differential expression and cleavage in retinoblastoma</li><li>Designed sequence manifest validation for the Pediatric Cardiac Genetic Consortium exome data hub</li><li>Developed a fork of SnpEff for HGVS nomenclature, and myBiC, a portal for bioinformatics deliverables</li><li>Led the CHOP team building the GRIN epilepsy analysis portal and a Jupyter-based variant discovery platform</li></ul>
 </div>
 </li>
 <li class="tl-item">
-<p class="tl-when">07/2007 - 11/2010</p>
+<p class="tl-when">2007 – 2010</p>
 <div class="tl-body">
 <h3>Senior Research Associate</h3>
 <p class="tl-org">DuPont Crop Genetics</p>
-<p>Developed bioinformatics tools for agricultural genomics and high-throughput screening.</p>
-<ul><li>Built transcriptome assembly analysis and miRNA target scanning tools</li><li>Developed LIMS systems for high throughput mutagenesis screens</li><li>Implemented gene annotation pipelines for crop improvement programs</li></ul>
+<p>Developed bioinformatics tools for transcriptome assembly analysis, miRNA target scanning, and gene annotation.</p>
+<ul><li>Built LIMS systems for high-throughput mutagenesis screens</li></ul>
 </div>
 </li>
 <li class="tl-item">
-<p class="tl-when">11/2004 - 07/2007</p>
+<p class="tl-when">2004 – 2007</p>
 <div class="tl-body">
 <h3>Bioinformatics Programmer</h3>
-<p class="tl-org">University of Pennsylvania - Bushman Lab</p>
-<p>Developed bioinformatics pipeline for HIV integration site analysis.</p>
-<ul><li>Created annotation and statistical analysis tools for HIV integration sites</li><li>Analyzed microbial diversity and viral resistance mutations</li><li>Published groundbreaking research on retroviral DNA integration patterns</li></ul>
-</div>
-</li>
-<li class="tl-item">
-<p class="tl-when">01/2003 - 11/2004</p>
-<div class="tl-body">
-<h3>Web Developer</h3>
-<p class="tl-org">NC State University - Dept. of Electrical Engineering</p>
-<p>Developed various applications to manage student, employee, and equipment records.</p>
-<ul><li>Built database management systems for academic records</li><li>Created web interfaces for equipment tracking</li><li>Implemented student and employee management applications</li></ul>
-</div>
-</li>
-<li class="tl-item">
-<p class="tl-when">08/2000 - 12/2001</p>
-<div class="tl-body">
-<h3>Consultant</h3>
-<p class="tl-org">The Trout Group</p>
-<p>Developed scientific presentations used in investor road shows for biotechnology clients.</p>
-<ul><li>Created compelling scientific narratives for biotech investor presentations</li><li>Collaborated with Enchira and other biotechnology companies</li><li>Translated complex scientific concepts for investment audiences</li></ul>
-</div>
-</li>
-<li class="tl-item">
-<p class="tl-when">08/1997 - 08/1999</p>
-<div class="tl-body">
-<h3>Research Technician</h3>
-<p class="tl-org">UNC School of Medicine - Duncan Lab</p>
-<p>Responsible for all techniques involved in 2-deoxyglucose autoradiography studies of ketamine-induced psychotomimetic effects in rodents.</p>
-<ul><li>Conducted neuropharmacology research on ketamine effects</li><li>Performed 2-deoxyglucose autoradiography studies</li><li>Analyzed psychotomimetic effects in rodent models</li></ul>
+<p class="tl-org">University of Pennsylvania, Bushman Lab</p>
+<p>Developed a bioinformatics pipeline for annotation and statistical analysis of HIV integration sites, microbial diversity, and viral resistance mutations.</p>
+<ul></ul>
 </div>
 </li>
 </ol>
@@ -107,19 +80,23 @@ hide: [navigation]
 ## Education
 
 <div class="interests">
-<div class="interest"><h3>PhD in Information Science</h3><p class="tl-org">Drexel University</p><p>Dissertation on reproducible research and metadata in bioinformatics</p></div>
-<div class="interest"><h3>Master of Computer Science</h3><p class="tl-org">North Carolina State University</p><p>Focus on statistical genetics and alternative splicing</p></div>
-<div class="interest"><h3>Bachelor of Science in Biology</h3><p class="tl-org">Wake Forest University</p><p>Research experience in neurobiology</p></div>
+<div class="interest"><h3>PhD, Information Science</h3><p class="tl-org">Drexel University</p><p>Dissertation on reproducible research and metadata in bioinformatics</p></div>
+<div class="interest"><h3>MS, Computer Science</h3><p class="tl-org">North Carolina State University</p></div>
+<div class="interest"><h3>BS, Biology</h3><p class="tl-org">Wake Forest University</p></div>
 </div>
 
 ## Skills
 
 <div class="skills">
-<div class="skill-row"><h4>Programming Languages</h4><p><span class="chip">R</span><span class="chip">Python</span><span class="chip">Perl</span><span class="chip">Java</span><span class="chip">Groovy</span><span class="chip">Scala</span><span class="chip">JavaScript</span><span class="chip">C++</span><span class="chip">C</span><span class="chip">PHP</span></p></div>
-<div class="skill-row"><h4>Workflow Systems</h4><p><span class="chip">Snakemake</span><span class="chip">WDL</span><span class="chip">Nextflow</span><span class="chip">CWL</span><span class="chip">Galaxy</span><span class="chip">Docker</span><span class="chip">Singularity</span></p></div>
-<div class="skill-row"><h4>Cloud Platforms</h4><p><span class="chip">AWS</span><span class="chip">Google Cloud Platform</span><span class="chip">Azure</span><span class="chip">Kubernetes</span><span class="chip">Terraform</span></p></div>
-<div class="skill-row"><h4>Bioinformatics Tools</h4><p><span class="chip">BLAST</span><span class="chip">BWA</span><span class="chip">GATK</span><span class="chip">SAMtools</span><span class="chip">Bioconductor</span><span class="chip">IGV</span><span class="chip">SnpEff</span><span class="chip">VEP</span></p></div>
-<div class="skill-row"><h4>Data Analysis</h4><p><span class="chip">RNA-Seq</span><span class="chip">ChIP-Seq</span><span class="chip">ATAC-Seq</span><span class="chip">Exome Analysis</span><span class="chip">Population Genomics</span><span class="chip">Flow Cytometry</span></p></div>
-<div class="skill-row"><h4>Web &amp; Database</h4><p><span class="chip">Django</span><span class="chip">Flask</span><span class="chip">Node.js</span><span class="chip">jQuery</span><span class="chip">D3.js</span><span class="chip">RESTful APIs</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span><span class="chip">TileDB</span><span class="chip">Grails</span></p></div>
-<div class="skill-row"><h4>Product Management</h4><p><span class="chip">Linear</span><span class="chip">Shortcut</span><span class="chip">JIRA</span><span class="chip">PRDs</span><span class="chip">User Stories</span><span class="chip">Roadmap Planning</span><span class="chip">Market Research</span><span class="chip">GTM Strategy</span><span class="chip">Feature Prioritization</span><span class="chip">Stakeholder Management</span><span class="chip">Technical Sales</span><span class="chip">Product Analytics</span></p></div>
+<div class="skill-row"><h4>Product &amp; Leadership</h4><p><span class="chip">Product Strategy</span><span class="chip">Roadmap Planning</span><span class="chip">Feature Prioritization</span><span class="chip">OKRs</span><span class="chip">PRDs &amp; User Stories</span><span class="chip">GTM Strategy</span><span class="chip">Stakeholder Management</span><span class="chip">Customer Interviews</span><span class="chip">Market Research</span><span class="chip">Product Analytics</span><span class="chip">Technical Sales</span><span class="chip">Technical Leadership</span><span class="chip">Agile/Scrum (Linear, Jira, Shortcut)</span></p></div>
+<div class="skill-row"><h4>Genomics &amp; Bioinformatics</h4><p><span class="chip">Population Genomics</span><span class="chip">GWAS</span><span class="chip">NGS</span><span class="chip">RNA-Seq</span><span class="chip">ChIP-Seq</span><span class="chip">ATAC-Seq</span><span class="chip">Variant Calling &amp; Annotation</span><span class="chip">WES/WGS Analysis</span><span class="chip">Ontologies</span><span class="chip">Alignment &amp; Annotation Pipelines</span><span class="chip">Data Pipelines</span><span class="chip">LIMS</span><span class="chip">Flow Cytometry</span><span class="chip">Reproducible Research</span><span class="chip">Drug Discovery</span><span class="chip">Sequence Analysis</span></p></div>
+<div class="skill-row"><h4>Software &amp; Cloud</h4><p><span class="chip">Software Architecture</span><span class="chip">Scientific Computing</span><span class="chip">AI Agents</span><span class="chip">Cloud Infrastructure (AWS, GCP, Azure)</span><span class="chip">Kubernetes</span><span class="chip">Terraform</span><span class="chip">Docker/Singularity</span><span class="chip">Containerization</span><span class="chip">RESTful APIs</span><span class="chip">Django/Flask/Node.js</span><span class="chip">R Shiny</span><span class="chip">PostgreSQL/MongoDB/MariaDB/TileDB</span><span class="chip">Pipeline Frameworks (Nextflow, nf-core, Snakemake, WDL, CWL)</span></p></div>
+<div class="skill-row"><h4>Languages</h4><p><span class="chip">R</span><span class="chip">Python</span><span class="chip">Perl</span><span class="chip">Java</span><span class="chip">Groovy</span><span class="chip">Scala</span><span class="chip">JavaScript &amp; jQuery</span><span class="chip">C++</span><span class="chip">C</span><span class="chip">PHP</span></p></div>
 </div>
+
+## Community & certifications
+
+<ul>
+<li>PhillyR: Founder &amp; Organizer of the Philadelphia R user community</li>
+<li>Sun Certified Java Programmer</li>
+</ul>

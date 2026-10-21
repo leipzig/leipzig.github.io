@@ -115,6 +115,7 @@ def pub_card(p, prefix=""):
   <div class="pub-card__body">
     <p class="eyebrow"><span>{esc(p.get('venue'))}</span><span>{p['year']}</span></p>
     <h3><a href="{esc(link)}">{esc(p['title'])}</a></h3>
+    {f'<p class="pub-card__note">{esc(p["note"])}</p>' if p.get("note") else ""}
     <p class="pub-card__authors">{authors_of(p.get('citation'))}</p>
     <p class="pub-card__summary">{esc(p.get('summary'))}</p>
     <a class="pub-card__link" href="{esc(link)}">{kind} &rarr;</a>
@@ -291,7 +292,7 @@ def build_experience(profile):
 </div>
 </li>""")
     edu = "\n".join(
-        f'<div class="interest"><h3>{esc(e["degree"])}</h3><p class="tl-org">{esc(e["institution"])}</p><p>{esc(e["details"])}</p></div>'
+        f'<div class="interest"><h3>{esc(e["degree"])}</h3><p class="tl-org">{esc(e["institution"])}</p>{f"<p>{esc(e['details'])}</p>" if e.get("details") else ""}</div>'
         for e in profile["education"]
     )
     skills = "\n".join(
@@ -300,6 +301,7 @@ def build_experience(profile):
         + "</p></div>"
         for s in profile["skills"]
     )
+    affiliations = "\n".join(f"<li>{esc(a)}</li>" for a in profile.get("affiliations", []))
     write("experience.md", f"""---
 title: Experience
 description: Roles in bioinformatics engineering, research and product management since 1997.
@@ -327,15 +329,24 @@ hide: [navigation]
 <div class="skills">
 {skills}
 </div>
+
+## Community & certifications
+
+<ul>
+{affiliations}
+</ul>
 """)
 
 
 def build_talks(talks, teaching):
-    t = "\n".join(
-        f'<li class="tl-item"><p class="tl-when">{x["year"]}</p><div class="tl-body"><h3>{esc(x["title"])}</h3>'
-        f'<p class="tl-org">{esc(x.get("type"))} · {esc(x.get("location"))}</p><p>{esc(x.get("summary"))}</p></div></li>'
-        for x in talks
-    )
+    def talk(x):
+        title = f'<a href="{esc(x["url"])}">{esc(x["title"])}</a>' if x.get("url") else esc(x["title"])
+        org = " · ".join(esc(v) for v in (x.get("type"), x.get("venue") if x.get("venue") != x["title"] else None, x.get("location")) if v)
+        summary = f'<p>{esc(x["summary"])}</p>' if x.get("summary") else ""
+        return (f'<li class="tl-item"><p class="tl-when">{x["year"]}</p><div class="tl-body"><h3>{title}</h3>'
+                f'<p class="tl-org">{org}</p>{summary}</div></li>')
+
+    t = "\n".join(talk(x) for x in talks)
     teach = "\n\n".join(
         f'### {x["title"]}\n\n<p class="tl-org">{esc(x.get("role"))} · {esc(x.get("venue"))} · {esc(x.get("location"))}</p>\n\n'
         + re.sub(r"^## ", "#### ", x.get("summary") or "", flags=re.M)
