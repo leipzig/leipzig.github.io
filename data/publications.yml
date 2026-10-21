@@ -267,13 +267,6 @@
   url: https://doi.org/10.1093/nar/gkh731
   citation: 'Leipzig J, Pevzner P, Heber S. (2004). "The Alternative Splicing Gallery (ASG): bridging the gap between genome and transcriptome." <i>Nucleic Acids Res</i> 32(13):3977-3983.'
   summary: The Alternative Splicing Gallery (ASG) provides a tool for bridging the gap between genome and transcriptome analysis.
-- id: 2004-leipzig-splicing-graph
-  title: The Splicing Graph–A Tool for Visualising Gene Structure and Alternative Splicing
-  year: 2004
-  venue: Future Drug Discovery
-  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=dTC-vJIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=dTC-vJIAAAAJ:eQOLeE2rZwMC
-  citation: J Leipzig, DM Nielsen, S Heber (2004). "The Splicing Graph–A Tool for Visualising Gene Structure and Alternative Splicing." <i>Future Drug Discovery</i>.
-  summary: null
 - id: 2000-duncan-clozapine-risperidone-olanzapine
   title: Comparison of the effects of clozapine, risperidone, and olanzapine on ketamine-induced alterations in regional brain metabolism
   year: 2000
