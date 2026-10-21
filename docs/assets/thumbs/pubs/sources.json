@@ -1,0 +1,57 @@
+{
+  "2021-hierarchy-guided-neural-network": {
+    "source": "https://www.biorxiv.org/content/biorxiv/early/2021/12/14/2021.01.17.427006/F3.large.jpg",
+    "kind": "figure",
+    "license": "CC BY-NC-ND 4.0 (bioRxiv preprint)"
+  },
+  "2021-role-metadata-reproducible-research": {
+    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S2666389921001707-gr1_lrg.jpg",
+    "kind": "figure",
+    "license": "CC BY 4.0"
+  },
+  "2020-biodiversity-image-quality-metadata": {
+    "source": "https://www.biorxiv.org/content/biorxiv/early/2021/01/29/2021.01.28.428644/F2.large.jpg",
+    "kind": "figure",
+    "license": "CC BY 4.0 (bioRxiv preprint)"
+  },
+  "2017-review-bioinformatic-pipeline-frameworks": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5429012.1/bbw020f7.jpg",
+    "kind": "figure",
+    "license": "CC BY 4.0"
+  },
+  "2017-mitotip-pathogenicity-prediction": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5739504.1/pcbi.1005867.g001.jpg",
+    "kind": "figure",
+    "license": "CC BY 4.0"
+  },
+  "2013-zaidi-nature": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3706629.1/nihms-483564-f0002.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC author manuscript)"
+  },
+  "2013-zhang-bmc": {
+    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867413003875-fx1_lrg.jpg",
+    "kind": "graphical-abstract",
+    "license": "unknown (Elsevier, free access)"
+  },
+  "2006-target-sites-mobile-dna-integration": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC1664696.1/pcbi.0020157.g006.jpg",
+    "kind": "figure",
+    "license": "CC BY 4.0"
+  },
+  "2006-ciuffi": {
+    "source": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnm1329/MediaObjects/41591_2005_Article_BFnm1329_Fig1_HTML.jpg",
+    "kind": "figure",
+    "license": "unknown"
+  },
+  "2005-ledgf-hiv-dna-integration": {
+    "source": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnm1329/MediaObjects/41591_2005_Article_BFnm1329_Fig1_HTML.jpg",
+    "kind": "figure",
+    "license": "unknown"
+  },
+  "2009-data-mashups-r": {
+    "source": "https://covers.oreillystatic.com/images/9781449307363/lrg.jpg",
+    "kind": "cover",
+    "license": "unknown (publisher cover)"
+  }
+}

@@ -1,0 +1,97 @@
+[project]
+site_name = "Jeremy Leipzig"
+site_url = "https://leipzig.github.io/"
+site_description = "Bioinformatics engineer and product manager. Reproducible research, genomics, pipelines and metadata."
+site_author = "Jeremy Leipzig"
+copyright = "&copy; Jeremy Leipzig"
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["javascripts/extra.js"]
+nav = [
+  { "Home" = "index.md" },
+  { "Publications" = "publications.md" },
+  { "Software" = "portfolio.md" },
+  { "Rhylthyme" = "rhylthyme.md" },
+  { "Experience" = "experience.md" },
+  { "Talks & Teaching" = "talks.md" },
+]
+
+[project.theme]
+custom_dir = "overrides"
+language = "en"
+logo = "assets/profile.png"
+favicon = "assets/profile.png"
+features = [
+  "content.tooltips",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "toc.follow",
+]
+
+[project.theme.font]
+text = "Inter"
+code = "JetBrains Mono"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/leipzig"
+name = "GitHub"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/google-scholar"
+link = "https://scholar.google.com/citations?user=dTC-vJIAAAAJ&hl=en"
+name = "Google Scholar"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/orcid"
+link = "https://orcid.org/0000-0001-7224-9620"
+name = "ORCID"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://linkedin.com/in/leipzig"
+name = "LinkedIn"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:leipzig@gmail.com"
+name = "Email"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.details = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.inlinehilite = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.tabbed.alternate_style = true
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
