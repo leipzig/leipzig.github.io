@@ -3,7 +3,7 @@ site_name = "Jeremy Leipzig"
 site_url = "https://leipzig.github.io/"
 site_description = "Bioinformatics engineer and product manager. Reproducible research, genomics, pipelines and metadata."
 site_author = "Jeremy Leipzig"
-copyright = "&copy; Jeremy Leipzig"
+copyright = "&copy; Jeremy Leipzig · Content <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a> · Code <a href=\"https://github.com/leipzig/leipzig.github.io/blob/master/LICENSE\">MIT</a>"
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["javascripts/extra.js"]
 nav = [
