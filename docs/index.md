@@ -10,14 +10,14 @@ hide: [navigation, toc]
 <div>
 <p class="kicker">About</p>
 <h2>Software for seeing, exploring and publishing biological data</h2>
-<p class="lede">Technical product manager for TileDB&#x27;s population-genomics line and a bioinformatics leader with 25+ years bridging genomics R&amp;D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.</p>
+<p class="lede">Technical product manager for the population-genomics line at Tile.ai (formerly known as TileDB) and a bioinformatics leader with 25+ years bridging genomics R&amp;D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.</p>
 <p>I have helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy, bridging cutting-edge research and practical commercial applications. My expertise spans low-level algorithm development through high-level product strategy and customer engagement.</p>
 <p>As a researcher, I have authored over 50 publications with an h-index of 30, contributing to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.</p>
 </div>
 <aside class="panel">
 <p class="kicker">At a glance</p>
 <ul class="highlights">
-<li>Technical product manager for TileDB&#x27;s population-genomics line, including TileDB-VCF</li>
+<li>Technical product manager for the population-genomics line, including TileDB-VCF, at Tile.ai (formerly known as TileDB)</li>
 <li>Supports 5 major biopharma and hospital customers; involved in the sales process for 30+ prospects</li>
 <li>Primary industry partner contact for the BeginNGS pediatric newborn screening consortium</li>
 <li>Helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy</li>
@@ -198,14 +198,6 @@ hide: [navigation, toc]
     <p>A better seqLogo implementation for creating sequence logos in R. Enhanced visualization tool with 12+ stars.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/ancestryinformativemarkers">
-  <div class="sw-card__media is-generated"><img src="assets/thumbs/generated/software-ancestryinformativemarkers.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>Genomics · 2022</span></p>
-    <h3>ancestryinformativemarkers</h3>
-    <p>Public Ancestry Informative Markers (AIMs) dataset and tools for population genetics analysis.</p>
-  </div>
-</a>
 <a class="sw-card" href="https://github.com/leipzig/opensnp">
   <div class="sw-card__media"><img src="assets/thumbs/software/opensnp.png" alt="" loading="lazy"></div>
   <div class="sw-card__body">
@@ -222,12 +214,28 @@ hide: [navigation, toc]
     <p>Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/ontopop">
-  <div class="sw-card__media is-generated"><img src="assets/thumbs/generated/software-ontopop.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/placenta">
+  <div class="sw-card__media is-generated"><img src="assets/thumbs/generated/software-placenta.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>Python · 2020</span></p>
-    <h3>ontopop</h3>
-    <p>Analysis tool to measure popularity and usage of biological ontologies across scientific literature.</p>
+    <p class="eyebrow"><span>R/Bioinformatics</span></p>
+    <h3>placenta</h3>
+    <p>Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/clk">
+  <div class="sw-card__media"><img src="assets/thumbs/software/clk.png" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>Python</span></p>
+    <h3>clk</h3>
+    <p>Command-line toolkit for bioinformatics workflows and data processing automation.</p>
+  </div>
+</a>
+<a class="sw-card" href="http://leipzig.github.io/PAS_Premium/">
+  <div class="sw-card__media"><img src="assets/thumbs/software/pas-premium.jpg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>R/Snakemake · 2016</span></p>
+    <h3>PAS_Premium</h3>
+    <p>What do people pay to live in the Penn Alexander School catchment? A fully reproducible housing-price analysis of the West Philadelphia catchment, built with Snakemake, R, Conda and Docker.</p>
   </div>
 </a>
 </div>
@@ -247,7 +255,7 @@ hide: [navigation, toc]
 <aside class="panel">
 <p class="kicker">Recent roles</p>
 <ul class="roles">
-<li><span class="when">2022 – Present</span><span class="what"><b>Product Manager</b> · TileDB</span></li>
+<li><span class="when">2022 – Present</span><span class="what"><b>Product Manager</b> · Tile.ai (formerly known as TileDB)</span></li>
 <li><span class="when">2020 – 2022</span><span class="what"><b>Bioinformatics Lead</b> · Truwl</span></li>
 <li><span class="when">2018 – 2019</span><span class="what"><b>Bioinformatics Engineer</b> · Panorama Medicine</span></li>
 <li><span class="when">2017 – 2018</span><span class="what"><b>Senior Bioinformatics Scientist</b> · CytoVas LLC</span></li>
