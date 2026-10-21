@@ -34,5 +34,15 @@
   "pas-premium": {
     "file": "pas-premium.jpg",
     "source": "screenshot of https://leipzig.github.io/PAS_Premium/#/6 (Choosing properties map)"
+  },
+  "insipid": {
+    "source": "https://journals.asm.org/toc/jvi/79/18 (J Virol 79(18), September 2005 cover; cover by Jamie Simon, Stephen Barr, Jeremy Leipzig and Frederic Bushman)",
+    "kind": "journal cover",
+    "license": "Copyright 2005 American Society for Microbiology"
+  },
+  "mybic": {
+    "source": "The CHOP GRIN Framework poster (grinframework.pdf), myBiC Reports screenshot",
+    "kind": "screenshot",
+    "license": "screenshot from a CHOP DBHi conference poster; not covered by the site CC BY license"
   }
 }

@@ -19,7 +19,7 @@ hide: [navigation, toc]
   </div>
 </a>
 <div class="sw-card">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-mybic.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__media"><img src="../assets/thumbs/software/mybic.jpg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
     <p class="eyebrow"><span>Django/Python</span></p>
     <h3>myBiC</h3>
@@ -27,7 +27,7 @@ hide: [navigation, toc]
   </div>
 </div>
 <div class="sw-card">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-insipid.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__media"><img src="../assets/thumbs/software/insipid.jpg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
     <p class="eyebrow"><span>Pipeline</span></p>
     <h3>InSiPiD</h3>
