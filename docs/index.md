@@ -42,7 +42,10 @@ hide: [navigation, toc]
     
     <p class="pub-card__authors">Kingsmore SF, Wright M, Olsen L, Schultz B, Protopsaltis L, Averbuj D, Blincow E, Carroll J, Caylor S, Defay T, Ellsworth K, Feigenbaum A, Gover M, Guidugli L, Hansen C, Van Der Kraan L, Kunard CM, Kwon H, Madhavrao L, <b>Leipzig J</b>, Liang Y, Mardach R, Mowrey WR, Nguyen H, Niemi AK, Oh D, Saad M, Scharer G, Schleit J, Mehtalia SS, Sanford E, Smith LD, Willis MJ, Wigby K, Reimers R</p>
     <p class="pub-card__summary">Large prospective clinical trials are underway or planned that examine the clinical utility and cost effectiveness of genome-based newborn screening (gNBS).</p>
-    <a class="pub-card__link" href="https://doi.org/10.1016/j.ajhg.2024.10.020">Paper &rarr;</a>
+    <div class="pub-card__foot">
+      <a class="pub-card__link" href="https://doi.org/10.1016/j.ajhg.2024.10.020">Paper &rarr;</a>
+      <a class="pub-card__cites" href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10655485973025917100" title="Citations on Google Scholar">Cited by 22</a>
+    </div>
   </div>
 </article>
 <article class="pub-card" data-search="the role of metadata in reproducible computational research patterns 2021 leipzig j, nüst d, hoyt ct, ram k, greenberg j. (2021). &quot;the role of metadata in reproducible computational research.&quot; &lt;i&gt;patterns&lt;/i&gt; 2(9):100322.">
@@ -55,7 +58,10 @@ hide: [navigation, toc]
     
     <p class="pub-card__authors"><b>Leipzig J</b>, Nüst D, Hoyt CT, Ram K, Greenberg J</p>
     <p class="pub-card__summary">This paper discusses the critical role of metadata in ensuring reproducible computational research.</p>
-    <a class="pub-card__link" href="https://doi.org/10.1016/j.patter.2021.100322">Paper &rarr;</a>
+    <div class="pub-card__foot">
+      <a class="pub-card__link" href="https://doi.org/10.1016/j.patter.2021.100322">Paper &rarr;</a>
+      <a class="pub-card__cites" href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2772499582173153725" title="Citations on Google Scholar">Cited by 192</a>
+    </div>
   </div>
 </article>
 <article class="pub-card" data-search="a review of bioinformatic pipeline frameworks briefings in bioinformatics 2017 leipzig j. (2017). &quot;a review of bioinformatic pipeline frameworks.&quot; &lt;i&gt;brief bioinform&lt;/i&gt; 18(3):530-536.">
@@ -68,7 +74,10 @@ hide: [navigation, toc]
     <p class="pub-card__note">ISI Top 1% Highly Cited</p>
     <p class="pub-card__authors"><b>Leipzig J</b></p>
     <p class="pub-card__summary">This paper provides a comprehensive review of bioinformatic pipeline frameworks.</p>
-    <a class="pub-card__link" href="https://doi.org/10.1093/bib/bbw020">Paper &rarr;</a>
+    <div class="pub-card__foot">
+      <a class="pub-card__link" href="https://doi.org/10.1093/bib/bbw020">Paper &rarr;</a>
+      <a class="pub-card__cites" href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2570625953921552409" title="Citations on Google Scholar">Cited by 420</a>
+    </div>
   </div>
 </article>
 <article class="pub-card" data-search="de novo mutations in histone-modifying genes in congenital heart disease nature 2013 zaidi s, choi m, wakimoto h, ma l, jiang j, overton jd, romano-adesman a, bjornson rd, breitbart re, brown kk, carriero nj, cheung yh, deanfield j, depalma s, fakhro ka, glessner j, hakonarson h, italia mj, kaltman jr, kaski j, kim r, kline jk, lee t, leipzig j, lopez a, mane sm, mitchell le, newburger jw, parfenov m, pe&#x27;er i, porter g, roberts ae, sachidanandam r, sanders sj, seiden hs, state mw, subramanian s, tikhonova ir, wang w, warburton d, white ps, williams ia, zhao h, seidman jg, brueckner m, chung wk, gelb bd, goldmuntz e, seidman ce, lifton rp. (2013). &quot;de novo mutations in histone-modifying genes in congenital heart disease.&quot; &lt;i&gt;nature&lt;/i&gt; 498(7453):220-223.">
@@ -81,7 +90,10 @@ hide: [navigation, toc]
     
     <p class="pub-card__authors">Zaidi S, Choi M, Wakimoto H, Ma L, Jiang J, Overton JD, Romano-Adesman A, Bjornson RD, Breitbart RE, Brown KK, Carriero NJ, Cheung YH, Deanfield J, DePalma S, Fakhro KA, Glessner J, Hakonarson H, Italia MJ, Kaltman JR, Kaski J, Kim R, Kline JK, Lee T, <b>Leipzig J</b>, Lopez A, Mane SM, Mitchell LE, Newburger JW, Parfenov M, Pe'er I, Porter G, Roberts AE, Sachidanandam R, Sanders SJ, Seiden HS, State MW, Subramanian S, Tikhonova IR, Wang W, Warburton D, White PS, Williams IA, Zhao H, Seidman JG, Brueckner M, Chung WK, Gelb BD, Goldmuntz E, Seidman CE, Lifton RP</p>
     <p class="pub-card__summary">This study identifies de novo mutations in histone-modifying genes associated with congenital heart disease.</p>
-    <a class="pub-card__link" href="https://doi.org/10.1038/nature12141">Paper &rarr;</a>
+    <div class="pub-card__foot">
+      <a class="pub-card__link" href="https://doi.org/10.1038/nature12141">Paper &rarr;</a>
+      <a class="pub-card__cites" href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=17910818782775404911" title="Citations on Google Scholar">Cited by 1,128</a>
+    </div>
   </div>
 </article>
 <article class="pub-card" data-search="data mashups in r o&#x27;reilly media 2009 leipzig j, li xiao-yi. (2009). &quot;data mashups in r.&quot; &lt;i&gt;o&#x27;reilly&lt;/i&gt;. (reissued in 2011)">
@@ -94,7 +106,10 @@ hide: [navigation, toc]
     
     <p class="pub-card__authors"><b>Leipzig J</b>, Li Xiao-Yi</p>
     <p class="pub-card__summary">This book provides practical guidance for creating data mashups using the R statistical programming language.</p>
-    <a class="pub-card__link" href="https://www.oreilly.com/library/view/data-mashups-in/9780596804923/">Book &rarr;</a>
+    <div class="pub-card__foot">
+      <a class="pub-card__link" href="https://www.oreilly.com/library/view/data-mashups-in/9780596804923/">Book &rarr;</a>
+      <a class="pub-card__cites" href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=15085650284625279977" title="Citations on Google Scholar">Cited by 12</a>
+    </div>
   </div>
 </article>
 <article class="pub-card" data-search="hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications genome research 2007 wang gp, ciuffi a, leipzig j, berry cc, bushman fd. (2007). &quot;hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications.&quot; &lt;i&gt;genome res&lt;/i&gt; 17(8):1186-1194.">
@@ -107,7 +122,10 @@ hide: [navigation, toc]
     
     <p class="pub-card__authors">Wang GP, Ciuffi A, <b>Leipzig J</b>, Berry CC, Bushman FD</p>
     <p class="pub-card__summary">This paper uses massively parallel pyrosequencing to analyze HIV integration site selection and its association with epigenetic modifications.</p>
-    <a class="pub-card__link" href="https://doi.org/10.1101/gr.6286907">Paper &rarr;</a>
+    <div class="pub-card__foot">
+      <a class="pub-card__link" href="https://doi.org/10.1101/gr.6286907">Paper &rarr;</a>
+      <a class="pub-card__cites" href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=18282835598723884866" title="Citations on Google Scholar">Cited by 617</a>
+    </div>
   </div>
 </article>
 </div>
@@ -150,6 +168,14 @@ hide: [navigation, toc]
     <p>Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis.</p>
   </div>
 </div>
+<a class="sw-card" href="https://web.archive.org/web/20051227140854/http://statgen.ncsu.edu/asg/">
+  <div class="sw-card__media"><img src="assets/thumbs/software/alternative-splicing-gallery.jpg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>PHP · 2004</span></p>
+    <h3>Alternative Splicing Gallery (ASG)</h3>
+    <p>Searchable web gallery of splicing graphs for human genes, built from Ensembl, UniGene and EST alignments. Each graph shows every alternative transcript at once, colors cassette exons, intron retentions and competing splice sites, and lets you pick exons to assemble a transcript sequence.</p>
+  </div>
+</a>
 <a class="sw-card" href="rhylthyme/">
   <div class="sw-card__media"><img src="assets/thumbs/software/rhylthyme.png" alt="" loading="lazy"></div>
   <div class="sw-card__body">

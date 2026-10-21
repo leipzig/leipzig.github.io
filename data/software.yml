@@ -20,6 +20,13 @@
   year: null
   url: null
   summary: Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis.
+- id: alternative-splicing-gallery
+  name: Alternative Splicing Gallery (ASG)
+  featured: true
+  language: PHP
+  year: 2004
+  url: https://web.archive.org/web/20051227140854/http://statgen.ncsu.edu/asg/
+  summary: Searchable web gallery of splicing graphs for human genes, built from Ensembl, UniGene and EST alignments. Each graph shows every alternative transcript at once, colors cassette exons, intron retentions and competing splice sites, and lets you pick exons to assemble a transcript sequence.
 - id: rhylthyme
   page: rhylthyme/
   name: Rhylthyme
@@ -161,10 +168,10 @@
   year: null
   url: https://github.com/leipzig/asciiruler
   summary: Command-line tool for generating ASCII rulers and measurement guides for sequence analysis.
-- id: standard-velvet-assembly-report
-  name: standard-velvet-assembly-report
+- id: standardized-velvet-assembly-report
+  name: standardized-velvet-assembly-report
   featured: false
   language: Perl/Shell
   year: null
-  url: https://github.com/leipzig/standard-velvet-assembly-report
+  url: https://github.com/leipzig/standardized-velvet-assembly-report
   summary: Standardized reporting pipeline for Velvet genome assembly results and quality metrics.
