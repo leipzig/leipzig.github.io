@@ -445,19 +445,6 @@ hide: [navigation, toc]
 <section class="year-group" data-year="2007">
 <h2 class="year">2007</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="dna bar coding and pyrophosphate sequencing reveals rare hiv drug resistance mutations of potential clinical significance antiviral therapy (abstract) 2007 c hoffmann, n minkah, j leipzig, gp wang, p tebas, fd bushman (2007). &quot;dna bar coding and pyrophosphate sequencing reveals rare hiv drug resistance mutations of potential clinical significance.&quot; &lt;i&gt;antiviral therapy 12, s152-s152&lt;/i&gt;.">
-  <a class="pub-card__media is-generated" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:KlAtU1dfN6UC" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2007-hoffmann-pyrophosphate-sequencing-abstract.svg" alt="" loading="lazy">
-  </a>
-  <div class="pub-card__body">
-    <p class="eyebrow"><span>Antiviral Therapy (abstract)</span><span>2007</span></p>
-    <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:KlAtU1dfN6UC">DNA bar coding and pyrophosphate sequencing reveals rare HIV drug resistance mutations of potential clinical significance</a></h3>
-    
-    <p class="pub-card__authors">C Hoffmann, N Minkah, J Leipzig, GP Wang, P Tebas, FD Bushman</p>
-    <p class="pub-card__summary"></p>
-    <a class="pub-card__link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:KlAtU1dfN6UC">Paper &rarr;</a>
-  </div>
-</article>
 <article class="pub-card" data-search="dna bar coding and pyrosequencing to identify rare hiv drug resistance mutations nucleic acids research 2007 hoffmann c, minkah n, leipzig j, wang g, arens mq, tebas p, bushman fd. (2007). &quot;dna bar coding and pyrosequencing to identify rare hiv drug resistance mutations.&quot; &lt;i&gt;nucleic acids res&lt;/i&gt; 35(13):e91.">
   <a class="pub-card__media" href="https://doi.org/10.1093/nar/gkm435" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2007-hoffmann-hiv-resistance.jpg" alt="" loading="lazy">
@@ -663,19 +650,6 @@ hide: [navigation, toc]
     <p class="pub-card__authors">Duncan GE, Miyamoto S, <b>Leipzig JN</b>, Lieberman JA</p>
     <p class="pub-card__summary">Subanesthetic doses of NMDA receptor antagonists induce positive, negative and cognitive schizophrenia-like symptoms in healthy humans and precipitate psychotic reactions in stabilized schizophrenic patients.</p>
     <a class="pub-card__link" href="https://doi.org/10.1016/s0006-8993(99)01776-x">Paper &rarr;</a>
-  </div>
-</article>
-<article class="pub-card" data-search="regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats schizophrenia research (abstract) 1999 ge duncan, jn leipzig, rb mailman, ja lieberman (1999). &quot;regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats.&quot; &lt;i&gt;schizophrenia research 36 (1-3), 307-307&lt;/i&gt;.">
-  <a class="pub-card__media is-generated" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:kNdYIx-mwKoC" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-1999-duncan-ketamine-abstract.svg" alt="" loading="lazy">
-  </a>
-  <div class="pub-card__body">
-    <p class="eyebrow"><span>Schizophrenia Research (abstract)</span><span>1999</span></p>
-    <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:kNdYIx-mwKoC">Regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats</a></h3>
-    
-    <p class="pub-card__authors">GE Duncan, JN Leipzig, RB Mailman, JA Lieberman</p>
-    <p class="pub-card__summary"></p>
-    <a class="pub-card__link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:kNdYIx-mwKoC">Paper &rarr;</a>
   </div>
 </article>
 </div>
