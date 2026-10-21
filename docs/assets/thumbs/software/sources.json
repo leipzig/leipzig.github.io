@@ -30,5 +30,9 @@
   "mcmanus-ant1": {
     "file": "mcmanus-ant1.png",
     "source": "https://raw.githubusercontent.com/leipzig/mcmanus_ant1/master/genego/imagemap.png"
+  },
+  "pas-premium": {
+    "file": "pas-premium.jpg",
+    "source": "screenshot of https://leipzig.github.io/PAS_Premium/#/6 (Choosing properties map)"
   }
 }

@@ -63,13 +63,6 @@
   year: 2011
   url: https://github.com/leipzig/berrylogo
   summary: A better seqLogo implementation for creating sequence logos in R. Enhanced visualization tool with 12+ stars.
-- id: ancestryinformativemarkers
-  name: ancestryinformativemarkers
-  featured: true
-  language: Genomics
-  year: 2022
-  url: https://github.com/leipzig/ancestryinformativemarkers
-  summary: Public Ancestry Informative Markers (AIMs) dataset and tools for population genetics analysis.
 - id: opensnp
   name: opensnp
   featured: true
@@ -84,20 +77,41 @@
   year: 2013
   url: https://github.com/leipzig/blast-wrapper
   summary: Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.
-- id: ontopop
-  name: ontopop
-  featured: true
-  language: Python
-  year: 2020
-  url: https://github.com/leipzig/ontopop
-  summary: Analysis tool to measure popularity and usage of biological ontologies across scientific literature.
 - id: placenta
   name: placenta
-  featured: false
+  featured: true
   language: R/Bioinformatics
   year: null
   url: https://github.com/leipzig/placenta
   summary: Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.
+- id: clk
+  name: clk
+  featured: true
+  language: Python
+  year: null
+  url: https://github.com/leipzig/clk
+  summary: Command-line toolkit for bioinformatics workflows and data processing automation.
+- id: pas-premium
+  name: PAS_Premium
+  featured: true
+  language: R/Snakemake
+  year: 2016
+  url: http://leipzig.github.io/PAS_Premium/
+  summary: What do people pay to live in the Penn Alexander School catchment? A fully reproducible housing-price analysis of the West Philadelphia catchment, built with Snakemake, R, Conda and Docker.
+- id: ancestryinformativemarkers
+  name: ancestryinformativemarkers
+  featured: false
+  language: Genomics
+  year: 2022
+  url: https://github.com/leipzig/ancestryinformativemarkers
+  summary: Public Ancestry Informative Markers (AIMs) dataset and tools for population genetics analysis.
+- id: ontopop
+  name: ontopop
+  featured: false
+  language: Python
+  year: 2020
+  url: https://github.com/leipzig/ontopop
+  summary: Analysis tool to measure popularity and usage of biological ontologies across scientific literature.
 - id: m6a
   name: m6a
   featured: false
@@ -112,13 +126,6 @@
   year: null
   url: https://github.com/leipzig/metadata-in-rcr
   summary: Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications.
-- id: clk
-  name: clk
-  featured: false
-  language: Python
-  year: null
-  url: https://github.com/leipzig/clk
-  summary: Command-line toolkit for bioinformatics workflows and data processing automation.
 - id: fcs-flow-cytometry
   name: fcs_flow_cytometry
   featured: false
