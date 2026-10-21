@@ -25,7 +25,7 @@ These files are included for display on the site and keep their own terms:
   a MITOMAP service, from the Internet Archive's copy of the site.
 - `docs/assets/rhylthyme/paper-eval-models.png`: a figure from the
   Rhylthyme preprint, under that preprint's license.
-- `docs/assets/hero.jpg`: the landscape photo in the home page banner.
+- `docs/assets/whitefish-valley.jpg`: the landscape photo in the home page banner.
 - Third-party names and logos shown in screenshots remain their owners'.
 
 Generated covers in `docs/assets/thumbs/generated/` are produced by
