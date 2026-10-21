@@ -330,8 +330,8 @@ hide: [navigation, toc]
   </div>
 </article>
 <article class="pub-card" data-search="work issues in software engineering arxiv 2013 j leipzig (2013). &quot;work issues in software engineering.&quot; &lt;i&gt;arxiv preprint arxiv:1303.2646&lt;/i&gt;.">
-  <a class="pub-card__media is-generated" href="https://arxiv.org/abs/1303.2646" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2013-leipzig-work-issues-software-engineering.svg" alt="" loading="lazy">
+  <a class="pub-card__media" href="https://arxiv.org/abs/1303.2646" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/pubs/2013-leipzig-work-issues-software-engineering.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>arXiv</span><span>2013</span></p>

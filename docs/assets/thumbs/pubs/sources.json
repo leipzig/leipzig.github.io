@@ -198,5 +198,10 @@
     "source": "PDF supplied by the author",
     "kind": "figure",
     "license": "author copy"
+  },
+  "2013-leipzig-work-issues-software-engineering": {
+    "source": "https://arxiv.org/pdf/1303.2646 (Figure 2)",
+    "kind": "figure",
+    "license": "arXiv preprint (author)"
   }
 }
