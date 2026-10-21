@@ -1,16 +1,16 @@
 highlights:
-- 25+ years of experience spanning bioinformatics research, product management, and software development across academia and industry
-- Led four diagnostic, therapeutic and SaaS startups in defining their bioinformatic product strategy
-- BS in Bio, MS in CS, PhD in Information Science
-- 40+ peer-reviewed publications (4 first authorships). h-index of 30.
-- Expert in developing cloud-based pipelines for genomics, transcriptomics, and clinical applications
-- Founder of PhillyR user group and top-20 contributor to biostars.org bioinformatics Q&A community
-- Proven track record in scaling bioinformatics workflows from research prototypes to production systems
-- Author of O'Reilly book 'Data Mashups in R' and multiple bioinformatics software tools
+- Technical product manager for TileDB's population-genomics line, including TileDB-VCF
+- Supports 5 major biopharma and hospital customers; involved in the sales process for 30+ prospects
+- Primary industry partner contact for the BeginNGS pediatric newborn screening consortium
+- Helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy
+- 25+ years bridging genomics R&D and enterprise software
+- BS in Biology, MS in Computer Science, PhD in Information Science
+- 40+ peer-reviewed publications, h-index of 30; author of O'Reilly's Data Mashups in R
+- Founder of the PhillyR user community
 full_bio: |
-  I am a bioinformatics veteran with over 25 years of experience spanning academic research, startup environments, and product management. My career has been dedicated to developing bioinformatics tools and platforms that enable researchers to visualize, explore, and publish their data.
+  Technical product manager for TileDB's population-genomics line and a bioinformatics leader with 25+ years bridging genomics R&D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.
 
-  Throughout my career, I have helped four diagnostic, therapeutic, and SaaS startups define their bioinformatic product strategy, successfully bridging the gap between cutting-edge research and practical commercial applications. My expertise encompasses the full spectrum of bioinformatics, from low-level algorithm development to high-level product strategy and customer engagement.
+  I have helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy, bridging cutting-edge research and practical commercial applications. My expertise spans low-level algorithm development through high-level product strategy and customer engagement.
 
   As a researcher, I have authored over 50 publications with an h-index of 30, contributing to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.
 
@@ -29,100 +29,114 @@ research_interests:
 experience:
 - company: TileDB
   title: Product Manager
-  dates: 08/2022 - Present
-  description: Manage the population genomics product line, including product development, sales demos, customer support, and marketing.
+  dates: 2022 – Present
+  description: 'Manage the population genomics product line, including TileDB-VCF, end-to-end: product roadmapping, software development, sales demos, webinars, conference presentations, customer support, and marketing.'
   achievements:
-  - Develop analysis workflows for biopharma and hospital partners
-  - Lead product strategy for population genomics solutions
-  - Drive customer acquisition and technical sales processes
-  - Presented TileDB solutions at industry conferences and technical talks (<a href='https://www.youtube.com/watch?v=Vx98JcH-69E' target='_blank'>watch presentation</a>)
+  - Support 5 major biopharma and hospital customers, and have been involved in various stages of the software sales process for over 30 prospects
+  - Built TileDB-specific solutions for GWAS and variant annotation at scale
+  - Led Nextflow tooling for TileDB Carrara and ontologies for TileAI
+  - Serve as the primary industry partner contact for the BeginNGS pediatric newborn screening consortium
+  - Lead project management for teams of up to 7 developers
+  - Conference and technical talks (<a href='https://www.youtube.com/watch?v=Vx98JcH-69E'>watch a presentation</a>)
 - company: Truwl
   title: Bioinformatics Lead
-  dates: 09/2020 - 07/2022
-  description: Led onboarding of tools, workflows, and high-impact analyses into the Truwl platform.
+  dates: 2020 – 2022
+  description: Onboarded tools, workflows, and high-impact analyses into the Truwl platform.
   achievements:
-  - Developed benchmarking product and customer acquisition strategies
-  - Curated and validated bioinformatics workflows for the platform
-  - Established quality standards for computational reproducibility
-  - Presented platform capabilities and workflow demonstrations (<a href='https://www.youtube.com/watch?v=ttl9nPyh2bE' target='_blank'>watch demo</a>)
+  - Developed the benchmarking product and customer acquisition strategy
+  - Platform and workflow demonstrations (<a href='https://www.youtube.com/watch?v=ttl9nPyh2bE'>watch a demo</a>)
 - company: Panorama Medicine
   title: Bioinformatics Engineer
-  dates: 09/2017 - 11/2019
+  dates: 2018 – 2019
   description: Developed cloud-based pipelines and analysis for drug repositioning efforts. First employee.
   achievements:
-  - Built scalable cloud infrastructure for drug discovery analytics
-  - Led data mining and competitive intelligence research initiatives
-  - Designed automated workflows for pharmacological data analysis
+  - Lead for data mining and competitive intelligence research
 - company: CytoVas LLC
   title: Senior Bioinformatics Scientist
-  dates: 06/2017 - 08/2018
+  dates: 2017 – 2018
   description: Scaled up flow cytometry workflows for lab developed tests.
   achievements:
-  - Developed novel statistical analyses for cell subpopulation measurement
-  - Analyzed extracellular vesicles in clinical trials and experimental assays
-  - Implemented quality control systems for diagnostic applications
+  - Developed novel statistical analyses to measure subpopulations of cells and extracellular vesicles across clinical trials and experimental assays
 - company: Children's Hospital of Philadelphia (CHOP)
-  title: Senior Data Integration Analyst & GRIN Informatics Lead
-  dates: 11/2010 - 06/2017
-  description: Led bioinformatics core operations and developed tools for genomic variant analysis.
+  title: Senior Data Integration Analyst
+  dates: 2010 – 2017
+  description: Developed tools for mitochondrial and exome variant analysis and ChIP-Seq / RNA-Seq reproducible reports.
   achievements:
-  - Developed tools for mitochondrial and exome variant analysis
-  - Created ChIP-Seq and RNA-Seq reproducible reporting systems
-  - Built GRIN epilepsy analysis portal and Jupyter-based variant discovery platform
-  - Developed myBiC portal for bioinformatics report deliverables
-  - Led CHOP team in pediatric genomics consortium data management
+  - Studied miRNA differential expression and cleavage in retinoblastoma
+  - Designed sequence manifest validation for the Pediatric Cardiac Genetic Consortium exome data hub
+  - Developed a fork of SnpEff for HGVS nomenclature, and myBiC, a portal for bioinformatics deliverables
+  - Led the CHOP team building the GRIN epilepsy analysis portal and a Jupyter-based variant discovery platform
 - company: DuPont Crop Genetics
   title: Senior Research Associate
-  dates: 07/2007 - 11/2010
-  description: Developed bioinformatics tools for agricultural genomics and high-throughput screening.
+  dates: 2007 – 2010
+  description: Developed bioinformatics tools for transcriptome assembly analysis, miRNA target scanning, and gene annotation.
   achievements:
-  - Built transcriptome assembly analysis and miRNA target scanning tools
-  - Developed LIMS systems for high throughput mutagenesis screens
-  - Implemented gene annotation pipelines for crop improvement programs
-- company: University of Pennsylvania - Bushman Lab
+  - Built LIMS systems for high-throughput mutagenesis screens
+- company: University of Pennsylvania, Bushman Lab
   title: Bioinformatics Programmer
-  dates: 11/2004 - 07/2007
-  description: Developed bioinformatics pipeline for HIV integration site analysis.
-  achievements:
-  - Created annotation and statistical analysis tools for HIV integration sites
-  - Analyzed microbial diversity and viral resistance mutations
-  - Published groundbreaking research on retroviral DNA integration patterns
-- company: NC State University - Dept. of Electrical Engineering
-  title: Web Developer
-  dates: 01/2003 - 11/2004
-  description: Developed various applications to manage student, employee, and equipment records.
-  achievements:
-  - Built database management systems for academic records
-  - Created web interfaces for equipment tracking
-  - Implemented student and employee management applications
-- company: The Trout Group
-  title: Consultant
-  dates: 08/2000 - 12/2001
-  description: Developed scientific presentations used in investor road shows for biotechnology clients.
-  achievements:
-  - Created compelling scientific narratives for biotech investor presentations
-  - Collaborated with Enchira and other biotechnology companies
-  - Translated complex scientific concepts for investment audiences
-- company: UNC School of Medicine - Duncan Lab
-  title: Research Technician
-  dates: 08/1997 - 08/1999
-  description: Responsible for all techniques involved in 2-deoxyglucose autoradiography studies of ketamine-induced psychotomimetic effects in rodents.
-  achievements:
-  - Conducted neuropharmacology research on ketamine effects
-  - Performed 2-deoxyglucose autoradiography studies
-  - Analyzed psychotomimetic effects in rodent models
+  dates: 2004 – 2007
+  description: Developed a bioinformatics pipeline for annotation and statistical analysis of HIV integration sites, microbial diversity, and viral resistance mutations.
+  achievements: []
 education:
 - institution: Drexel University
-  degree: PhD in Information Science
+  degree: PhD, Information Science
   details: Dissertation on reproducible research and metadata in bioinformatics
 - institution: North Carolina State University
-  degree: Master of Computer Science
-  details: Focus on statistical genetics and alternative splicing
+  degree: MS, Computer Science
+  details: null
 - institution: Wake Forest University
-  degree: Bachelor of Science in Biology
-  details: Research experience in neurobiology
+  degree: BS, Biology
+  details: null
 skills:
-- category: Programming Languages
+- category: Product & Leadership
+  items:
+  - Product Strategy
+  - Roadmap Planning
+  - Feature Prioritization
+  - OKRs
+  - PRDs & User Stories
+  - GTM Strategy
+  - Stakeholder Management
+  - Customer Interviews
+  - Market Research
+  - Product Analytics
+  - Technical Sales
+  - Technical Leadership
+  - Agile/Scrum (Linear, Jira, Shortcut)
+- category: Genomics & Bioinformatics
+  items:
+  - Population Genomics
+  - GWAS
+  - NGS
+  - RNA-Seq
+  - ChIP-Seq
+  - ATAC-Seq
+  - Variant Calling & Annotation
+  - WES/WGS Analysis
+  - Ontologies
+  - Alignment & Annotation Pipelines
+  - Data Pipelines
+  - LIMS
+  - Flow Cytometry
+  - Reproducible Research
+  - Drug Discovery
+  - Sequence Analysis
+- category: Software & Cloud
+  items:
+  - Software Architecture
+  - Scientific Computing
+  - AI Agents
+  - Cloud Infrastructure (AWS, GCP, Azure)
+  - Kubernetes
+  - Terraform
+  - Docker/Singularity
+  - Containerization
+  - RESTful APIs
+  - Django/Flask/Node.js
+  - R Shiny
+  - PostgreSQL/MongoDB/MariaDB/TileDB
+  - Pipeline Frameworks (Nextflow, nf-core, Snakemake, WDL, CWL)
+- category: Languages
   items:
   - R
   - Python
@@ -130,67 +144,10 @@ skills:
   - Java
   - Groovy
   - Scala
-  - JavaScript
+  - JavaScript & jQuery
   - C++
   - C
   - PHP
-- category: Workflow Systems
-  items:
-  - Snakemake
-  - WDL
-  - Nextflow
-  - CWL
-  - Galaxy
-  - Docker
-  - Singularity
-- category: Cloud Platforms
-  items:
-  - AWS
-  - Google Cloud Platform
-  - Azure
-  - Kubernetes
-  - Terraform
-- category: Bioinformatics Tools
-  items:
-  - BLAST
-  - BWA
-  - GATK
-  - SAMtools
-  - Bioconductor
-  - IGV
-  - SnpEff
-  - VEP
-- category: Data Analysis
-  items:
-  - RNA-Seq
-  - ChIP-Seq
-  - ATAC-Seq
-  - Exome Analysis
-  - Population Genomics
-  - Flow Cytometry
-- category: Web & Database
-  items:
-  - Django
-  - Flask
-  - Node.js
-  - jQuery
-  - D3.js
-  - RESTful APIs
-  - PostgreSQL
-  - MongoDB
-  - TileDB
-  - Grails
-- category: Product Management
-  items:
-  - Linear
-  - Shortcut
-  - JIRA
-  - PRDs
-  - User Stories
-  - Roadmap Planning
-  - Market Research
-  - GTM Strategy
-  - Feature Prioritization
-  - Stakeholder Management
-  - Technical Sales
-  - Product Analytics
+affiliations:
+- 'PhillyR: Founder & Organizer of the Philadelphia R user community'
+- Sun Certified Java Programmer

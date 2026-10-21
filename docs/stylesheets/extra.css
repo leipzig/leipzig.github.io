@@ -369,3 +369,16 @@
   object-fit: contain;
   background: var(--card);
 }
+.md-typeset .pub-card__note {
+  display: inline-block;
+  align-self: flex-start;
+  margin: 0 0 .5rem;
+  padding: .1rem .5rem;
+  border-radius: 999px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: .6rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+[data-md-color-scheme="slate"] .md-typeset .pub-card__note { background: #451a03; color: #fcd34d; }

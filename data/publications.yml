@@ -23,7 +23,8 @@
   citation: Leipzig, J., Nüst, D., Hoyt, C.T., Ram, K., and Greenberg, J. (2021). "The role of metadata in reproducible computational research." <i>Cell Patterns</i>. 2021, 100322.
   summary: This paper discusses the critical role of metadata in ensuring reproducible computational research.
 - id: 2020-biodiversity-image-quality-metadata
-  title: Biodiversity Image Quality Metadata Augments Convolutional Neural Network Classification of Fish Species†
+  title: Biodiversity Image Quality Metadata Augments Convolutional Neural Network Classification of Fish Species
+  note: Best Research Paper, MTSR 2020
   year: 2020
   venue: Research Conference on Metadata and Semantics Research
   url: https://doi.org/10.1007/978-3-030-71903-6_1
@@ -38,7 +39,8 @@
   summary: This book chapter provides a comprehensive overview of computational pipelines and workflows in bioinformatics.
 - id: 2017-review-bioinformatic-pipeline-frameworks
   featured: true
-  title: A review of bioinformatic pipeline frameworks*
+  title: A review of bioinformatic pipeline frameworks
+  note: ISI Top 1% Highly Cited
   year: 2017
   venue: Briefings in Bioinformatics
   url: https://doi.org/10.1093/bib/bbw020

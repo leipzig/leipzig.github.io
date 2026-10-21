@@ -1,65 +1,12 @@
 - title: Introduction to Data Science (INFO103)
   role: Adjunct Instructor
-  venue: Drexel University College of Computing and Informatics
+  venue: Drexel University
   date: '2018-03-01'
   location: Philadelphia, PA
-  summary: |-
-    **Spring Quarter 2018** - Taught INFO103 Introduction to Data Science as an Adjunct Instructor.
-
-    ## Course Focus
-    Introduced students to fundamental data science concepts, methodologies, and practical applications in various domains.
-
-    ## Key Topics Covered
-    * Data collection and cleaning techniques
-    * Statistical analysis and visualization
-    * Introduction to machine learning concepts
-    * Data ethics and responsible analysis practices
-    * Hands-on experience with data science tools
+  summary: Taught INFO103 Introduction to Data Science in the College of Computing and Informatics, Spring 2018.
 - title: Programming for Biology
   role: Instructor & Teaching Assistant
   venue: Cold Spring Harbor Laboratory
   date: '2007-01-01'
   location: Cold Spring Harbor, NY
-  summary: |-
-    **Multi-year instruction role (2007-2010)** at prestigious biological research institution focused on computational biology education for researchers.
-
-    ## Course Overview
-    This intensive course taught biologists essential programming skills for computational research. The curriculum covered:
-
-    * Fundamental programming concepts in biological contexts
-    * Data analysis and visualization techniques
-    * Bioinformatics pipeline development
-    * Reproducible research practices
-
-    ## Teaching Approach
-    Emphasized practical, hands-on learning that enables researchers to apply computational tools effectively in their biological research.
-- title: Programming for Biology
-  role: Laboratory Course
-  venue: Cold Spring Harbor Laboratory
-  date: '2007-01-01'
-  location: Cold Spring Harbor, NY
-  summary: |-
-    Instructor & Teaching Assistant for the intensive Programming for Biology course at Cold Spring Harbor Laboratory from 2007-2010. This hands-on laboratory course provided graduate students, postdocs, and early-career researchers with essential computational skills for biological research.
-
-    ## Course Overview
-    * **Duration**: 2007-2010 (4 years)
-    * **Role**: Instructor & Teaching Assistant
-    * **Format**: Intensive laboratory-based course
-    * **Audience**: Graduate students, postdocs, and researchers in biology
-
-    ## Topics Covered
-    * Introduction to programming concepts for biologists
-    * Data structures and algorithms in biological contexts
-    * Sequence analysis and bioinformatics tools
-    * Statistical analysis of biological data
-    * Database design and querying for biological datasets
-    * Practical applications in genomics and molecular biology
-
-    ## Responsibilities
-    * Designed and delivered hands-on programming exercises
-    * Provided one-on-one mentoring during laboratory sessions
-    * Developed course materials and practical assignments
-    * Assisted students with troubleshooting code and computational problems
-    * Evaluated student progress and provided feedback
-
-    This teaching experience at one of the world's premier biological research institutions helped establish foundational computational skills for the next generation of biological researchers during a critical period of growth in bioinformatics and computational biology.
+  summary: Taught in the Programming for Biology course from 2007 to 2010.
