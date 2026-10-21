@@ -44,5 +44,10 @@
     "source": "The CHOP GRIN Framework poster (grinframework.pdf), myBiC Reports screenshot",
     "kind": "screenshot",
     "license": "screenshot from a CHOP DBHi conference poster; not covered by the site CC BY license"
+  },
+  "alternative-splicing-gallery": {
+    "source": "screenshot supplied by Jeremy Leipzig (ASG splicing graph for ENSG00000105419)",
+    "kind": "screenshot",
+    "license": "screenshot of the ASG site (NC State)"
   }
 }

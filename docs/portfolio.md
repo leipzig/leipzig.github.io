@@ -34,6 +34,14 @@ hide: [navigation, toc]
     <p>Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis.</p>
   </div>
 </div>
+<a class="sw-card" href="https://web.archive.org/web/20051227140854/http://statgen.ncsu.edu/asg/">
+  <div class="sw-card__media"><img src="../assets/thumbs/software/alternative-splicing-gallery.jpg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>PHP · 2004</span></p>
+    <h3>Alternative Splicing Gallery (ASG)</h3>
+    <p>Searchable web gallery of splicing graphs for human genes, built from Ensembl, UniGene and EST alignments. Each graph shows every alternative transcript at once, colors cassette exons, intron retentions and competing splice sites, and lets you pick exons to assemble a transcript sequence.</p>
+  </div>
+</a>
 <a class="sw-card" href="../rhylthyme/">
   <div class="sw-card__media"><img src="../assets/thumbs/software/rhylthyme.png" alt="" loading="lazy"></div>
   <div class="sw-card__body">
@@ -199,11 +207,11 @@ hide: [navigation, toc]
     <p>Command-line tool for generating ASCII rulers and measurement guides for sequence analysis.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/standard-velvet-assembly-report">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-standard-velvet-assembly-report.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/standardized-velvet-assembly-report">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-standardized-velvet-assembly-report.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
     <p class="eyebrow"><span>Perl/Shell</span></p>
-    <h3>standard-velvet-assembly-report</h3>
+    <h3>standardized-velvet-assembly-report</h3>
     <p>Standardized reporting pipeline for Velvet genome assembly results and quality metrics.</p>
   </div>
 </a>
