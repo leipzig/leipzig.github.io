@@ -242,7 +242,7 @@ hide: [navigation, toc]
 <p class="kicker">Recent roles</p>
 <ul class="roles">
 <li><span class="when">08/2022 - Present</span><span class="what"><b>Product Manager</b> · TileDB</span></li>
-<li><span class="when">09/2020 - 07/2022</span><span class="what"><b>Content Lead</b> · Truwl</span></li>
+<li><span class="when">09/2020 - 07/2022</span><span class="what"><b>Bioinformatics Lead</b> · Truwl</span></li>
 <li><span class="when">09/2017 - 11/2019</span><span class="what"><b>Bioinformatics Engineer</b> · Panorama Medicine</span></li>
 <li><span class="when">06/2017 - 08/2018</span><span class="what"><b>Senior Bioinformatics Scientist</b> · CytoVas LLC</span></li>
 <li><span class="when">11/2010 - 06/2017</span><span class="what"><b>Senior Data Integration Analyst &amp; GRIN Informatics Lead</b> · Children&#x27;s Hospital of Philadelphia (CHOP)</span></li>
