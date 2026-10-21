@@ -33,8 +33,8 @@ hide: [navigation, toc]
 <div class="section-head"><div><p class="kicker">Research</p><h2>Selected publications</h2></div><a class="more" href="publications/">All publications &rarr;</a></div>
 <div class="pub-grid">
 <article class="pub-card" data-search="genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a nicu pilot trial american journal of human genetics 2024 kingsmore sf, wright m, olsen l, schultz b, protopsaltis l, averbuj d, blincow e, carroll j, caylor s, defay t, ellsworth k, feigenbaum a, gover m, guidugli l, hansen c, van der kraan l, kunard cm, kwon h, madhavrao l, leipzig j, liang y, mardach r, mowrey wr, nguyen h, niemi ak, oh d, saad m, scharer g, schleit j, mehtalia ss, sanford e, smith ld, willis mj, wigby k, reimers r. (2024). &quot;genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a nicu pilot trial.&quot; &lt;i&gt;am j hum genet&lt;/i&gt; 111(12):2643-2667.">
-  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.ajhg.2024.10.020" tabindex="-1" aria-hidden="true">
-    <img src="assets/thumbs/generated/pubs-2024-kingsmore-newborn-screening-nicu.svg" alt="" loading="lazy">
+  <a class="pub-card__media" href="https://doi.org/10.1016/j.ajhg.2024.10.020" tabindex="-1" aria-hidden="true">
+    <img src="assets/thumbs/pubs/2024-kingsmore-newborn-screening-nicu.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>American Journal of Human Genetics</span><span>2024</span></p>
@@ -98,8 +98,8 @@ hide: [navigation, toc]
   </div>
 </article>
 <article class="pub-card" data-search="hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications genome research 2007 wang gp, ciuffi a, leipzig j, berry cc, bushman fd. (2007). &quot;hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications.&quot; &lt;i&gt;genome res&lt;/i&gt; 17(8):1186-1194.">
-  <a class="pub-card__media is-generated" href="https://doi.org/10.1101/gr.6286907" tabindex="-1" aria-hidden="true">
-    <img src="assets/thumbs/generated/pubs-2007-hiv-integration-site-selection.svg" alt="" loading="lazy">
+  <a class="pub-card__media" href="https://doi.org/10.1101/gr.6286907" tabindex="-1" aria-hidden="true">
+    <img src="assets/thumbs/pubs/2007-hiv-integration-site-selection.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Genome Research</span><span>2007</span></p>

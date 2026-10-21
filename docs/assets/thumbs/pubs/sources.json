@@ -29,20 +29,10 @@
     "kind": "figure",
     "license": "unknown (PMC author manuscript)"
   },
-  "2013-zhang-bmc": {
-    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867413003875-fx1_lrg.jpg",
-    "kind": "graphical-abstract",
-    "license": "unknown (Elsevier, free access)"
-  },
   "2006-target-sites-mobile-dna-integration": {
     "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC1664696.1/pcbi.0020157.g006.jpg",
     "kind": "figure",
     "license": "CC BY 4.0"
-  },
-  "2006-ciuffi": {
-    "source": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnm1329/MediaObjects/41591_2005_Article_BFnm1329_Fig1_HTML.jpg",
-    "kind": "figure",
-    "license": "unknown"
   },
   "2005-ledgf-hiv-dna-integration": {
     "source": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnm1329/MediaObjects/41591_2005_Article_BFnm1329_Fig1_HTML.jpg",
@@ -53,5 +43,140 @@
     "source": "https://covers.oreillystatic.com/images/9781449307363/lrg.jpg",
     "kind": "cover",
     "license": "unknown (publisher cover)"
+  },
+  "2024-kingsmore-newborn-screening-nicu": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4dce/11639094/9d5cb2376f48/fx1.jpg",
+    "kind": "graphical-abstract",
+    "license": "unknown (PMC free full text)"
+  },
+  "2024-kingsmore-prequalification-newborn-screening": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ba89/11639087/dd0b1d72d6d4/fx1.jpg",
+    "kind": "graphical-abstract",
+    "license": "unknown (PMC free full text)"
+  },
+  "2019-mcmanus-mtdna-variation": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3153/6717513/321d7c7fc8f8/nihms-1036664-f0008.jpg",
+    "kind": "graphical-abstract",
+    "license": "unknown (PMC author manuscript)"
+  },
+  "2017-chalkia-autism": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4a75/5710217/616100999c35/jamapsychiatry-74-1161-g001.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC free full text)"
+  },
+  "2017-morrow-mitochondrial-energy-deficiency": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/82ba/5347565/8b08e717f46d/pnas.1700997114fig03.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC free full text)"
+  },
+  "2016-shen-mseqdr": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8094/4846568/c05153caa411/nihms-763101-f0001.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC author manuscript)"
+  },
+  "2015-kilbaugh-peripheral-blood-mtdna": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4476697.1/pone.0130927.g003.jpg",
+    "kind": "figure",
+    "license": "CC BY"
+  },
+  "2014-phy-mer-mitochondrial-haplogroup": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0ee6/4393525/3cd495971ece/btu825f1p.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC free full text)"
+  },
+  "2014-mseqdr": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/265a/4512182/0c70a6d79736/nihms-651811-f0002.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC author manuscript)"
+  },
+  "2014-glessner-chd": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5450/4209190/61a650845025/nihms-627429-f0002.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC author manuscript)"
+  },
+  "2013-zhang-efficient-digest": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3846741.1/1471-2105-14-S11-S3-1.jpg",
+    "kind": "figure",
+    "license": "CC BY 2.0"
+  },
+  "2013-mitomap-protocol": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f152/4257604/90d970289efb/nihms550766f11.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC author manuscript)"
+  },
+  "2012-barrantes-physarum": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3469328.1/grsb-6-2012-127f1.jpg",
+    "kind": "figure",
+    "license": "open access, non-commercial use (Libertas Academica)"
+  },
+  "2011-shi-irf1": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8096/3167955/7fb7777a24a3/nihms319654f4.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC author manuscript)"
+  },
+  "2008-wang-adverse-events": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC2396413.1/gkn125f1.jpg",
+    "kind": "figure",
+    "license": "CC BY-NC 2.0 UK"
+  },
+  "2008-meekings-htlv1": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC2265437.1/ppat.1000027.g002.jpg",
+    "kind": "figure",
+    "license": "CC BY"
+  },
+  "2007-hoffmann-hiv-resistance": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC1934997.1/gkm435f2.jpg",
+    "kind": "figure",
+    "license": "CC BY-NC 2.0 UK"
+  },
+  "2007-hiv-integration-site-selection": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4545/1933515/85f6ceef1eca/1186fig3.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC free full text)"
+  },
+  "2006-barr-macrophages": {
+    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S1525001606001146-gr4_lrg.jpg",
+    "kind": "figure",
+    "license": "CC BY-NC-ND (per Europe PMC; Elsevier open archive)"
+  },
+  "2006-ciuffi-imr90": {
+    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S1525001605016564-gr1_lrg.jpg",
+    "kind": "figure",
+    "license": "CC BY-NC-ND (per Europe PMC; Elsevier open archive)"
+  },
+  "2006-lewinski": {
+    "source": "https://pmc-oa-opendata.s3.amazonaws.com/PMC1480600.2/ppat.0020060.g002.jpg",
+    "kind": "figure",
+    "license": "CC BY"
+  },
+  "2005-bushman-review": {
+    "source": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fnrmicro1263/MediaObjects/41579_2005_Article_BFnrmicro1263_Fig4_HTML.gif",
+    "kind": "figure",
+    "license": "unknown (publisher site)"
+  },
+  "2005-barr-avian": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/fccc/1212630/65c462898418/zjv0180567940001.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC free full text)"
+  },
+  "2004-alternative-splicing-gallery": {
+    "source": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/280e/506815/55a61c4f6146/gkh731f3.jpg",
+    "kind": "figure",
+    "license": "unknown (PMC free full text)"
+  },
+  "2019-raman-survival-analysis": {
+    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S2210776218304897-gr1_lrg.jpg",
+    "kind": "figure",
+    "license": "unknown (publisher site)"
+  },
+  "2000-duncan-clozapine-risperidone-olanzapine": {
+    "source": "https://ars.els-cdn.com/content/image/1-s2.0-S0022356524391979-gr3_lrg.jpg",
+    "kind": "figure",
+    "license": "unknown (publisher site), JPET free archive"
+  },
+  "2000-miyamoto-ketamine-2dg": {
+    "source": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1016%2FS0893-133X%2899%2900127-X/MediaObjects/41386_2000_Article_BF1395451_Fig4_HTML.jpg",
+    "kind": "figure",
+    "license": "unknown (publisher site)"
   }
 }
