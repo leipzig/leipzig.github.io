@@ -1,0 +1,169 @@
+highlights:
+- Technical product manager for TileDB's population-genomics line, including TileDB-VCF
+- Supports 5 major biopharma and hospital customers; involved in the sales process for 30+ prospects
+- Primary industry partner contact for the BeginNGS pediatric newborn screening consortium
+- Helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy
+- 25+ years bridging genomics R&D and enterprise software
+- BS in Biology, MS in Computer Science, PhD in Information Science
+- 40+ peer-reviewed publications, h-index of 30; author of O'Reilly's Data Mashups in R
+- Founder of the PhillyR user community
+full_bio: |
+  Technical product manager for TileDB's population-genomics line and a bioinformatics leader with 25+ years bridging genomics R&D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.
+
+  I have helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy, bridging cutting-edge research and practical commercial applications. My expertise spans low-level algorithm development through high-level product strategy and customer engagement.
+
+  As a researcher, I have authored over 50 publications with an h-index of 30, contributing to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.
+
+  I am passionate about community building and knowledge sharing, having founded the PhillyR user group and maintaining a top-20 ranking on biostars.org. My commitment to open science and reproducible research has led to the development of multiple open source tools and frameworks that are widely used in the bioinformatics community.
+
+  Currently serving as Product Manager at TileDB, I manage the population genomics product line, working directly with biopharma and hospital partners to develop scalable analysis workflows. My unique combination of deep technical expertise, research experience, and business acumen allows me to translate complex computational challenges into successful product solutions.
+research_interests:
+- title: Reproducible Research & Metadata
+  description: Developing frameworks and tools to ensure computational reproducibility in biological research, with focus on metadata standards and pipeline documentation
+- title: Genomic Variant Analysis
+  description: Creating tools for mitochondrial genetics, exome analysis, and clinical genomics applications with emphasis on rare disease diagnostics
+- title: Cloud-Scale Bioinformatics
+  description: Building scalable workflows and platforms for population genomics, drug discovery, and precision medicine using AWS and GCP infrastructure
+- title: Bioinformatics Product Strategy
+  description: Translating research methodologies into commercial bioinformatics products, from startup strategy to enterprise solutions
+experience:
+- company: TileDB
+  title: Product Manager
+  dates: 2022 – Present
+  description: 'Manage the population genomics product line, including TileDB-VCF, end-to-end: product roadmapping, software development, sales demos, webinars, conference presentations, customer support, and marketing.'
+  achievements:
+  - Support 5 major biopharma and hospital customers, and have been involved in various stages of the software sales process for over 30 prospects
+  - Built TileDB-specific solutions for GWAS and variant annotation at scale
+  - Led Nextflow tooling for TileDB Carrara and ontologies for TileAI
+  - Serve as the primary industry partner contact for the BeginNGS pediatric newborn screening consortium
+  - Lead project management for teams of up to 7 developers
+  - Conference and technical talks (<a href='https://www.youtube.com/watch?v=Vx98JcH-69E'>watch a presentation</a>)
+- company: Truwl
+  title: Bioinformatics Lead
+  dates: 2020 – 2022
+  description: Onboarded tools, workflows, and high-impact analyses into the Truwl platform.
+  achievements:
+  - Developed the benchmarking product and customer acquisition strategy
+  - Platform and workflow demonstrations (<a href='https://www.youtube.com/watch?v=ttl9nPyh2bE'>watch a demo</a>)
+- company: Panorama Medicine
+  title: Bioinformatics Engineer
+  dates: 2018 – 2019
+  description: Developed cloud-based pipelines and analysis for drug repositioning efforts. First employee.
+  achievements:
+  - Lead for data mining and competitive intelligence research
+- company: CytoVas LLC
+  title: Senior Bioinformatics Scientist
+  dates: 2017 – 2018
+  description: Scaled up flow cytometry workflows for lab developed tests.
+  achievements:
+  - Developed novel statistical analyses to measure subpopulations of cells and extracellular vesicles across clinical trials and experimental assays
+- company: Children's Hospital of Philadelphia (CHOP)
+  title: Senior Data Integration Analyst
+  dates: 2010 – 2017
+  description: Developed tools for mitochondrial and exome variant analysis and ChIP-Seq / RNA-Seq reproducible reports.
+  achievements:
+  - Studied miRNA differential expression and cleavage in retinoblastoma
+  - Designed sequence manifest validation for the Pediatric Cardiac Genetic Consortium exome data hub
+  - Developed a fork of SnpEff for HGVS nomenclature, and myBiC, a portal for bioinformatics deliverables
+  - Led the CHOP team building the GRIN epilepsy analysis portal and a Jupyter-based variant discovery platform
+- company: DuPont Crop Genetics
+  title: Senior Research Associate
+  dates: 2007 – 2010
+  description: Developed bioinformatics tools for transcriptome assembly analysis, miRNA target scanning, and gene annotation.
+  achievements:
+  - Built LIMS systems for high-throughput mutagenesis screens
+- company: University of Pennsylvania, Bushman Lab
+  title: Bioinformatics Programmer
+  dates: 2004 – 2007
+  description: Developed a bioinformatics pipeline for annotation and statistical analysis of HIV integration sites, microbial diversity, and viral resistance mutations.
+  achievements: []
+education:
+- institution: Drexel University
+  degree: PhD, Information Science
+  details: Dissertation on reproducible research and metadata in bioinformatics
+- institution: North Carolina State University
+  degree: MS, Computer Science
+  details: null
+- institution: Wake Forest University
+  degree: BS, Biology
+  details: null
+skills:
+- category: Product & Leadership
+  items:
+  - Product Strategy
+  - Roadmap Planning
+  - Feature Prioritization
+  - OKRs
+  - PRDs & User Stories
+  - GTM Strategy
+  - Stakeholder Management
+  - Customer Interviews
+  - Market Research
+  - Product Analytics
+  - Technical Sales
+  - Technical Leadership
+  - Agile/Scrum (Linear, Jira, Shortcut)
+- category: Genomics & Bioinformatics
+  items:
+  - Population Genomics
+  - GWAS
+  - NGS
+  - RNA-Seq
+  - ChIP-Seq
+  - ATAC-Seq
+  - Variant Calling & Annotation
+  - WES/WGS Analysis
+  - Ontologies
+  - Alignment & Annotation Pipelines
+  - Data Pipelines
+  - LIMS
+  - Flow Cytometry
+  - Reproducible Research
+  - Drug Discovery
+  - Sequence Analysis
+- category: Software & Cloud
+  items:
+  - Software Architecture
+  - Scientific Computing
+  - AI Agents
+  - Cloud Infrastructure (AWS, GCP, Azure)
+  - Kubernetes
+  - Terraform
+  - Docker/Singularity
+  - Containerization
+  - RESTful APIs
+  - Django/Flask/Node.js
+  - R Shiny
+  - PostgreSQL/MongoDB/MariaDB/TileDB
+  - Pipeline Frameworks (Nextflow, nf-core, Snakemake, WDL, CWL)
+- category: Languages
+  items:
+  - R
+  - Python
+  - Perl
+  - Java
+  - Groovy
+  - Scala
+  - JavaScript & jQuery
+  - C++
+  - C
+  - PHP
+affiliations:
+- 'PhillyR: Founder & Organizer of the Philadelphia R user community'
+- Sun Certified Java Programmer
+older_experience:
+- company: NC State University, Dept. of Electrical Engineering
+  title: Web Developer
+  dates: 2003 – 2004
+  description: Developed applications to manage student, employee, and equipment records.
+  achievements: []
+- company: The Trout Group
+  title: Consultant
+  dates: 2000 – 2001
+  description: Developed scientific presentations used in investor road shows for biotechnology clients, including Enchira.
+  achievements: []
+- company: UNC School of Medicine, Duncan Lab
+  title: Research Technician
+  dates: 1997 – 1999
+  description: Responsible for all techniques involved in 2-deoxyglucose autoradiography studies of ketamine-induced psychotomimetic effects in rodents.
+  achievements: []

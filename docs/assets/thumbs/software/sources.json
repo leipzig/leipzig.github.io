@@ -1,0 +1,34 @@
+{
+  "mitomaster": {
+    "file": "mitomaster.png",
+    "source": "screenshot of https://web.archive.org/web/20261011193433/https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome (live https://mitomap.org/mitomaster/ is behind a Cloudflare bot check)"
+  },
+  "rhylthyme": {
+    "file": "rhylthyme.png",
+    "source": "https://raw.githubusercontent.com/rhylthyme/rhylthyme-timeline/main/docs/thanksgiving-player.png"
+  },
+  "dimoose": {
+    "file": "dimoose.jpg",
+    "source": "screenshot of https://leipzig.github.io/dimoose/montana/"
+  },
+  "awesome-reproducible-research": {
+    "file": "awesome-reproducible-research.png",
+    "source": "https://github.com/leipzig/awesome-reproducible-research/blob/master/rrlogo2tr.png?raw=true"
+  },
+  "berrylogo": {
+    "file": "berrylogo.png",
+    "source": "berrylogo README example image (lh3.googleusercontent.com, linked from https://github.com/leipzig/berrylogo)"
+  },
+  "opensnp": {
+    "file": "opensnp.png",
+    "source": "screenshot of http://leipzig.github.io/opensnp/ (height histogram)"
+  },
+  "clk": {
+    "file": "clk.png",
+    "source": "https://user-images.githubusercontent.com/147991/115591081-f8e8e380-a28e-11eb-85f3-fa8d4c89b5bd.png"
+  },
+  "mcmanus-ant1": {
+    "file": "mcmanus-ant1.png",
+    "source": "https://raw.githubusercontent.com/leipzig/mcmanus_ant1/master/genego/imagemap.png"
+  }
+}
