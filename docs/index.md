@@ -10,14 +10,14 @@ hide: [navigation, toc]
 <div>
 <p class="kicker">About</p>
 <h2>Software for seeing, exploring and publishing biological data</h2>
-<p class="lede">Technical product manager for TileDB&#x27;s population-genomics line and a bioinformatics leader with 25+ years bridging genomics R&amp;D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.</p>
+<p class="lede">Technical product manager for the population-genomics line at Tile.ai (formerly known as TileDB) and a bioinformatics leader with 25+ years bridging genomics R&amp;D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.</p>
 <p>I have helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy, bridging cutting-edge research and practical commercial applications. My expertise spans low-level algorithm development through high-level product strategy and customer engagement.</p>
 <p>As a researcher, I have authored over 50 publications with an h-index of 30, contributing to fields including HIV integration site analysis, mitochondrial genetics, reproducible research methodologies, and computational pipeline development. My work has been published in prestigious journals including Cell, Nature, PLoS Computational Biology, and Genome Research.</p>
 </div>
 <aside class="panel">
 <p class="kicker">At a glance</p>
 <ul class="highlights">
-<li>Technical product manager for TileDB&#x27;s population-genomics line, including TileDB-VCF</li>
+<li>Technical product manager for the population-genomics line, including TileDB-VCF, at Tile.ai (formerly known as TileDB)</li>
 <li>Supports 5 major biopharma and hospital customers; involved in the sales process for 30+ prospects</li>
 <li>Primary industry partner contact for the BeginNGS pediatric newborn screening consortium</li>
 <li>Helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy</li>
@@ -255,7 +255,7 @@ hide: [navigation, toc]
 <aside class="panel">
 <p class="kicker">Recent roles</p>
 <ul class="roles">
-<li><span class="when">2022 – Present</span><span class="what"><b>Product Manager</b> · TileDB</span></li>
+<li><span class="when">2022 – Present</span><span class="what"><b>Product Manager</b> · Tile.ai (formerly known as TileDB)</span></li>
 <li><span class="when">2020 – 2022</span><span class="what"><b>Bioinformatics Lead</b> · Truwl</span></li>
 <li><span class="when">2018 – 2019</span><span class="what"><b>Bioinformatics Engineer</b> · Panorama Medicine</span></li>
 <li><span class="when">2017 – 2018</span><span class="what"><b>Senior Bioinformatics Scientist</b> · CytoVas LLC</span></li>

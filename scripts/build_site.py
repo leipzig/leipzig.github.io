@@ -154,7 +154,7 @@ def build_home(profile, pubs, software):
         for i in profile["research_interests"]
     )
     roles = "\n".join(
-        f'<li><span class="when">{esc(j["dates"])}</span><span class="what"><b>{esc(j["title"])}</b> · {esc(j["company"])}</span></li>'
+        f'<li><span class="when">{esc(j["dates"])}</span><span class="what"><b>{esc(j["title"])}</b> · {esc(j.get("home_company") or j["company"])}</span></li>'
         for j in profile["experience"][:5]
     )
     bio = profile["full_bio"].strip().split("\n\n")

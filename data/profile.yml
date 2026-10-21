@@ -1,5 +1,5 @@
 highlights:
-- Technical product manager for TileDB's population-genomics line, including TileDB-VCF
+- Technical product manager for the population-genomics line, including TileDB-VCF, at Tile.ai (formerly known as TileDB)
 - Supports 5 major biopharma and hospital customers; involved in the sales process for 30+ prospects
 - Primary industry partner contact for the BeginNGS pediatric newborn screening consortium
 - Helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy
@@ -8,7 +8,7 @@ highlights:
 - 40+ peer-reviewed publications, h-index of 30; author of O'Reilly's Data Mashups in R
 - Founder of the PhillyR user community
 full_bio: |
-  Technical product manager for TileDB's population-genomics line and a bioinformatics leader with 25+ years bridging genomics R&D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.
+  Technical product manager for the population-genomics line at Tile.ai (formerly known as TileDB) and a bioinformatics leader with 25+ years bridging genomics R&D and enterprise software. I develop scalable genomics data products from concept through launch, translating genetics research and discovery workflows into enterprise-grade platforms used by pharma and biotech partners, owning product vision, roadmaps, and success metrics while partnering across science, engineering, and business.
 
   I have helped four diagnostic, therapeutic, and SaaS startups define and implement their product strategy, bridging cutting-edge research and practical commercial applications. My expertise spans low-level algorithm development through high-level product strategy and customer engagement.
 
@@ -28,6 +28,7 @@ research_interests:
   description: Translating research methodologies into commercial bioinformatics products, from startup strategy to enterprise solutions
 experience:
 - company: TileDB
+  home_company: Tile.ai (formerly known as TileDB)
   title: Product Manager
   dates: 2022 – Present
   description: 'Manage the population genomics product line, including TileDB-VCF, end-to-end: product roadmapping, software development, sales demos, webinars, conference presentations, customer support, and marketing.'
