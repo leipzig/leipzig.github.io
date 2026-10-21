@@ -23,6 +23,10 @@ These files are included for display on the site and keep their own terms:
   terms. Credit and reuse follow the original article.
 - `docs/assets/thumbs/software/mitomaster.png`: a screenshot of MITOMASTER,
   a MITOMAP service, from the Internet Archive's copy of the site.
+- `docs/assets/thumbs/software/insipid.jpg`: the September 2005 cover of the
+  Journal of Virology (79(18)), © 2005 American Society for Microbiology.
+- `docs/assets/thumbs/software/mybic.jpg`: a myBiC screenshot from the CHOP
+  GRIN Framework poster.
 - `docs/assets/rhylthyme/paper-eval-models.png`: a figure from the
   Rhylthyme preprint, under that preprint's license.
 - `docs/assets/whitefish-valley.jpg`: the landscape photo in the home page banner.
