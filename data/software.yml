@@ -1,0 +1,163 @@
+# Software projects. featured: shown with large cards on the home page.
+- id: mitomaster
+  name: MITOMASTER
+  featured: true
+  language: Web Application
+  year: null
+  url: https://mitomap.org/mitomaster/
+  summary: Web application that allows clinicians to quickly investigate mitochondrial mutations in sequenced or genotyped samples. Used worldwide for mitochondrial genetics research.
+- id: mybic
+  name: myBiC
+  featured: true
+  language: Django/Python
+  year: null
+  url: null
+  summary: Django application that manages user authentication and presentation of bioinformatics deliverables. Streamlines report delivery for core facilities.
+- id: insipid
+  name: InSiPiD
+  featured: true
+  language: Pipeline
+  year: null
+  url: null
+  summary: Integration Site Pipeline and Database - comprehensive toolset for managing viral integration site data processing, annotation, and analysis.
+- id: rhylthyme
+  page: rhylthyme/
+  name: Rhylthyme
+  featured: true
+  language: Python
+  year: 2025
+  url: https://github.com/rhylthyme
+  summary: A JSON-based markup language and toolchain for describing real-time programs that coordinate parallel tracks of work with resource constraints, timing dependencies, and flexible execution patterns. Includes a CLI runner, web visualizer, and MCP server for AI-assisted schedule generation.
+- id: dimoose
+  name: dimoose
+  featured: true
+  language: R
+  year: 2020
+  url: https://leipzig.github.io/dimoose/
+  summary: R package for dichotomous identification keys. Build a key from a plain spreadsheet with photos, draw it as a box diagram, or turn it into an offline web wizard for the field; also imports FishBase keys and generates keys from photos (CLIP/BioCLIP), sequence alignments and trait matrices. Includes an illustrated key to Montana's native broadleaf trees.
+- id: awesome-reproducible-research
+  name: awesome-reproducible-research
+  featured: true
+  language: Python
+  year: 2017
+  url: https://github.com/leipzig/awesome-reproducible-research
+  summary: A curated list of reproducible research case studies, projects, tutorials, and media. Community-driven resource with 356+ stars.
+- id: sandwicheswithsnakemake
+  name: SandwichesWithSnakemake
+  featured: true
+  language: Tutorial
+  year: 2014
+  url: https://github.com/leipzig/SandwichesWithSnakemake
+  summary: Beginner's tutorial to Snakemake workflow management system. Popular educational resource with 70+ stars.
+- id: snakemake-example
+  name: snakemake-example
+  featured: true
+  language: CSS/Snakemake
+  year: 2014
+  url: https://github.com/leipzig/snakemake-example
+  summary: RNA-Seq Snakemake example with Jekyll homepage creation. Complete workflow demonstration with 20+ stars.
+- id: berrylogo
+  name: berrylogo
+  featured: true
+  language: R
+  year: 2011
+  url: https://github.com/leipzig/berrylogo
+  summary: A better seqLogo implementation for creating sequence logos in R. Enhanced visualization tool with 12+ stars.
+- id: ancestryinformativemarkers
+  name: ancestryinformativemarkers
+  featured: true
+  language: Genomics
+  year: 2022
+  url: https://github.com/leipzig/ancestryinformativemarkers
+  summary: Public Ancestry Informative Markers (AIMs) dataset and tools for population genetics analysis.
+- id: opensnp
+  name: opensnp
+  featured: true
+  language: HTML/R
+  year: 2016
+  url: https://github.com/leipzig/opensnp
+  summary: Validation of published GWAS studies using OpenSNP volunteered data. Binderized for reproducible analysis.
+- id: blast-wrapper
+  name: blast-wrapper
+  featured: true
+  language: Node.js
+  year: 2013
+  url: https://github.com/leipzig/blast-wrapper
+  summary: Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.
+- id: ontopop
+  name: ontopop
+  featured: true
+  language: Python
+  year: 2020
+  url: https://github.com/leipzig/ontopop
+  summary: Analysis tool to measure popularity and usage of biological ontologies across scientific literature.
+- id: placenta
+  name: placenta
+  featured: false
+  language: R/Bioinformatics
+  year: null
+  url: https://github.com/leipzig/placenta
+  summary: Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.
+- id: m6a
+  name: m6a
+  featured: false
+  language: R/Bioinformatics
+  year: null
+  url: https://github.com/leipzig/m6a
+  summary: Analysis tools and workflows for N6-methyladenosine (m6A) RNA modification detection and quantification.
+- id: metadata-in-rcr
+  name: metadata-in-rcr
+  featured: false
+  language: Documentation
+  year: null
+  url: https://github.com/leipzig/metadata-in-rcr
+  summary: Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications.
+- id: clk
+  name: clk
+  featured: false
+  language: Python
+  year: null
+  url: https://github.com/leipzig/clk
+  summary: Command-line toolkit for bioinformatics workflows and data processing automation.
+- id: fcs-flow-cytometry
+  name: fcs_flow_cytometry
+  featured: false
+  language: R/Python
+  year: null
+  url: https://github.com/leipzig/fcs_flow_cytometry
+  summary: Core flow cytometry data analysis tools and utilities for FCS file processing.
+- id: fcs-parser
+  name: fcs_parser
+  featured: false
+  language: Python
+  year: null
+  url: https://github.com/leipzig/fcs_parser
+  summary: Parser and data extraction tools for Flow Cytometry Standard (FCS) files.
+- id: fcs-utils
+  name: fcs_utils
+  featured: false
+  language: R
+  year: null
+  url: https://github.com/leipzig/fcs_utils
+  summary: Utility functions and helper tools for flow cytometry data manipulation and quality control.
+- id: mcmanus-ant1
+  name: mcmanus_ant1
+  featured: false
+  language: R/Bioinformatics
+  year: null
+  url: https://github.com/leipzig/mcmanus_ant1
+  summary: Analysis pipeline for mitochondrial ANT1 gene studies and associated metabolic pathways.
+- id: asciiruler
+  name: asciiruler
+  featured: false
+  language: Python
+  year: null
+  url: https://github.com/leipzig/asciiruler
+  summary: Command-line tool for generating ASCII rulers and measurement guides for sequence analysis.
+- id: standard-velvet-assembly-report
+  name: standard-velvet-assembly-report
+  featured: false
+  language: Perl/Shell
+  year: null
+  url: https://github.com/leipzig/standard-velvet-assembly-report
+  summary: Standardized reporting pipeline for Velvet genome assembly results and quality metrics.
