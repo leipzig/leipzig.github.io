@@ -16,22 +16,58 @@ hide: [navigation, toc]
 </div>
 <p id="pub-count" class="muted"></p>
 
-<section class="year-group" data-year="2021">
-<h2 class="year">2021</h2>
+<section class="year-group" data-year="2024">
+<h2 class="year">2024</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="hierarchy‐guided neural network for species classification methods in ecology and evolution 2021 elhamod, m., diamond, k.m., maga, a.m., bakis, y. bart h.l, mabee pm, wasila dahdul, w, leipzig j., greenberg, avants b, karpatne a. (2021). &quot;hierarchy‐guided neural network for species classification.&quot; &lt;i&gt;methods ecol. evol.&lt;/i&gt; 2021.">
+<article class="pub-card" data-search="genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a nicu pilot trial american journal of human genetics 2024 kingsmore sf, wright m, olsen l, schultz b, protopsaltis l, averbuj d, blincow e, carroll j, caylor s, defay t, ellsworth k, feigenbaum a, gover m, guidugli l, hansen c, van der kraan l, kunard cm, kwon h, madhavrao l, leipzig j, liang y, mardach r, mowrey wr, nguyen h, niemi ak, oh d, saad m, scharer g, schleit j, mehtalia ss, sanford e, smith ld, willis mj, wigby k, reimers r. (2024). &quot;genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a nicu pilot trial.&quot; &lt;i&gt;am j hum genet&lt;/i&gt; 111(12):2643-2667.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.ajhg.2024.10.020" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2024-kingsmore-newborn-screening-nicu.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>American Journal of Human Genetics</span><span>2024</span></p>
+    <h3><a href="https://doi.org/10.1016/j.ajhg.2024.10.020">Genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a NICU pilot trial</a></h3>
+    
+    <p class="pub-card__authors">Kingsmore SF, Wright M, Olsen L, Schultz B, Protopsaltis L, Averbuj D, Blincow E, Carroll J, Caylor S, Defay T, Ellsworth K, Feigenbaum A, Gover M, Guidugli L, Hansen C, Van Der Kraan L, Kunard CM, Kwon H, Madhavrao L, <b>Leipzig J</b>, Liang Y, Mardach R, Mowrey WR, Nguyen H, Niemi AK, Oh D, Saad M, Scharer G, Schleit J, Mehtalia SS, Sanford E, Smith LD, Willis MJ, Wigby K, Reimers R</p>
+    <p class="pub-card__summary">Large prospective clinical trials are underway or planned that examine the clinical utility and cost effectiveness of genome-based newborn screening (gNBS).</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/j.ajhg.2024.10.020">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="prequalification of genome-based newborn screening for severe childhood genetic diseases through federated training based on purifying hyperselection american journal of human genetics 2024 kingsmore sf, wright m, smith ld, liang y, mowrey wr, protopsaltis l, bainbridge m, baker m, batalov s, blincow e, cao b, caylor s, chambers c, ellsworth k, feigenbaum a, frise e, guidugli l, hall kp, hansen c, kiel m, van der kraan l, krilow c, kwon h, madhavrao l, lefebvre s, leipzig j, mardach r, moore b, oh d, olsen l, ontiveros e, owen mj, reimers r, scharer g, schleit j, shelnutt s, mehtalia ss, oriol a, sanford e, schwartz s, wigby k, willis mj, yandell m, kunard cm, defay t. (2024). &quot;prequalification of genome-based newborn screening for severe childhood genetic diseases through federated training based on purifying hyperselection.&quot; &lt;i&gt;am j hum genet&lt;/i&gt; 111(12):2618-2642.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.ajhg.2024.10.021" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2024-kingsmore-prequalification-newborn-screening.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>American Journal of Human Genetics</span><span>2024</span></p>
+    <h3><a href="https://doi.org/10.1016/j.ajhg.2024.10.021">Prequalification of genome-based newborn screening for severe childhood genetic diseases through federated training based on purifying hyperselection</a></h3>
+    
+    <p class="pub-card__authors">Kingsmore SF, Wright M, Smith LD, Liang Y, Mowrey WR, Protopsaltis L, Bainbridge M, Baker M, Batalov S, Blincow E, Cao B, Caylor S, Chambers C, Ellsworth K, Feigenbaum A, Frise E, Guidugli L, Hall KP, Hansen C, Kiel M, Van Der Kraan L, Krilow C, Kwon H, Madhavrao L, Lefebvre S, <b>Leipzig J</b>, Mardach R, Moore B, Oh D, Olsen L, Ontiveros E, Owen MJ, Reimers R, Scharer G, Schleit J, Shelnutt S, Mehtalia SS, Oriol A, Sanford E, Schwartz S, Wigby K, Willis MJ, Yandell M, Kunard CM, Defay T</p>
+    <p class="pub-card__summary">Genome-sequence-based newborn screening (gNBS) has substantial potential to improve outcomes in hundreds of severe childhood genetic disorders (SCGDs).</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/j.ajhg.2024.10.021">Paper &rarr;</a>
+  </div>
+</article>
+</div>
+</section>
+<section class="year-group" data-year="2022">
+<h2 class="year">2022</h2>
+<div class="pub-list">
+<article class="pub-card" data-search="hierarchy-guided neural network for species classification methods in ecology and evolution 2022 elhamod, m., diamond, k.m., maga, a.m., bakis, y. bart h.l, mabee pm, wasila dahdul, w, leipzig j., greenberg, avants b, karpatne a. (2021). &quot;hierarchy‐guided neural network for species classification.&quot; &lt;i&gt;methods ecol. evol.&lt;/i&gt; 2021.">
   <a class="pub-card__media" href="https://doi.org/10.1111/2041-210X.13768" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2021-hierarchy-guided-neural-network.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Methods in Ecology and Evolution</span><span>2021</span></p>
-    <h3><a href="https://doi.org/10.1111/2041-210X.13768">Hierarchy‐guided neural network for species classification</a></h3>
+    <p class="eyebrow"><span>Methods in Ecology and Evolution</span><span>2022</span></p>
+    <h3><a href="https://doi.org/10.1111/2041-210X.13768">Hierarchy-guided neural network for species classification</a></h3>
     
     <p class="pub-card__authors">Elhamod, M., Diamond, K.M., Maga, A.M., Bakis, Y. Bart H.L, Mabee PM, Wasila Dahdul, W, <b>Leipzig J.</b>, Greenberg, Avants B, Karpatne A</p>
     <p class="pub-card__summary">This paper presents a hierarchy-guided neural network approach for species classification.</p>
     <a class="pub-card__link" href="https://doi.org/10.1111/2041-210X.13768">Paper &rarr;</a>
   </div>
 </article>
+</div>
+</section>
+<section class="year-group" data-year="2021">
+<h2 class="year">2021</h2>
+<div class="pub-list">
 <article class="pub-card" data-search="tests of robustness in peer review drexel university 2021 leipzig, j. (2021). &quot;tests of robustness in peer review.&quot; &lt;i&gt;doctoral dissertation, drexel university&lt;/i&gt;.">
   <a class="pub-card__media is-generated" href="https://www.proquest.com/openview/dd50da9437c45c28b25bd9bbdae4ee4b/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2021-tests-robustness-peer-review.svg" alt="" loading="lazy">
@@ -45,15 +81,15 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://www.proquest.com/openview/dd50da9437c45c28b25bd9bbdae4ee4b/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y">Dissertation &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="the role of metadata in reproducible computational research cell patterns 2021 leipzig, j., nüst, d., hoyt, c.t., ram, k., and greenberg, j. (2021). &quot;the role of metadata in reproducible computational research.&quot; &lt;i&gt;cell patterns&lt;/i&gt;. 2021, 100322.">
+<article class="pub-card" data-search="the role of metadata in reproducible computational research patterns 2021 leipzig j, nüst d, hoyt ct, ram k, greenberg j. (2021). &quot;the role of metadata in reproducible computational research.&quot; &lt;i&gt;patterns&lt;/i&gt; 2(9):100322.">
   <a class="pub-card__media" href="https://doi.org/10.1016/j.patter.2021.100322" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2021-role-metadata-reproducible-research.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Cell Patterns</span><span>2021</span></p>
+    <p class="eyebrow"><span>Patterns</span><span>2021</span></p>
     <h3><a href="https://doi.org/10.1016/j.patter.2021.100322">The role of metadata in reproducible computational research</a></h3>
     
-    <p class="pub-card__authors"><b>Leipzig, J.</b>, Nüst, D., Hoyt, C.T., Ram, K., and Greenberg, J</p>
+    <p class="pub-card__authors"><b>Leipzig J</b>, Nüst D, Hoyt CT, Ram K, Greenberg J</p>
     <p class="pub-card__summary">This paper discusses the critical role of metadata in ensuring reproducible computational research.</p>
     <a class="pub-card__link" href="https://doi.org/10.1016/j.patter.2021.100322">Paper &rarr;</a>
   </div>
@@ -74,6 +110,37 @@ hide: [navigation, toc]
     <p class="pub-card__authors"><b>Leipzig, J.</b>, Bakis, Y., Wang, X., Elhamod, M., Diamond, K., Dahdul, W., Karpatne, A., Maga, M., Mabee, P., Bart, H.L., et al</p>
     <p class="pub-card__summary">This paper demonstrates how biodiversity image quality metadata can enhance CNN classification of fish species.</p>
     <a class="pub-card__link" href="https://doi.org/10.1007/978-3-030-71903-6_1">Paper &rarr;</a>
+  </div>
+</article>
+</div>
+</section>
+<section class="year-group" data-year="2019">
+<h2 class="year">2019</h2>
+<div class="pub-list">
+<article class="pub-card" data-search="a comparison of survival analysis methods for cancer gene expression rna-sequencing data cancer genetics 2019 raman p, zimmerman s, rathi ks, de torrenté l, sarmady m, wu c, leipzig j, taylor dm, tozeren a, mar jc. (2019). &quot;a comparison of survival analysis methods for cancer gene expression rna-sequencing data.&quot; &lt;i&gt;cancer genet&lt;/i&gt; 235-236:1-12.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.cancergen.2019.04.004" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2019-raman-survival-analysis.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Cancer Genetics</span><span>2019</span></p>
+    <h3><a href="https://doi.org/10.1016/j.cancergen.2019.04.004">A comparison of survival analysis methods for cancer gene expression RNA-Sequencing data</a></h3>
+    
+    <p class="pub-card__authors">Raman P, Zimmerman S, Rathi KS, de Torrenté L, Sarmady M, Wu C, <b>Leipzig J</b>, Taylor DM, Tozeren A, Mar JC</p>
+    <p class="pub-card__summary">Identifying genetic biomarkers of patient survival remains a major goal of large-scale cancer profiling studies.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/j.cancergen.2019.04.004">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="mitochondrial dna variation dictates expressivity and progression of nuclear dna mutations causing cardiomyopathy cell metabolism 2019 mcmanus mj, picard m, chen hw, de haas hj, potluri p, leipzig j, towheed a, angelin a, sengupta p, morrow rm, kauffman ba, vermulst m, narula j, wallace dc. (2019). &quot;mitochondrial dna variation dictates expressivity and progression of nuclear dna mutations causing cardiomyopathy.&quot; &lt;i&gt;cell metab&lt;/i&gt; 29(1):78-90.e5.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.cmet.2018.08.002" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2019-mcmanus-mtdna-variation.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Cell Metabolism</span><span>2019</span></p>
+    <h3><a href="https://doi.org/10.1016/j.cmet.2018.08.002">Mitochondrial DNA Variation Dictates Expressivity and Progression of Nuclear DNA Mutations Causing Cardiomyopathy</a></h3>
+    
+    <p class="pub-card__authors">McManus MJ, Picard M, Chen HW, De Haas HJ, Potluri P, <b>Leipzig J</b>, Towheed A, Angelin A, Sengupta P, Morrow RM, Kauffman BA, Vermulst M, Narula J, Wallace DC</p>
+    <p class="pub-card__summary">Nuclear-encoded mutations causing metabolic and degenerative diseases have highly variable expressivity.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/j.cmet.2018.08.002">Paper &rarr;</a>
   </div>
 </article>
 </div>
@@ -99,7 +166,7 @@ hide: [navigation, toc]
 <section class="year-group" data-year="2017">
 <h2 class="year">2017</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="a review of bioinformatic pipeline frameworks briefings in bioinformatics 2017 leipzig, j. (2017). &quot;a review of bioinformatic pipeline frameworks.&quot; &lt;i&gt;briefings in bioinformatics&lt;/i&gt;. 2016 10.1093/bib/bbw020.">
+<article class="pub-card" data-search="a review of bioinformatic pipeline frameworks briefings in bioinformatics 2017 leipzig j. (2017). &quot;a review of bioinformatic pipeline frameworks.&quot; &lt;i&gt;brief bioinform&lt;/i&gt; 18(3):530-536.">
   <a class="pub-card__media" href="https://doi.org/10.1093/bib/bbw020" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2017-review-bioinformatic-pipeline-frameworks.jpg" alt="" loading="lazy">
   </a>
@@ -107,7 +174,7 @@ hide: [navigation, toc]
     <p class="eyebrow"><span>Briefings in Bioinformatics</span><span>2017</span></p>
     <h3><a href="https://doi.org/10.1093/bib/bbw020">A review of bioinformatic pipeline frameworks</a></h3>
     <p class="pub-card__note">ISI Top 1% Highly Cited</p>
-    <p class="pub-card__authors"><b>Leipzig, J</b></p>
+    <p class="pub-card__authors"><b>Leipzig J</b></p>
     <p class="pub-card__summary">This paper provides a comprehensive review of bioinformatic pipeline frameworks.</p>
     <a class="pub-card__link" href="https://doi.org/10.1093/bib/bbw020">Paper &rarr;</a>
   </div>
@@ -125,43 +192,74 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://doi.org/10.1001/jamapsychiatry.2017.2604">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="predicting the pathogenicity of novel variants in mitochondrial trna with mitotip plos computational biology 2017 sonney, s.; leipzig, j.; lott, m. t.; zhang, s.; procaccio, v.; wallace, d. c.; sondheimer, n. (2017). &quot;predicting the pathogenicity of novel variants in mitochondrial trna with mitotip.&quot; &lt;i&gt;plos comput. biol.&lt;/i&gt; 13 (12), e1005867.">
+<article class="pub-card" data-search="mitochondrial energy deficiency leads to hyperproliferation of skeletal muscle mitochondria and enhanced insulin sensitivity pnas 2017 morrow rm, picard m, derbeneva o, leipzig j, mcmanus mj, gouspillou g, barbat-artigas s, dos santos c, hepple rt, murdock dg, wallace dc. (2017). &quot;mitochondrial energy deficiency leads to hyperproliferation of skeletal muscle mitochondria and enhanced insulin sensitivity.&quot; &lt;i&gt;proc natl acad sci u s a&lt;/i&gt; 114(10):2705-2710.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1073/pnas.1700997114" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2017-morrow-mitochondrial-energy-deficiency.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>PNAS</span><span>2017</span></p>
+    <h3><a href="https://doi.org/10.1073/pnas.1700997114">Mitochondrial energy deficiency leads to hyperproliferation of skeletal muscle mitochondria and enhanced insulin sensitivity</a></h3>
+    
+    <p class="pub-card__authors">Morrow RM, Picard M, Derbeneva O, <b>Leipzig J</b>, McManus MJ, Gouspillou G, Barbat-Artigas S, Dos Santos C, Hepple RT, Murdock DG, Wallace DC</p>
+    <p class="pub-card__summary">Diabetes is associated with impaired glucose metabolism in the presence of excess insulin.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1073/pnas.1700997114">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="predicting the pathogenicity of novel variants in mitochondrial trna with mitotip plos computational biology 2017 sonney s, leipzig j, lott mt, zhang s, procaccio v, wallace dc, sondheimer n. (2017). &quot;predicting the pathogenicity of novel variants in mitochondrial trna with mitotip.&quot; &lt;i&gt;plos comput biol&lt;/i&gt; 13(12):e1005867.">
   <a class="pub-card__media" href="https://doi.org/10.1371/journal.pcbi.1005867" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2017-mitotip-pathogenicity-prediction.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>PLoS Computational Biology</span><span>2017</span></p>
-    <h3><a href="https://doi.org/10.1371/journal.pcbi.1005867">Predicting the Pathogenicity of Novel Variants in Mitochondrial tRNA with MitoTIP</a></h3>
+    <h3><a href="https://doi.org/10.1371/journal.pcbi.1005867">Predicting the pathogenicity of novel variants in mitochondrial tRNA with MitoTIP</a></h3>
     
-    <p class="pub-card__authors">Sonney, S.; <b>Leipzig, J.</b>; Lott, M. T.; Zhang, S.; Procaccio, V.; Wallace, D. C.; Sondheimer, N</p>
+    <p class="pub-card__authors">Sonney S, <b>Leipzig J</b>, Lott MT, Zhang S, Procaccio V, Wallace DC, Sondheimer N</p>
     <p class="pub-card__summary">This paper presents MitoTIP, a tool for predicting the pathogenicity of novel variants in mitochondrial tRNA.</p>
     <a class="pub-card__link" href="https://doi.org/10.1371/journal.pcbi.1005867">Paper &rarr;</a>
   </div>
 </article>
 </div>
 </section>
-<section class="year-group" data-year="2014">
-<h2 class="year">2014</h2>
+<section class="year-group" data-year="2016">
+<h2 class="year">2016</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data circulation research 2014 glessner, j.t., bick, a.g., ito, k., homsy, j., rodriguez-murillo, l., fromer, m., mazaika, e., vardarajan, b., italia, m., leipzig, j., ... &amp; goldmuntz, e. (2014). increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data. circulation research, 115(10), 884-896.">
-  <a class="pub-card__media is-generated" href="https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.115.304458" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2014-glessner-chd.svg" alt="" loading="lazy">
+<article class="pub-card" data-search="mseqdr: a centralized knowledge repository and bioinformatics web resource to facilitate genomic investigations in mitochondrial disease human mutation 2016 shen l, diroma ma, gonzalez m, navarro-gomez d, leipzig j, lott mt, van oven m, wallace dc, muraresku cc, zolkipli-cunningham z, chinnery pf, attimonelli m, zuchner s, falk mj, gai x. (2016). &quot;mseqdr: a centralized knowledge repository and bioinformatics web resource to facilitate genomic investigations in mitochondrial disease.&quot; &lt;i&gt;hum mutat&lt;/i&gt; 37(6):540-548.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1002/humu.22974" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2016-shen-mseqdr.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Circulation Research</span><span>2014</span></p>
-    <h3><a href="https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.115.304458">Increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data</a></h3>
+    <p class="eyebrow"><span>Human Mutation</span><span>2016</span></p>
+    <h3><a href="https://doi.org/10.1002/humu.22974">MSeqDR: A Centralized Knowledge Repository and Bioinformatics Web Resource to Facilitate Genomic Investigations in Mitochondrial Disease</a></h3>
     
-    <p class="pub-card__authors">Glessner, J.T., Bick, A.G., Ito, K., Homsy, J., Rodriguez-Murillo, L., Fromer, M., Mazaika, E., Vardarajan, B., Italia, M., <b>Leipzig, J.</b>, ... & Goldmuntz, E</p>
-    <p class="pub-card__summary">This study integrates SNP array and exome sequencing data to identify de novo copy number variants in congenital heart disease.</p>
-    <a class="pub-card__link" href="https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.115.304458">Paper &rarr;</a>
+    <p class="pub-card__authors">Shen L, Diroma MA, Gonzalez M, Navarro-Gomez D, <b>Leipzig J</b>, Lott MT, van Oven M, Wallace DC, Muraresku CC, Zolkipli-Cunningham Z, Chinnery PF, Attimonelli M, Zuchner S, Falk MJ, Gai X</p>
+    <p class="pub-card__summary">MSeqDR is the Mitochondrial Disease Sequence Data Resource, a centralized and comprehensive genome and phenome bioinformatics resource built by the mitochondrial disease community to facilitate clinical diagnosis and research investigations of individual patient phenotypes, genomes, genes, and variants.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1002/humu.22974">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="phy-mer: a novel alignment-free and reference-independent mitochondrial haplogroup classifier bioinformatics 2014 navarro-gomez d, leipzig j, shen l, lott m, stassen ap, wallace dc, wiggs jl, falk mj, van oven m, gai x. (2014). &quot;phy-mer: a novel alignment-free and reference-independent mitochondrial haplogroup classifier.&quot; &lt;i&gt;bioinformatics&lt;/i&gt;. dec 12. 10.1093/bioinformatics/btu825.">
+</div>
+</section>
+<section class="year-group" data-year="2015">
+<h2 class="year">2015</h2>
+<div class="pub-list">
+<article class="pub-card" data-search="peripheral blood mitochondrial dna as a biomarker of cerebral mitochondrial dysfunction following traumatic brain injury in a porcine model plos one 2015 kilbaugh tj, lvova m, karlsson m, zhang z, leipzig j, wallace dc, margulies ss. (2015). &quot;peripheral blood mitochondrial dna as a biomarker of cerebral mitochondrial dysfunction following traumatic brain injury in a porcine model.&quot; &lt;i&gt;plos one&lt;/i&gt; 10(6):e0130927.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1371/journal.pone.0130927" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2015-kilbaugh-peripheral-blood-mtdna.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>PLoS One</span><span>2015</span></p>
+    <h3><a href="https://doi.org/10.1371/journal.pone.0130927">Peripheral Blood Mitochondrial DNA as a Biomarker of Cerebral Mitochondrial Dysfunction following Traumatic Brain Injury in a Porcine Model</a></h3>
+    
+    <p class="pub-card__authors">Kilbaugh TJ, Lvova M, Karlsson M, Zhang Z, <b>Leipzig J</b>, Wallace DC, Margulies SS</p>
+    <p class="pub-card__summary">Traumatic brain injury (TBI) has been shown to activate the peripheral innate immune system and systemic inflammatory response, possibly through the central release of damage associated molecular patterns (DAMPs).</p>
+    <a class="pub-card__link" href="https://doi.org/10.1371/journal.pone.0130927">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="phy-mer: a novel alignment-free and reference-independent mitochondrial haplogroup classifier bioinformatics 2015 navarro-gomez d, leipzig j, shen l, lott m, stassen ap, wallace dc, wiggs jl, falk mj, van oven m, gai x. (2015). &quot;phy-mer: a novel alignment-free and reference-independent mitochondrial haplogroup classifier.&quot; &lt;i&gt;bioinformatics&lt;/i&gt; 31(8):1310-1312.">
   <a class="pub-card__media is-generated" href="https://doi.org/10.1093/bioinformatics/btu825" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2014-phy-mer-mitochondrial-haplogroup.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Bioinformatics</span><span>2014</span></p>
+    <p class="eyebrow"><span>Bioinformatics</span><span>2015</span></p>
     <h3><a href="https://doi.org/10.1093/bioinformatics/btu825">Phy-Mer: a novel alignment-free and reference-independent mitochondrial haplogroup classifier</a></h3>
     
     <p class="pub-card__authors">Navarro-Gomez D, <b>Leipzig J</b>, Shen L, Lott M, Stassen AP, Wallace DC, Wiggs JL, Falk MJ, van Oven M, Gai X</p>
@@ -169,12 +267,12 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://doi.org/10.1093/bioinformatics/btu825">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="the mitochondrial disease sequence data resource (mseqdr): a global grass-roots effort to promote sharing of mitochondrial dna sequencing data mitochondrion 2014 schoenfeld, r.a., wong, l.j., singh, l.n., dimmock, d., leipzig, j., sweetser, d.a., ... &amp; mccormick, e.m. (2014). the mitochondrial disease sequence data resource (mseqdr): a global grass-roots effort to promote sharing of mitochondrial dna sequencing data. mitochondrion, 19, 86-90.">
+<article class="pub-card" data-search="the mitochondrial disease sequence data resource (mseqdr): a global grass-roots effort to promote sharing of mitochondrial dna sequencing data molecular genetics and metabolism 2015 schoenfeld, r.a., wong, l.j., singh, l.n., dimmock, d., leipzig, j., sweetser, d.a., ... &amp; mccormick, e.m. (2014). the mitochondrial disease sequence data resource (mseqdr): a global grass-roots effort to promote sharing of mitochondrial dna sequencing data. mitochondrion, 19, 86-90.">
   <a class="pub-card__media is-generated" href="https://www.sciencedirect.com/science/article/pii/S1567724914001087" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2014-mseqdr.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Mitochondrion</span><span>2014</span></p>
+    <p class="eyebrow"><span>Molecular Genetics and Metabolism</span><span>2015</span></p>
     <h3><a href="https://www.sciencedirect.com/science/article/pii/S1567724914001087">The Mitochondrial Disease Sequence Data Resource (MSeqDR): a global grass-roots effort to promote sharing of mitochondrial DNA sequencing data</a></h3>
     
     <p class="pub-card__authors">Schoenfeld, R.A., Wong, L.J., Singh, L.N., Dimmock, D., <b>Leipzig, J.</b>, Sweetser, D.A., ... & McCormick, E.M</p>
@@ -184,46 +282,77 @@ hide: [navigation, toc]
 </article>
 </div>
 </section>
+<section class="year-group" data-year="2014">
+<h2 class="year">2014</h2>
+<div class="pub-list">
+<article class="pub-card" data-search="increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data circulation research 2014 glessner jt, bick ag, ito k, homsy j, rodriguez-murillo l, fromer m, mazaika e, vardarajan b, italia m, leipzig j, depalma sr, golhar r, sanders sj, yamrom b, ronemus m, iossifov i, willsey aj, state mw, kaltman jr, white ps, shen y, warburton d, brueckner m, seidman c, goldmuntz e, gelb bd, lifton r, seidman j, hakonarson h, chung wk. (2014). &quot;increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data.&quot; &lt;i&gt;circ res&lt;/i&gt; 115(10):884-896.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1161/circresaha.115.304458" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2014-glessner-chd.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Circulation Research</span><span>2014</span></p>
+    <h3><a href="https://doi.org/10.1161/circresaha.115.304458">Increased frequency of de novo copy number variants in congenital heart disease by integrative analysis of single nucleotide polymorphism array and exome sequence data</a></h3>
+    
+    <p class="pub-card__authors">Glessner JT, Bick AG, Ito K, Homsy J, Rodriguez-Murillo L, Fromer M, Mazaika E, Vardarajan B, Italia M, <b>Leipzig J</b>, DePalma SR, Golhar R, Sanders SJ, Yamrom B, Ronemus M, Iossifov I, Willsey AJ, State MW, Kaltman JR, White PS, Shen Y, Warburton D, Brueckner M, Seidman C, Goldmuntz E, Gelb BD, Lifton R, Seidman J, Hakonarson H, Chung WK</p>
+    <p class="pub-card__summary">This study integrates SNP array and exome sequencing data to identify de novo copy number variants in congenital heart disease.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1161/circresaha.115.304458">Paper &rarr;</a>
+  </div>
+</article>
+</div>
+</section>
 <section class="year-group" data-year="2013">
 <h2 class="year">2013</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="de novo mutations in histone-modifying genes in congenital heart disease nature 2013 zaidi, s., choi, m., wakimoto, h., ma, l., jiang, j., overton, j.d., romano-adesman, a., bjornson, r.d., breitbart, r.e., brown, k.k., carriero, n.j., cheung, y.h., deanfield, j., depalma, s., fakhro, k.a., glessner, j., hakonarson, h., italia, m.j., kaltman, j.r., kaski, j., kim, r., kline, j.k., lee, t., leipzig, j., ... &amp; lifton, r.p. (2013). de novo mutations in histone-modifying genes in congenital heart disease. nature, 498(7453), 220-223.">
-  <a class="pub-card__media" href="https://www.nature.com/articles/nature12141" tabindex="-1" aria-hidden="true">
+<article class="pub-card" data-search="de novo mutations in histone-modifying genes in congenital heart disease nature 2013 zaidi s, choi m, wakimoto h, ma l, jiang j, overton jd, romano-adesman a, bjornson rd, breitbart re, brown kk, carriero nj, cheung yh, deanfield j, depalma s, fakhro ka, glessner j, hakonarson h, italia mj, kaltman jr, kaski j, kim r, kline jk, lee t, leipzig j, lopez a, mane sm, mitchell le, newburger jw, parfenov m, pe&#x27;er i, porter g, roberts ae, sachidanandam r, sanders sj, seiden hs, state mw, subramanian s, tikhonova ir, wang w, warburton d, white ps, williams ia, zhao h, seidman jg, brueckner m, chung wk, gelb bd, goldmuntz e, seidman ce, lifton rp. (2013). &quot;de novo mutations in histone-modifying genes in congenital heart disease.&quot; &lt;i&gt;nature&lt;/i&gt; 498(7453):220-223.">
+  <a class="pub-card__media" href="https://doi.org/10.1038/nature12141" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2013-zaidi-nature.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Nature</span><span>2013</span></p>
-    <h3><a href="https://www.nature.com/articles/nature12141">De novo mutations in histone-modifying genes in congenital heart disease</a></h3>
+    <h3><a href="https://doi.org/10.1038/nature12141">De novo mutations in histone-modifying genes in congenital heart disease</a></h3>
     
-    <p class="pub-card__authors">Zaidi, S., Choi, M., Wakimoto, H., Ma, L., Jiang, J., Overton, J.D., Romano-Adesman, A., Bjornson, R.D., Breitbart, R.E., Brown, K.K., Carriero, N.J., Cheung, Y.H., Deanfield, J., DePalma, S., Fakhro, K.A., Glessner, J., Hakonarson, H., Italia, M.J., Kaltman, J.R., Kaski, J., Kim, R., Kline, J.K., Lee, T., <b>Leipzig, J.</b>, ... & Lifton, R.P</p>
+    <p class="pub-card__authors">Zaidi S, Choi M, Wakimoto H, Ma L, Jiang J, Overton JD, Romano-Adesman A, Bjornson RD, Breitbart RE, Brown KK, Carriero NJ, Cheung YH, Deanfield J, DePalma S, Fakhro KA, Glessner J, Hakonarson H, Italia MJ, Kaltman JR, Kaski J, Kim R, Kline JK, Lee T, <b>Leipzig J</b>, Lopez A, Mane SM, Mitchell LE, Newburger JW, Parfenov M, Pe'er I, Porter G, Roberts AE, Sachidanandam R, Sanders SJ, Seiden HS, State MW, Subramanian S, Tikhonova IR, Wang W, Warburton D, White PS, Williams IA, Zhao H, Seidman JG, Brueckner M, Chung WK, Gelb BD, Goldmuntz E, Seidman CE, Lifton RP</p>
     <p class="pub-card__summary">This study identifies de novo mutations in histone-modifying genes associated with congenital heart disease.</p>
-    <a class="pub-card__link" href="https://www.nature.com/articles/nature12141">Paper &rarr;</a>
+    <a class="pub-card__link" href="https://doi.org/10.1038/nature12141">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="integrated systems approach identifies genetic nodes and networks in late-onset alzheimer&#x27;s disease cell 2013 zhang, b., gaiteri, c., bodea, l.g., wang, z., mcelwee, j., podtelezhnikov, a.a., zhang, c., xie, t., tran, l., dobrin, r., fluder, e., clurman, b., melquist, s., narayanan, m., suver, c., shah, h., mahajan, m., gillis, t., mysore, j., macdonald, m.e., lamb, j.r., bennett, d.a., molony, c., stone, d.j., gudnason, v., myers, a.j., schadt, e.e., neumann, h., zhu, j., &amp; emilsson, v. (2013). integrated systems approach identifies genetic nodes and networks in late-onset alzheimer&#x27;s disease. cell, 153(3), 707-720.">
-  <a class="pub-card__media" href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/pubs/2013-zhang-bmc.jpg" alt="" loading="lazy">
+<article class="pub-card" data-search="efficient digest of high-throughput sequencing data in a reproducible report bmc bioinformatics 2013 zhang z, leipzig j, sasson a, yu am, perin jc, xie hm, sarmady m, warren pv, white ps. (2013). &quot;efficient digest of high-throughput sequencing data in a reproducible report.&quot; &lt;i&gt;bmc bioinformatics&lt;/i&gt; 14 suppl 11:s3.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1186/1471-2105-14-s11-s3" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2013-zhang-efficient-digest.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Cell</span><span>2013</span></p>
-    <h3><a href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7">Integrated systems approach identifies genetic nodes and networks in late-onset Alzheimer&#x27;s disease</a></h3>
+    <p class="eyebrow"><span>BMC Bioinformatics</span><span>2013</span></p>
+    <h3><a href="https://doi.org/10.1186/1471-2105-14-s11-s3">Efficient digest of high-throughput sequencing data in a reproducible report</a></h3>
     
-    <p class="pub-card__authors">Zhang, B., Gaiteri, C., Bodea, L.G., Wang, Z., McElwee, J., Podtelezhnikov, A.A., Zhang, C., Xie, T., Tran, L., Dobrin, R., Fluder, E., Clurman, B., Melquist, S., Narayanan, M., Suver, C., Shah, H., Mahajan, M., Gillis, T., Mysore, J., MacDonald, M.E., Lamb, J.R., Bennett, D.A., Molony, C., Stone, D.J., Gudnason, V., Myers, A.J., Schadt, E.E., Neumann, H., Zhu, J., & Emilsson, V</p>
-    <p class="pub-card__summary">This study uses an integrated systems approach to identify genetic nodes and networks in late-onset Alzheimer disease.</p>
-    <a class="pub-card__link" href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7">Paper &rarr;</a>
+    <p class="pub-card__authors">Zhang Z, <b>Leipzig J</b>, Sasson A, Yu AM, Perin JC, Xie HM, Sarmady M, Warren PV, White PS</p>
+    <p class="pub-card__summary">High-throughput sequencing (HTS) technologies are spearheading the accelerated development of biomedical research.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1186/1471-2105-14-s11-s3">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="mitomap and mitomaster: using the mitomap database to complement analysis of a novel mitochondrial dna phenotype current protocols in bioinformatics 2013 lott, m.t., leipzig, j.n., derbeneva, o., xie, h.m., chalkia, d., sarmady, m., procaccio, v., &amp; wallace, d.c. (2013). mitomap and mitomaster: using the mitomap database to complement analysis of a novel mitochondrial dna phenotype. current protocols in bioinformatics, 44(1), 1.23.1-1.23.26.">
-  <a class="pub-card__media is-generated" href="https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/0471250953.bi0123s44" tabindex="-1" aria-hidden="true">
+<article class="pub-card" data-search="work issues in software engineering arxiv 2013 j leipzig (2013). &quot;work issues in software engineering.&quot; &lt;i&gt;arxiv preprint arxiv:1303.2646&lt;/i&gt;.">
+  <a class="pub-card__media is-generated" href="https://arxiv.org/abs/1303.2646" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2013-leipzig-work-issues-software-engineering.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>arXiv</span><span>2013</span></p>
+    <h3><a href="https://arxiv.org/abs/1303.2646">Work Issues in Software Engineering</a></h3>
+    
+    <p class="pub-card__authors">J Leipzig</p>
+    <p class="pub-card__summary"></p>
+    <a class="pub-card__link" href="https://arxiv.org/abs/1303.2646">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="mtdna variation and analysis using mitomap and mitomaster current protocols in bioinformatics 2013 lott mt, leipzig jn, derbeneva o, xie hm, chalkia d, sarmady m, procaccio v, wallace dc. (2013). &quot;mtdna variation and analysis using mitomap and mitomaster.&quot; &lt;i&gt;curr protoc bioinformatics&lt;/i&gt; 44:1.23.1-26.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1002/0471250953.bi0123s44" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2013-mitomap-protocol.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Current Protocols in Bioinformatics</span><span>2013</span></p>
-    <h3><a href="https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/0471250953.bi0123s44">MITOMAP and MITOMASTER: using the MITOMAP database to complement analysis of a novel mitochondrial DNA phenotype</a></h3>
+    <h3><a href="https://doi.org/10.1002/0471250953.bi0123s44">mtDNA Variation and Analysis Using Mitomap and Mitomaster</a></h3>
     
-    <p class="pub-card__authors">Lott, M.T., <b>Leipzig, J.N.</b>, Derbeneva, O., Xie, H.M., Chalkia, D., Sarmady, M., Procaccio, V., & Wallace, D.C</p>
+    <p class="pub-card__authors">Lott MT, <b>Leipzig JN</b>, Derbeneva O, Xie HM, Chalkia D, Sarmady M, Procaccio V, Wallace DC</p>
     <p class="pub-card__summary">This paper describes protocols for using MITOMAP and MITOMASTER databases for mitochondrial DNA analysis.</p>
-    <a class="pub-card__link" href="https://currentprotocols.onlinelibrary.wiley.com/doi/abs/10.1002/0471250953.bi0123s44">Paper &rarr;</a>
+    <a class="pub-card__link" href="https://doi.org/10.1002/0471250953.bi0123s44">Paper &rarr;</a>
   </div>
 </article>
 </div>
@@ -316,6 +445,19 @@ hide: [navigation, toc]
 <section class="year-group" data-year="2007">
 <h2 class="year">2007</h2>
 <div class="pub-list">
+<article class="pub-card" data-search="dna bar coding and pyrophosphate sequencing reveals rare hiv drug resistance mutations of potential clinical significance antiviral therapy (abstract) 2007 c hoffmann, n minkah, j leipzig, gp wang, p tebas, fd bushman (2007). &quot;dna bar coding and pyrophosphate sequencing reveals rare hiv drug resistance mutations of potential clinical significance.&quot; &lt;i&gt;antiviral therapy 12, s152-s152&lt;/i&gt;.">
+  <a class="pub-card__media is-generated" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:KlAtU1dfN6UC" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2007-hoffmann-pyrophosphate-sequencing-abstract.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Antiviral Therapy (abstract)</span><span>2007</span></p>
+    <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:KlAtU1dfN6UC">DNA bar coding and pyrophosphate sequencing reveals rare HIV drug resistance mutations of potential clinical significance</a></h3>
+    
+    <p class="pub-card__authors">C Hoffmann, N Minkah, J Leipzig, GP Wang, P Tebas, FD Bushman</p>
+    <p class="pub-card__summary"></p>
+    <a class="pub-card__link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:KlAtU1dfN6UC">Paper &rarr;</a>
+  </div>
+</article>
 <article class="pub-card" data-search="dna bar coding and pyrosequencing to identify rare hiv drug resistance mutations nucleic acids research 2007 hoffmann c, minkah n, leipzig j, wang g, arens mq, tebas p, bushman fd. (2007). &quot;dna bar coding and pyrosequencing to identify rare hiv drug resistance mutations.&quot; &lt;i&gt;nucleic acids res&lt;/i&gt; 35(13):e91.">
   <a class="pub-card__media is-generated" href="https://doi.org/10.1093/nar/gkm435" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2007-hoffmann-hiv-resistance.svg" alt="" loading="lazy">
@@ -329,7 +471,7 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://doi.org/10.1093/nar/gkm435">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications genome research 2007 wang gp, ciuffi a, leipzig j, berry cc, bushman fd. (2007). &quot;hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications.&quot; &lt;i&gt;genome res.&lt;/i&gt; 17(8):1186-94.">
+<article class="pub-card" data-search="hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications genome research 2007 wang gp, ciuffi a, leipzig j, berry cc, bushman fd. (2007). &quot;hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications.&quot; &lt;i&gt;genome res&lt;/i&gt; 17(8):1186-1194.">
   <a class="pub-card__media is-generated" href="https://doi.org/10.1101/gr.6286907" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2007-hiv-integration-site-selection.svg" alt="" loading="lazy">
   </a>
@@ -347,33 +489,46 @@ hide: [navigation, toc]
 <section class="year-group" data-year="2006">
 <h2 class="year">2006</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="dna repair, mutagenesis, and the control of retroviral integration dna repair 2006 barr, s.d., leipzig, j., shinn, p., ecker, j.r., &amp; bushman, f.d. (2005). integration targeting by avian sarcoma-leukosis virus and human immunodeficiency virus in the chicken genome. journal of virology, 79(20), 12035-12044.">
-  <a class="pub-card__media is-generated" href="https://www.sciencedirect.com/science/article/pii/S1568786406001628" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2006-barr.svg" alt="" loading="lazy">
+<article class="pub-card" data-search="hiv integration site selection: targeting in macrophages and the effects of different routes of viral entry molecular therapy 2006 barr sd, ciuffi a, leipzig j, shinn p, ecker jr, bushman fd. (2006). &quot;hiv integration site selection: targeting in macrophages and the effects of different routes of viral entry.&quot; &lt;i&gt;mol ther&lt;/i&gt; 14(2):218-225.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.ymthe.2006.03.012" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2006-barr-macrophages.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>DNA Repair</span><span>2006</span></p>
-    <h3><a href="https://www.sciencedirect.com/science/article/pii/S1568786406001628">DNA repair, mutagenesis, and the control of retroviral integration</a></h3>
+    <p class="eyebrow"><span>Molecular Therapy</span><span>2006</span></p>
+    <h3><a href="https://doi.org/10.1016/j.ymthe.2006.03.012">HIV integration site selection: targeting in macrophages and the effects of different routes of viral entry</a></h3>
     
-    <p class="pub-card__authors">Barr, S.D., <b>Leipzig, J.</b>, Shinn, P., Ecker, J.R., & Bushman, F.D</p>
-    <p class="pub-card__summary">This paper examines DNA repair, mutagenesis, and the control of retroviral integration processes.</p>
-    <a class="pub-card__link" href="https://www.sciencedirect.com/science/article/pii/S1568786406001628">Paper &rarr;</a>
+    <p class="pub-card__authors">Barr SD, Ciuffi A, <b>Leipzig J</b>, Shinn P, Ecker JR, Bushman FD</p>
+    <p class="pub-card__summary">We have studied the selection of HIV DNA integration sites in primary macrophages to investigate two questions.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/j.ymthe.2006.03.012">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="genome-wide analysis of chromosomal features repressing human immunodeficiency virus transcription journal of virology 2006 lewinski, m.k., bisgrove, d., shinn, p., chen, h., hoffmann, c., hannenhalli, s., verdin, e., berry, c.c., ecker, j.r., &amp; bushman, f.d. (2005). genome-wide analysis of chromosomal features repressing human immunodeficiency virus transcription. journal of virology, 79(11), 6610-6619.">
-  <a class="pub-card__media is-generated" href="https://journals.asm.org/doi/10.1128/JVI.01436-06" tabindex="-1" aria-hidden="true">
+<article class="pub-card" data-search="integration site selection by hiv-based vectors in dividing and growth-arrested imr-90 lung fibroblasts molecular therapy 2006 ciuffi a, mitchell rs, hoffmann c, leipzig j, shinn p, ecker jr, bushman fd. (2006). &quot;integration site selection by hiv-based vectors in dividing and growth-arrested imr-90 lung fibroblasts.&quot; &lt;i&gt;mol ther&lt;/i&gt; 13(2):366-373.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.ymthe.2005.10.009" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2006-ciuffi-imr90.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Molecular Therapy</span><span>2006</span></p>
+    <h3><a href="https://doi.org/10.1016/j.ymthe.2005.10.009">Integration site selection by HIV-based vectors in dividing and growth-arrested IMR-90 lung fibroblasts</a></h3>
+    
+    <p class="pub-card__authors">Ciuffi A, Mitchell RS, Hoffmann C, <b>Leipzig J</b>, Shinn P, Ecker JR, Bushman FD</p>
+    <p class="pub-card__summary">DNA integration is a defining step in the retroviral life cycle and the basis of stable gene transfer in retrovirus-based gene therapy.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/j.ymthe.2005.10.009">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="retroviral dna integration: viral and cellular determinants of target-site selection plos pathogens 2006 lewinski mk, yamashita m, emerman m, ciuffi a, marshall h, crawford g, collins f, shinn p, leipzig j, hannenhalli s, berry cc, ecker jr, bushman fd. (2006). &quot;retroviral dna integration: viral and cellular determinants of target-site selection.&quot; &lt;i&gt;plos pathog&lt;/i&gt; 2(6):e60.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1371/journal.ppat.0020060" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2006-lewinski.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Journal of Virology</span><span>2006</span></p>
-    <h3><a href="https://journals.asm.org/doi/10.1128/JVI.01436-06">Genome-wide analysis of chromosomal features repressing human immunodeficiency virus transcription</a></h3>
+    <p class="eyebrow"><span>PLoS Pathogens</span><span>2006</span></p>
+    <h3><a href="https://doi.org/10.1371/journal.ppat.0020060">Retroviral DNA integration: viral and cellular determinants of target-site selection</a></h3>
     
-    <p class="pub-card__authors">Lewinski, M.K., Bisgrove, D., Shinn, P., Chen, H., Hoffmann, C., Hannenhalli, S., Verdin, E., Berry, C.C., Ecker, J.R., & Bushman, F.D</p>
+    <p class="pub-card__authors">Lewinski MK, Yamashita M, Emerman M, Ciuffi A, Marshall H, Crawford G, Collins F, Shinn P, <b>Leipzig J</b>, Hannenhalli S, Berry CC, Ecker JR, Bushman FD</p>
     <p class="pub-card__summary">This study analyzes genome-wide chromosomal features that repress HIV transcription.</p>
-    <a class="pub-card__link" href="https://journals.asm.org/doi/10.1128/JVI.01436-06">Paper &rarr;</a>
+    <a class="pub-card__link" href="https://doi.org/10.1371/journal.ppat.0020060">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="selection of target sites for mobile dna integration in the human genome plos computational biology 2006 berry c, hannenhalli s, leipzig j, bushman fd. (2006). &quot;selection of target sites for mobile dna integration in the human genome.&quot; &lt;i&gt;plos comput biol.&lt;/i&gt; 2(11):e157.">
+<article class="pub-card" data-search="selection of target sites for mobile dna integration in the human genome plos computational biology 2006 berry c, hannenhalli s, leipzig j, bushman fd. (2006). &quot;selection of target sites for mobile dna integration in the human genome.&quot; &lt;i&gt;plos comput biol&lt;/i&gt; 2(11):e157.">
   <a class="pub-card__media" href="https://doi.org/10.1371/journal.pcbi.0020157" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2006-target-sites-mobile-dna-integration.jpg" alt="" loading="lazy">
   </a>
@@ -391,7 +546,7 @@ hide: [navigation, toc]
 <section class="year-group" data-year="2005">
 <h2 class="year">2005</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="a role for ledgf/p75 in targeting hiv dna integration nature medicine 2005 ciuffi a, llano m, poeschla e, hoffmann c, leipzig j, shinn p, ecker j, bushman f. (2005). &quot;a role for ledgf/p75 in targeting hiv dna integration.&quot; &lt;i&gt;nat med.&lt;/i&gt; 11(12):1287-9.">
+<article class="pub-card" data-search="a role for ledgf/p75 in targeting hiv dna integration nature medicine 2005 ciuffi a, llano m, poeschla e, hoffmann c, leipzig j, shinn p, ecker jr, bushman f. (2005). &quot;a role for ledgf/p75 in targeting hiv dna integration.&quot; &lt;i&gt;nat med&lt;/i&gt; 11(12):1287-1289.">
   <a class="pub-card__media" href="https://doi.org/10.1038/nm1329" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/pubs/2005-ledgf-hiv-dna-integration.jpg" alt="" loading="lazy">
   </a>
@@ -399,7 +554,7 @@ hide: [navigation, toc]
     <p class="eyebrow"><span>Nature Medicine</span><span>2005</span></p>
     <h3><a href="https://doi.org/10.1038/nm1329">A role for LEDGF/p75 in targeting HIV DNA integration</a></h3>
     
-    <p class="pub-card__authors">Ciuffi A, Llano M, Poeschla E, Hoffmann C, <b>Leipzig J</b>, Shinn P, Ecker J, Bushman F</p>
+    <p class="pub-card__authors">Ciuffi A, Llano M, Poeschla E, Hoffmann C, <b>Leipzig J</b>, Shinn P, Ecker JR, Bushman F</p>
     <p class="pub-card__summary">This paper identifies the role of LEDGF/p75 in targeting HIV DNA integration.</p>
     <a class="pub-card__link" href="https://doi.org/10.1038/nm1329">Paper &rarr;</a>
   </div>
@@ -417,17 +572,17 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://doi.org/10.1038/nrmicro1263">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="integration targeting by avian sarcoma-leukosis virus and human immunodeficiency virus in the chicken genome journal of virology 2005 barr, s.d., leipzig, j., shinn, p., ecker, j.r., &amp; bushman, f.d. (2005). integration targeting by avian sarcoma-leukosis virus and human immunodeficiency virus in the chicken genome. journal of virology, 79(20), 12035-12044.">
-  <a class="pub-card__media is-generated" href="https://journals.asm.org/doi/10.1128/JVI.79.20.12035-12044.2005" tabindex="-1" aria-hidden="true">
+<article class="pub-card" data-search="integration targeting by avian sarcoma-leukosis virus and human immunodeficiency virus in the chicken genome journal of virology 2005 barr sd, leipzig j, shinn p, ecker jr, bushman fd. (2005). &quot;integration targeting by avian sarcoma-leukosis virus and human immunodeficiency virus in the chicken genome.&quot; &lt;i&gt;j virol&lt;/i&gt; 79(18):12035-12044.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1128/jvi.79.18.12035-12044.2005" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2005-barr-avian.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Journal of Virology</span><span>2005</span></p>
-    <h3><a href="https://journals.asm.org/doi/10.1128/JVI.79.20.12035-12044.2005">Integration targeting by avian sarcoma-leukosis virus and human immunodeficiency virus in the chicken genome</a></h3>
+    <h3><a href="https://doi.org/10.1128/jvi.79.18.12035-12044.2005">Integration targeting by avian sarcoma-leukosis virus and human immunodeficiency virus in the chicken genome</a></h3>
     
-    <p class="pub-card__authors">Barr, S.D., <b>Leipzig, J.</b>, Shinn, P., Ecker, J.R., & Bushman, F.D</p>
+    <p class="pub-card__authors">Barr SD, <b>Leipzig J</b>, Shinn P, Ecker JR, Bushman FD</p>
     <p class="pub-card__summary">This study compares integration targeting by avian sarcoma-leukosis virus and HIV in the chicken genome.</p>
-    <a class="pub-card__link" href="https://journals.asm.org/doi/10.1128/JVI.79.20.12035-12044.2005">Paper &rarr;</a>
+    <a class="pub-card__link" href="https://doi.org/10.1128/jvi.79.18.12035-12044.2005">Paper &rarr;</a>
   </div>
 </article>
 </div>
@@ -435,7 +590,7 @@ hide: [navigation, toc]
 <section class="year-group" data-year="2004">
 <h2 class="year">2004</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="the alternative splicing gallery (asg): bridging the gap between genome and transcriptome nucleic acids research 2004 leipzig j, pevzner p, heber s. (2004). &quot;the alternative splicing gallery (asg): bridging the gap between genome and transcriptome.&quot; &lt;i&gt;nucl. acids. res.&lt;/i&gt; 32: 3977-3983.">
+<article class="pub-card" data-search="the alternative splicing gallery (asg): bridging the gap between genome and transcriptome nucleic acids research 2004 leipzig j, pevzner p, heber s. (2004). &quot;the alternative splicing gallery (asg): bridging the gap between genome and transcriptome.&quot; &lt;i&gt;nucleic acids res&lt;/i&gt; 32(13):3977-3983.">
   <a class="pub-card__media is-generated" href="https://doi.org/10.1093/nar/gkh731" tabindex="-1" aria-hidden="true">
     <img src="../assets/thumbs/generated/pubs-2004-alternative-splicing-gallery.svg" alt="" loading="lazy">
   </a>
@@ -448,22 +603,48 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://doi.org/10.1093/nar/gkh731">Paper &rarr;</a>
   </div>
 </article>
+<article class="pub-card" data-search="the splicing graph–a tool for visualising gene structure and alternative splicing future drug discovery 2004 j leipzig, dm nielsen, s heber (2004). &quot;the splicing graph–a tool for visualising gene structure and alternative splicing.&quot; &lt;i&gt;future drug discovery&lt;/i&gt;.">
+  <a class="pub-card__media is-generated" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:eQOLeE2rZwMC" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2004-leipzig-splicing-graph.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Future Drug Discovery</span><span>2004</span></p>
+    <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:eQOLeE2rZwMC">The Splicing Graph–A Tool for Visualising Gene Structure and Alternative Splicing</a></h3>
+    
+    <p class="pub-card__authors">J Leipzig, DM Nielsen, S Heber</p>
+    <p class="pub-card__summary"></p>
+    <a class="pub-card__link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:eQOLeE2rZwMC">Paper &rarr;</a>
+  </div>
+</article>
 </div>
 </section>
 <section class="year-group" data-year="2000">
 <h2 class="year">2000</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="effects of chronic administration of selected atypical antipsychotics on monoamine levels in rat striatum neuropharmacology 2000 duncan, g.e., leipzig, j.n., mailman, r.b., &amp; lieberman, j.a. (2000). differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation. brain research, 812(1-2), 65-75.">
-  <a class="pub-card__media is-generated" href="https://www.sciencedirect.com/science/article/pii/S0028390800001351" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-2000-duncan-neuropharmacology.svg" alt="" loading="lazy">
+<article class="pub-card" data-search="comparison of the effects of clozapine, risperidone, and olanzapine on ketamine-induced alterations in regional brain metabolism the journal of pharmacology and experimental therapeutics 2000 duncan ge, miyamoto s, leipzig jn, lieberman ja. (2000). &quot;comparison of the effects of clozapine, risperidone, and olanzapine on ketamine-induced alterations in regional brain metabolism.&quot; &lt;i&gt;j pharmacol exp ther&lt;/i&gt; 293(1):8-14.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/s0022-3565(24)39197-9" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2000-duncan-clozapine-risperidone-olanzapine.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Neuropharmacology</span><span>2000</span></p>
-    <h3><a href="https://www.sciencedirect.com/science/article/pii/S0028390800001351">Effects of chronic administration of selected atypical antipsychotics on monoamine levels in rat striatum</a></h3>
+    <p class="eyebrow"><span>The Journal of Pharmacology and Experimental Therapeutics</span><span>2000</span></p>
+    <h3><a href="https://doi.org/10.1016/s0022-3565(24)39197-9">Comparison of the effects of clozapine, risperidone, and olanzapine on ketamine-induced alterations in regional brain metabolism</a></h3>
     
-    <p class="pub-card__authors">Duncan, G.E., <b>Leipzig, J.N.</b>, Mailman, R.B., & Lieberman, J.A</p>
-    <p class="pub-card__summary">This study examines effects of chronic atypical antipsychotic administration on monoamine levels in rat striatum.</p>
-    <a class="pub-card__link" href="https://www.sciencedirect.com/science/article/pii/S0028390800001351">Paper &rarr;</a>
+    <p class="pub-card__authors">Duncan GE, Miyamoto S, <b>Leipzig JN</b>, Lieberman JA</p>
+    <p class="pub-card__summary">The ability of subanesthetic doses of N-methyl-D-aspartate (NMDA) antagonists to induce positive, negative, and cognitive schizophrenia-like symptoms suggests that reduced NMDA receptor function may contribute to the pathophysiology of schizophrenia.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/s0022-3565(24)39197-9">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="effects of ketamine, mk-801, and amphetamine on regional brain 2-deoxyglucose uptake in freely moving mice neuropsychopharmacology 2000 miyamoto s, leipzig jn, lieberman ja, duncan ge. (2000). &quot;effects of ketamine, mk-801, and amphetamine on regional brain 2-deoxyglucose uptake in freely moving mice.&quot; &lt;i&gt;neuropsychopharmacology&lt;/i&gt; 22(4):400-412.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/s0893-133x(99)00127-x" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-2000-miyamoto-ketamine-2dg.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Neuropsychopharmacology</span><span>2000</span></p>
+    <h3><a href="https://doi.org/10.1016/s0893-133x(99)00127-x">Effects of ketamine, MK-801, and amphetamine on regional brain 2-deoxyglucose uptake in freely moving mice</a></h3>
+    
+    <p class="pub-card__authors">Miyamoto S, <b>Leipzig JN</b>, Lieberman JA, Duncan GE</p>
+    <p class="pub-card__summary">Although the pathophysiology of schizophrenia remains unclear, behavioral effects in humans induced by N-methyl-D-aspartate (NMDA) antagonists, such as ketamine, provide direction for formulating new pharmacologic models of the illness.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/s0893-133x(99)00127-x">Paper &rarr;</a>
   </div>
 </article>
 </div>
@@ -471,17 +652,30 @@ hide: [navigation, toc]
 <section class="year-group" data-year="1999">
 <h2 class="year">1999</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation brain research 1999 duncan, g.e., leipzig, j.n., mailman, r.b., &amp; lieberman, j.a. (1999). differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation. brain research, 812(1-2), 65-75.">
-  <a class="pub-card__media is-generated" href="https://www.sciencedirect.com/science/article/pii/S0006899399013511" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-1999-duncan.svg" alt="" loading="lazy">
+<article class="pub-card" data-search="comparison of brain metabolic activity patterns induced by ketamine, mk-801 and amphetamine in rats: support for nmda receptor involvement in responses to subanesthetic dose of ketamine brain research 1999 duncan ge, miyamoto s, leipzig jn, lieberman ja. (1999). &quot;comparison of brain metabolic activity patterns induced by ketamine, mk-801 and amphetamine in rats: support for nmda receptor involvement in responses to subanesthetic dose of ketamine.&quot; &lt;i&gt;brain res&lt;/i&gt; 843(1-2):171-183.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/s0006-8993(99)01776-x" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-1999-duncan-brain-metabolic-patterns.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Brain Research</span><span>1999</span></p>
-    <h3><a href="https://www.sciencedirect.com/science/article/pii/S0006899399013511">Differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation</a></h3>
+    <h3><a href="https://doi.org/10.1016/s0006-8993(99)01776-x">Comparison of brain metabolic activity patterns induced by ketamine, MK-801 and amphetamine in rats: support for NMDA receptor involvement in responses to subanesthetic dose of ketamine</a></h3>
     
-    <p class="pub-card__authors">Duncan, G.E., <b>Leipzig, J.N.</b>, Mailman, R.B., & Lieberman, J.A</p>
-    <p class="pub-card__summary">This study compares differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation.</p>
-    <a class="pub-card__link" href="https://www.sciencedirect.com/science/article/pii/S0006899399013511">Paper &rarr;</a>
+    <p class="pub-card__authors">Duncan GE, Miyamoto S, <b>Leipzig JN</b>, Lieberman JA</p>
+    <p class="pub-card__summary">Subanesthetic doses of NMDA receptor antagonists induce positive, negative and cognitive schizophrenia-like symptoms in healthy humans and precipitate psychotic reactions in stabilized schizophrenic patients.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/s0006-8993(99)01776-x">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats schizophrenia research (abstract) 1999 ge duncan, jn leipzig, rb mailman, ja lieberman (1999). &quot;regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats.&quot; &lt;i&gt;schizophrenia research 36 (1-3), 307-307&lt;/i&gt;.">
+  <a class="pub-card__media is-generated" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:kNdYIx-mwKoC" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-1999-duncan-ketamine-abstract.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>Schizophrenia Research (abstract)</span><span>1999</span></p>
+    <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:kNdYIx-mwKoC">Regional brain metabolic activation induced by ketamine is affected differentially by typical and atypical antipsychotic drugs in rats</a></h3>
+    
+    <p class="pub-card__authors">GE Duncan, JN Leipzig, RB Mailman, JA Lieberman</p>
+    <p class="pub-card__summary"></p>
+    <a class="pub-card__link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=dTC-vJIAAAAJ&amp;pagesize=100&amp;sortby=pubdate&amp;citation_for_view=dTC-vJIAAAAJ:kNdYIx-mwKoC">Paper &rarr;</a>
   </div>
 </article>
 </div>
@@ -489,17 +683,17 @@ hide: [navigation, toc]
 <section class="year-group" data-year="1998">
 <h2 class="year">1998</h2>
 <div class="pub-list">
-<article class="pub-card" data-search="repeated administration of haloperidol, risperidone, or olanzapine to rats does not produce the pattern of metabolic changes between brain regions found in subjects with schizophrenia neuropsychopharmacology 1998 duncan, g.e., sheitman, b.b., leipzig, j.n., adigun, o.k., &amp; lieberman, j.a. (1998). repeated administration of haloperidol, risperidone, or olanzapine to rats does not produce the pattern of metabolic changes between brain regions found in subjects with schizophrenia. neuropsychopharmacology, 19(1), 66-77.">
-  <a class="pub-card__media is-generated" href="https://www.nature.com/articles/1395213" tabindex="-1" aria-hidden="true">
-    <img src="../assets/thumbs/generated/pubs-1998-duncan-clozapine.svg" alt="" loading="lazy">
+<article class="pub-card" data-search="differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation brain research 1998 duncan ge, leipzig jn, mailman rb, lieberman ja. (1998). &quot;differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation.&quot; &lt;i&gt;brain res&lt;/i&gt; 812(1-2):65-75.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/s0006-8993(98)00926-3" tabindex="-1" aria-hidden="true">
+    <img src="../assets/thumbs/generated/pubs-1998-duncan-clozapine-haloperidol.svg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Neuropsychopharmacology</span><span>1998</span></p>
-    <h3><a href="https://www.nature.com/articles/1395213">Repeated administration of haloperidol, risperidone, or olanzapine to rats does not produce the pattern of metabolic changes between brain regions found in subjects with schizophrenia</a></h3>
+    <p class="eyebrow"><span>Brain Research</span><span>1998</span></p>
+    <h3><a href="https://doi.org/10.1016/s0006-8993(98)00926-3">Differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation</a></h3>
     
-    <p class="pub-card__authors">Duncan, G.E., Sheitman, B.B., <b>Leipzig, J.N.</b>, Adigun, O.K., & Lieberman, J.A</p>
-    <p class="pub-card__summary">This study examines metabolic changes in brain regions following repeated antipsychotic administration in rats.</p>
-    <a class="pub-card__link" href="https://www.nature.com/articles/1395213">Paper &rarr;</a>
+    <p class="pub-card__authors">Duncan GE, <b>Leipzig JN</b>, Mailman RB, Lieberman JA</p>
+    <p class="pub-card__summary">This study compares differential effects of clozapine and haloperidol on ketamine-induced brain metabolic activation.</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/s0006-8993(98)00926-3">Paper &rarr;</a>
   </div>
 </article>
 </div>

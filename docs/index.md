@@ -32,20 +32,33 @@ hide: [navigation, toc]
 <section class="home-section">
 <div class="section-head"><div><p class="kicker">Research</p><h2>Selected publications</h2></div><a class="more" href="publications/">All publications &rarr;</a></div>
 <div class="pub-grid">
-<article class="pub-card" data-search="the role of metadata in reproducible computational research cell patterns 2021 leipzig, j., nüst, d., hoyt, c.t., ram, k., and greenberg, j. (2021). &quot;the role of metadata in reproducible computational research.&quot; &lt;i&gt;cell patterns&lt;/i&gt;. 2021, 100322.">
+<article class="pub-card" data-search="genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a nicu pilot trial american journal of human genetics 2024 kingsmore sf, wright m, olsen l, schultz b, protopsaltis l, averbuj d, blincow e, carroll j, caylor s, defay t, ellsworth k, feigenbaum a, gover m, guidugli l, hansen c, van der kraan l, kunard cm, kwon h, madhavrao l, leipzig j, liang y, mardach r, mowrey wr, nguyen h, niemi ak, oh d, saad m, scharer g, schleit j, mehtalia ss, sanford e, smith ld, willis mj, wigby k, reimers r. (2024). &quot;genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a nicu pilot trial.&quot; &lt;i&gt;am j hum genet&lt;/i&gt; 111(12):2643-2667.">
+  <a class="pub-card__media is-generated" href="https://doi.org/10.1016/j.ajhg.2024.10.020" tabindex="-1" aria-hidden="true">
+    <img src="assets/thumbs/generated/pubs-2024-kingsmore-newborn-screening-nicu.svg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card__body">
+    <p class="eyebrow"><span>American Journal of Human Genetics</span><span>2024</span></p>
+    <h3><a href="https://doi.org/10.1016/j.ajhg.2024.10.020">Genome-based newborn screening for severe childhood genetic diseases has high positive predictive value and sensitivity in a NICU pilot trial</a></h3>
+    
+    <p class="pub-card__authors">Kingsmore SF, Wright M, Olsen L, Schultz B, Protopsaltis L, Averbuj D, Blincow E, Carroll J, Caylor S, Defay T, Ellsworth K, Feigenbaum A, Gover M, Guidugli L, Hansen C, Van Der Kraan L, Kunard CM, Kwon H, Madhavrao L, <b>Leipzig J</b>, Liang Y, Mardach R, Mowrey WR, Nguyen H, Niemi AK, Oh D, Saad M, Scharer G, Schleit J, Mehtalia SS, Sanford E, Smith LD, Willis MJ, Wigby K, Reimers R</p>
+    <p class="pub-card__summary">Large prospective clinical trials are underway or planned that examine the clinical utility and cost effectiveness of genome-based newborn screening (gNBS).</p>
+    <a class="pub-card__link" href="https://doi.org/10.1016/j.ajhg.2024.10.020">Paper &rarr;</a>
+  </div>
+</article>
+<article class="pub-card" data-search="the role of metadata in reproducible computational research patterns 2021 leipzig j, nüst d, hoyt ct, ram k, greenberg j. (2021). &quot;the role of metadata in reproducible computational research.&quot; &lt;i&gt;patterns&lt;/i&gt; 2(9):100322.">
   <a class="pub-card__media" href="https://doi.org/10.1016/j.patter.2021.100322" tabindex="-1" aria-hidden="true">
     <img src="assets/thumbs/pubs/2021-role-metadata-reproducible-research.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
-    <p class="eyebrow"><span>Cell Patterns</span><span>2021</span></p>
+    <p class="eyebrow"><span>Patterns</span><span>2021</span></p>
     <h3><a href="https://doi.org/10.1016/j.patter.2021.100322">The role of metadata in reproducible computational research</a></h3>
     
-    <p class="pub-card__authors"><b>Leipzig, J.</b>, Nüst, D., Hoyt, C.T., Ram, K., and Greenberg, J</p>
+    <p class="pub-card__authors"><b>Leipzig J</b>, Nüst D, Hoyt CT, Ram K, Greenberg J</p>
     <p class="pub-card__summary">This paper discusses the critical role of metadata in ensuring reproducible computational research.</p>
     <a class="pub-card__link" href="https://doi.org/10.1016/j.patter.2021.100322">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="a review of bioinformatic pipeline frameworks briefings in bioinformatics 2017 leipzig, j. (2017). &quot;a review of bioinformatic pipeline frameworks.&quot; &lt;i&gt;briefings in bioinformatics&lt;/i&gt;. 2016 10.1093/bib/bbw020.">
+<article class="pub-card" data-search="a review of bioinformatic pipeline frameworks briefings in bioinformatics 2017 leipzig j. (2017). &quot;a review of bioinformatic pipeline frameworks.&quot; &lt;i&gt;brief bioinform&lt;/i&gt; 18(3):530-536.">
   <a class="pub-card__media" href="https://doi.org/10.1093/bib/bbw020" tabindex="-1" aria-hidden="true">
     <img src="assets/thumbs/pubs/2017-review-bioinformatic-pipeline-frameworks.jpg" alt="" loading="lazy">
   </a>
@@ -53,35 +66,22 @@ hide: [navigation, toc]
     <p class="eyebrow"><span>Briefings in Bioinformatics</span><span>2017</span></p>
     <h3><a href="https://doi.org/10.1093/bib/bbw020">A review of bioinformatic pipeline frameworks</a></h3>
     <p class="pub-card__note">ISI Top 1% Highly Cited</p>
-    <p class="pub-card__authors"><b>Leipzig, J</b></p>
+    <p class="pub-card__authors"><b>Leipzig J</b></p>
     <p class="pub-card__summary">This paper provides a comprehensive review of bioinformatic pipeline frameworks.</p>
     <a class="pub-card__link" href="https://doi.org/10.1093/bib/bbw020">Paper &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="de novo mutations in histone-modifying genes in congenital heart disease nature 2013 zaidi, s., choi, m., wakimoto, h., ma, l., jiang, j., overton, j.d., romano-adesman, a., bjornson, r.d., breitbart, r.e., brown, k.k., carriero, n.j., cheung, y.h., deanfield, j., depalma, s., fakhro, k.a., glessner, j., hakonarson, h., italia, m.j., kaltman, j.r., kaski, j., kim, r., kline, j.k., lee, t., leipzig, j., ... &amp; lifton, r.p. (2013). de novo mutations in histone-modifying genes in congenital heart disease. nature, 498(7453), 220-223.">
-  <a class="pub-card__media" href="https://www.nature.com/articles/nature12141" tabindex="-1" aria-hidden="true">
+<article class="pub-card" data-search="de novo mutations in histone-modifying genes in congenital heart disease nature 2013 zaidi s, choi m, wakimoto h, ma l, jiang j, overton jd, romano-adesman a, bjornson rd, breitbart re, brown kk, carriero nj, cheung yh, deanfield j, depalma s, fakhro ka, glessner j, hakonarson h, italia mj, kaltman jr, kaski j, kim r, kline jk, lee t, leipzig j, lopez a, mane sm, mitchell le, newburger jw, parfenov m, pe&#x27;er i, porter g, roberts ae, sachidanandam r, sanders sj, seiden hs, state mw, subramanian s, tikhonova ir, wang w, warburton d, white ps, williams ia, zhao h, seidman jg, brueckner m, chung wk, gelb bd, goldmuntz e, seidman ce, lifton rp. (2013). &quot;de novo mutations in histone-modifying genes in congenital heart disease.&quot; &lt;i&gt;nature&lt;/i&gt; 498(7453):220-223.">
+  <a class="pub-card__media" href="https://doi.org/10.1038/nature12141" tabindex="-1" aria-hidden="true">
     <img src="assets/thumbs/pubs/2013-zaidi-nature.jpg" alt="" loading="lazy">
   </a>
   <div class="pub-card__body">
     <p class="eyebrow"><span>Nature</span><span>2013</span></p>
-    <h3><a href="https://www.nature.com/articles/nature12141">De novo mutations in histone-modifying genes in congenital heart disease</a></h3>
+    <h3><a href="https://doi.org/10.1038/nature12141">De novo mutations in histone-modifying genes in congenital heart disease</a></h3>
     
-    <p class="pub-card__authors">Zaidi, S., Choi, M., Wakimoto, H., Ma, L., Jiang, J., Overton, J.D., Romano-Adesman, A., Bjornson, R.D., Breitbart, R.E., Brown, K.K., Carriero, N.J., Cheung, Y.H., Deanfield, J., DePalma, S., Fakhro, K.A., Glessner, J., Hakonarson, H., Italia, M.J., Kaltman, J.R., Kaski, J., Kim, R., Kline, J.K., Lee, T., <b>Leipzig, J.</b>, ... & Lifton, R.P</p>
+    <p class="pub-card__authors">Zaidi S, Choi M, Wakimoto H, Ma L, Jiang J, Overton JD, Romano-Adesman A, Bjornson RD, Breitbart RE, Brown KK, Carriero NJ, Cheung YH, Deanfield J, DePalma S, Fakhro KA, Glessner J, Hakonarson H, Italia MJ, Kaltman JR, Kaski J, Kim R, Kline JK, Lee T, <b>Leipzig J</b>, Lopez A, Mane SM, Mitchell LE, Newburger JW, Parfenov M, Pe'er I, Porter G, Roberts AE, Sachidanandam R, Sanders SJ, Seiden HS, State MW, Subramanian S, Tikhonova IR, Wang W, Warburton D, White PS, Williams IA, Zhao H, Seidman JG, Brueckner M, Chung WK, Gelb BD, Goldmuntz E, Seidman CE, Lifton RP</p>
     <p class="pub-card__summary">This study identifies de novo mutations in histone-modifying genes associated with congenital heart disease.</p>
-    <a class="pub-card__link" href="https://www.nature.com/articles/nature12141">Paper &rarr;</a>
-  </div>
-</article>
-<article class="pub-card" data-search="integrated systems approach identifies genetic nodes and networks in late-onset alzheimer&#x27;s disease cell 2013 zhang, b., gaiteri, c., bodea, l.g., wang, z., mcelwee, j., podtelezhnikov, a.a., zhang, c., xie, t., tran, l., dobrin, r., fluder, e., clurman, b., melquist, s., narayanan, m., suver, c., shah, h., mahajan, m., gillis, t., mysore, j., macdonald, m.e., lamb, j.r., bennett, d.a., molony, c., stone, d.j., gudnason, v., myers, a.j., schadt, e.e., neumann, h., zhu, j., &amp; emilsson, v. (2013). integrated systems approach identifies genetic nodes and networks in late-onset alzheimer&#x27;s disease. cell, 153(3), 707-720.">
-  <a class="pub-card__media" href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7" tabindex="-1" aria-hidden="true">
-    <img src="assets/thumbs/pubs/2013-zhang-bmc.jpg" alt="" loading="lazy">
-  </a>
-  <div class="pub-card__body">
-    <p class="eyebrow"><span>Cell</span><span>2013</span></p>
-    <h3><a href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7">Integrated systems approach identifies genetic nodes and networks in late-onset Alzheimer&#x27;s disease</a></h3>
-    
-    <p class="pub-card__authors">Zhang, B., Gaiteri, C., Bodea, L.G., Wang, Z., McElwee, J., Podtelezhnikov, A.A., Zhang, C., Xie, T., Tran, L., Dobrin, R., Fluder, E., Clurman, B., Melquist, S., Narayanan, M., Suver, C., Shah, H., Mahajan, M., Gillis, T., Mysore, J., MacDonald, M.E., Lamb, J.R., Bennett, D.A., Molony, C., Stone, D.J., Gudnason, V., Myers, A.J., Schadt, E.E., Neumann, H., Zhu, J., & Emilsson, V</p>
-    <p class="pub-card__summary">This study uses an integrated systems approach to identify genetic nodes and networks in late-onset Alzheimer disease.</p>
-    <a class="pub-card__link" href="https://www.cell.com/cell/fulltext/S0092-8674(13)00355-7">Paper &rarr;</a>
+    <a class="pub-card__link" href="https://doi.org/10.1038/nature12141">Paper &rarr;</a>
   </div>
 </article>
 <article class="pub-card" data-search="data mashups in r o&#x27;reilly media 2009 leipzig j, li xiao-yi. (2009). &quot;data mashups in r.&quot; &lt;i&gt;o&#x27;reilly&lt;/i&gt;. (reissued in 2011)">
@@ -97,7 +97,7 @@ hide: [navigation, toc]
     <a class="pub-card__link" href="https://www.oreilly.com/library/view/data-mashups-in/9780596804923/">Book &rarr;</a>
   </div>
 </article>
-<article class="pub-card" data-search="hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications genome research 2007 wang gp, ciuffi a, leipzig j, berry cc, bushman fd. (2007). &quot;hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications.&quot; &lt;i&gt;genome res.&lt;/i&gt; 17(8):1186-94.">
+<article class="pub-card" data-search="hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications genome research 2007 wang gp, ciuffi a, leipzig j, berry cc, bushman fd. (2007). &quot;hiv integration site selection: analysis by massively parallel pyrosequencing reveals association with epigenetic modifications.&quot; &lt;i&gt;genome res&lt;/i&gt; 17(8):1186-1194.">
   <a class="pub-card__media is-generated" href="https://doi.org/10.1101/gr.6286907" tabindex="-1" aria-hidden="true">
     <img src="assets/thumbs/generated/pubs-2007-hiv-integration-site-selection.svg" alt="" loading="lazy">
   </a>
