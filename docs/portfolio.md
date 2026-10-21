@@ -82,14 +82,6 @@ hide: [navigation, toc]
     <p>A better seqLogo implementation for creating sequence logos in R. Enhanced visualization tool with 12+ stars.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/ancestryinformativemarkers">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-ancestryinformativemarkers.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>Genomics · 2022</span></p>
-    <h3>ancestryinformativemarkers</h3>
-    <p>Public Ancestry Informative Markers (AIMs) dataset and tools for population genetics analysis.</p>
-  </div>
-</a>
 <a class="sw-card" href="https://github.com/leipzig/opensnp">
   <div class="sw-card__media"><img src="../assets/thumbs/software/opensnp.png" alt="" loading="lazy"></div>
   <div class="sw-card__body">
@@ -106,12 +98,28 @@ hide: [navigation, toc]
     <p>Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/ontopop">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-ontopop.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/placenta">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-placenta.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>Python · 2020</span></p>
-    <h3>ontopop</h3>
-    <p>Analysis tool to measure popularity and usage of biological ontologies across scientific literature.</p>
+    <p class="eyebrow"><span>R/Bioinformatics</span></p>
+    <h3>placenta</h3>
+    <p>Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/clk">
+  <div class="sw-card__media"><img src="../assets/thumbs/software/clk.png" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>Python</span></p>
+    <h3>clk</h3>
+    <p>Command-line toolkit for bioinformatics workflows and data processing automation.</p>
+  </div>
+</a>
+<a class="sw-card" href="http://leipzig.github.io/PAS_Premium/">
+  <div class="sw-card__media"><img src="../assets/thumbs/software/pas-premium.jpg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>R/Snakemake · 2016</span></p>
+    <h3>PAS_Premium</h3>
+    <p>What do people pay to live in the Penn Alexander School catchment? A fully reproducible housing-price analysis of the West Philadelphia catchment, built with Snakemake, R, Conda and Docker.</p>
   </div>
 </a>
 </div>
@@ -119,12 +127,20 @@ hide: [navigation, toc]
 ## More repositories
 
 <div class="sw-grid sw-grid--compact">
-<a class="sw-card" href="https://github.com/leipzig/placenta">
-  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-placenta.svg" alt="" loading="lazy"></div>
+<a class="sw-card" href="https://github.com/leipzig/ancestryinformativemarkers">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-ancestryinformativemarkers.svg" alt="" loading="lazy"></div>
   <div class="sw-card__body">
-    <p class="eyebrow"><span>R/Bioinformatics</span></p>
-    <h3>placenta</h3>
-    <p>Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.</p>
+    <p class="eyebrow"><span>Genomics · 2022</span></p>
+    <h3>ancestryinformativemarkers</h3>
+    <p>Public Ancestry Informative Markers (AIMs) dataset and tools for population genetics analysis.</p>
+  </div>
+</a>
+<a class="sw-card" href="https://github.com/leipzig/ontopop">
+  <div class="sw-card__media is-generated"><img src="../assets/thumbs/generated/software-ontopop.svg" alt="" loading="lazy"></div>
+  <div class="sw-card__body">
+    <p class="eyebrow"><span>Python · 2020</span></p>
+    <h3>ontopop</h3>
+    <p>Analysis tool to measure popularity and usage of biological ontologies across scientific literature.</p>
   </div>
 </a>
 <a class="sw-card" href="https://github.com/leipzig/m6a">
@@ -141,14 +157,6 @@ hide: [navigation, toc]
     <p class="eyebrow"><span>Documentation</span></p>
     <h3>metadata-in-rcr</h3>
     <p>Resources and examples for metadata standards in reproducible computational research. Supporting materials for academic publications.</p>
-  </div>
-</a>
-<a class="sw-card" href="https://github.com/leipzig/clk">
-  <div class="sw-card__media"><img src="../assets/thumbs/software/clk.png" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>Python</span></p>
-    <h3>clk</h3>
-    <p>Command-line toolkit for bioinformatics workflows and data processing automation.</p>
   </div>
 </a>
 <a class="sw-card" href="https://github.com/leipzig/fcs_flow_cytometry">
