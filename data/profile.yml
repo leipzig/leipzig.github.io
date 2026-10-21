@@ -151,3 +151,19 @@ skills:
 affiliations:
 - 'PhillyR: Founder & Organizer of the Philadelphia R user community'
 - Sun Certified Java Programmer
+older_experience:
+- company: NC State University, Dept. of Electrical Engineering
+  title: Web Developer
+  dates: 2003 – 2004
+  description: Developed applications to manage student, employee, and equipment records.
+  achievements: []
+- company: The Trout Group
+  title: Consultant
+  dates: 2000 – 2001
+  description: Developed scientific presentations used in investor road shows for biotechnology clients, including Enchira.
+  achievements: []
+- company: UNC School of Medicine, Duncan Lab
+  title: Research Technician
+  dates: 1997 – 1999
+  description: Responsible for all techniques involved in 2-deoxyglucose autoradiography studies of ketamine-induced psychotomimetic effects in rodents.
+  achievements: []
