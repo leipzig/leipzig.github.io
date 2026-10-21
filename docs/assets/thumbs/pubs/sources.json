@@ -178,5 +178,25 @@
     "source": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1016%2FS0893-133X%2899%2900127-X/MediaObjects/41386_2000_Article_BF1395451_Fig4_HTML.jpg",
     "kind": "figure",
     "license": "unknown (publisher site)"
+  },
+  "1998-duncan-clozapine-haloperidol": {
+    "source": "PDF supplied by the author",
+    "kind": "figure",
+    "license": "author copy"
+  },
+  "1999-duncan-brain-metabolic-patterns": {
+    "source": "PDF supplied by the author",
+    "kind": "figure",
+    "license": "author copy"
+  },
+  "2018-computational-pipelines-workflows": {
+    "source": "PDF supplied by the author",
+    "kind": "figure",
+    "license": "author copy"
+  },
+  "2021-tests-robustness-peer-review": {
+    "source": "PDF supplied by the author",
+    "kind": "figure",
+    "license": "author copy"
   }
 }
