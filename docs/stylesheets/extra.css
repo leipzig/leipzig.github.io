@@ -405,3 +405,37 @@
 @media screen and (max-width: 40em) {
   .md-typeset details.older-roles > summary { margin-left: 1.4rem; }
 }
+
+/* Architecture decision records (Rhylthyme page): one labeled row per part */
+.md-typeset dl.adr {
+  display: grid;
+  grid-template-columns: 7.2rem 1fr;
+  margin: 1rem 0 2.2rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.md-typeset dl.adr dt,
+.md-typeset dl.adr dd { margin: 0; padding: 1rem 1.2rem; border-top: 1px solid var(--line); }
+.md-typeset dl.adr dt:first-of-type,
+.md-typeset dl.adr dt:first-of-type + dd { border-top: 0; }
+.md-typeset dl.adr dt {
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  padding-top: 1.15rem;
+}
+.md-typeset dl.adr dd { font-size: .78rem; line-height: 1.65; }
+.md-typeset dl.adr dd > :first-child { margin-top: 0; }
+.md-typeset dl.adr dd > :last-child { margin-bottom: 0; }
+@media screen and (max-width: 40em) {
+  .md-typeset dl.adr { grid-template-columns: 1fr; }
+  .md-typeset dl.adr dt { padding-bottom: .2rem; }
+  .md-typeset dl.adr dd { border-top: 0; padding-top: .3rem; }
+}
