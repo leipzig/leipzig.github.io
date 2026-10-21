@@ -174,22 +174,6 @@ hide: [navigation, toc]
     <p>A curated list of reproducible research case studies, projects, tutorials, and media. Community-driven resource with 356+ stars.</p>
   </div>
 </a>
-<a class="sw-card" href="https://github.com/leipzig/SandwichesWithSnakemake">
-  <div class="sw-card__media is-generated"><img src="assets/thumbs/generated/software-sandwicheswithsnakemake.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>Tutorial · 2014</span></p>
-    <h3>SandwichesWithSnakemake</h3>
-    <p>Beginner&#x27;s tutorial to Snakemake workflow management system. Popular educational resource with 70+ stars.</p>
-  </div>
-</a>
-<a class="sw-card" href="https://github.com/leipzig/snakemake-example">
-  <div class="sw-card__media is-generated"><img src="assets/thumbs/generated/software-snakemake-example.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>CSS/Snakemake · 2014</span></p>
-    <h3>snakemake-example</h3>
-    <p>RNA-Seq Snakemake example with Jekyll homepage creation. Complete workflow demonstration with 20+ stars.</p>
-  </div>
-</a>
 <a class="sw-card" href="https://github.com/leipzig/berrylogo">
   <div class="sw-card__media"><img src="assets/thumbs/software/berrylogo.png" alt="" loading="lazy"></div>
   <div class="sw-card__body">
@@ -204,22 +188,6 @@ hide: [navigation, toc]
     <p class="eyebrow"><span>HTML/R · 2016</span></p>
     <h3>opensnp</h3>
     <p>Validation of published GWAS studies using OpenSNP volunteered data. Binderized for reproducible analysis.</p>
-  </div>
-</a>
-<a class="sw-card" href="https://github.com/leipzig/blast-wrapper">
-  <div class="sw-card__media is-generated"><img src="assets/thumbs/generated/software-blast-wrapper.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>Node.js · 2013</span></p>
-    <h3>blast-wrapper</h3>
-    <p>Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.</p>
-  </div>
-</a>
-<a class="sw-card" href="https://github.com/leipzig/placenta">
-  <div class="sw-card__media is-generated"><img src="assets/thumbs/generated/software-placenta.svg" alt="" loading="lazy"></div>
-  <div class="sw-card__body">
-    <p class="eyebrow"><span>R/Bioinformatics</span></p>
-    <h3>placenta</h3>
-    <p>Comprehensive analysis pipeline and resources for placental genomics research and developmental studies.</p>
   </div>
 </a>
 <a class="sw-card" href="https://github.com/leipzig/clk">

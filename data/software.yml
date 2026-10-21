@@ -44,14 +44,14 @@
   summary: A curated list of reproducible research case studies, projects, tutorials, and media. Community-driven resource with 356+ stars.
 - id: sandwicheswithsnakemake
   name: SandwichesWithSnakemake
-  featured: true
+  featured: false
   language: Tutorial
   year: 2014
   url: https://github.com/leipzig/SandwichesWithSnakemake
   summary: Beginner's tutorial to Snakemake workflow management system. Popular educational resource with 70+ stars.
 - id: snakemake-example
   name: snakemake-example
-  featured: true
+  featured: false
   language: CSS/Snakemake
   year: 2014
   url: https://github.com/leipzig/snakemake-example
@@ -72,14 +72,14 @@
   summary: Validation of published GWAS studies using OpenSNP volunteered data. Binderized for reproducible analysis.
 - id: blast-wrapper
   name: blast-wrapper
-  featured: true
+  featured: false
   language: Node.js
   year: 2013
   url: https://github.com/leipzig/blast-wrapper
   summary: Node.js web-service wrapper for fetching pairwise BLAST alignments against a fixed reference.
 - id: placenta
   name: placenta
-  featured: true
+  featured: false
   language: R/Bioinformatics
   year: null
   url: https://github.com/leipzig/placenta
